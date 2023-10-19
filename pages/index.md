@@ -1,5 +1,5 @@
 ---
-layout: Notes
+layout: Homepage
 permalink: /
 feedformat: card
 title: Collapsed Wave
