@@ -1,6 +1,6 @@
 ---
-name: Content Request
-about: Describe this issue template's purpose here.
+name: "⚛ Content Request"
+about: 'Use this template to ask for a topic to be covered '
 title: "<Topic title>"
 labels: content request
 assignees: migueltorrescosta
