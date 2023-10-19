@@ -1,5 +1,5 @@
 ---
-name: "⚛ Content Request"
+name: Content Request
 about: 'Use this template to ask for a topic to be covered '
 title: "<Topic title>"
 labels: content request
