@@ -1,3 +1,7 @@
+---
+date: 2023-10-21
+---
+
 $tr(\sigma_x) = tr(\sigma_y) = tr(\sigma_z) = 0$ 
 
 ### ✍️ Notation

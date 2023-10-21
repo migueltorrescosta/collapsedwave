@@ -1,3 +1,7 @@
+---
+date: 2023-10-21
+---
+
 $\det(\sigma_x) = \det(\sigma_y) = \det(\sigma_z) = -1$ 
 
 ### ✍️ Notation

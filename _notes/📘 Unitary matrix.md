@@ -1,3 +1,7 @@
+---
+date: 2023-10-21
+---
+
 $U: U^*U = UU^* = UU^{-1} = I$ 
 ### ✍️ Notation
 - $U^*$ is the [[📘 Conjugate transpose]] of a [[📘 Complex valued matrix]] $U$
