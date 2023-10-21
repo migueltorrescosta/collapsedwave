@@ -7,6 +7,10 @@ layout: Base
         <a href="/">Homepage</a>
     </h5>
 <!--<div><b>{{page.title}}</b></div><hr>-->
-<div><b>{{page.path | remove: "_notes/" | remove: ".md"}}</b></div><hr>
-{%- include Content.html -%}
-{%- include Feed.html -%}
+    <div>
+        <b>{{page.path | remove: "_notes/" | remove: ".md"}}</b>
+    </div>
+    <hr>
+    {%- include Content.html -%}
+    {%- include Feed.html -%}
+</div>
