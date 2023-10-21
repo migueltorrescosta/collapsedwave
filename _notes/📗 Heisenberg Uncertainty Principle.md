@@ -1,7 +1,8 @@
 ---
 date: 2023-10-14
 ---
-$( \Delta_\psi X ) ( \Delta_\psi P ) > \frac{\hbar}{2}$
+
+$( \Delta_\psi X ) ( \Delta_\psi P ) \geq \frac{\hbar}{2}$
 ### ✍️ Notation
 - $X$ is the [[📘 Position Operator]]
 - $P$ is the [[📘 Momentum Operator]]
