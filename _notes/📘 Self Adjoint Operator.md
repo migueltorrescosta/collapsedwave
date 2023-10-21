@@ -7,4 +7,4 @@ In other words, the [[📘 Adjoint Operator]] of $A$ is $A$
 ### ✍️ Notation
 - $H$ is an [[Hilbert Space]]
 - $\braket{ \cdot , \cdot }$ is an [[Inner Product]] on $H$
-- $A$ is an [[Operator]]
+- $A$ is an [[Operator]] 
