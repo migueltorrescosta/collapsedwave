@@ -38,6 +38,11 @@ Run the command below to access your website at `http://localhost:4000`
 bundle exec jekyll serve
 ```
 
+Alternatively, you can run from a docker environment with
+```shell
+docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+```
+
 ## Adding notes
 
 For all notes to work properly, we need to have three frontmatter values. Please make sure the front matter is written in between three lines. If you check any `.md` files in this repo, you will see something this.  
