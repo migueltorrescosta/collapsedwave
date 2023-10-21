@@ -38,23 +38,6 @@ privatelinks:
   title: Missing Link 🔗
   msg: Do reach out for info on this missing page
 
-# Theme level preferences
-# To enable set "enabled : true" else, use "enabled:false"
-preferences:
-  search:
-    enabled: true
-  wiki_style_link: 
-    enabled: true
-  pagepreview: 
-    enabled: true
-  backlinks:
-    enabled: true
-
-# To enable a homepage, change the value to true and add content to _includes/Homepage.html
-# If enable : false, notes feed will be as homepage. 
-  homepage: 
-    enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
-
 encoding: utf-8
 
 # Build settings

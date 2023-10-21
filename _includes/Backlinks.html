@@ -26,10 +26,7 @@
 {%- endfor -%}
 {%- if link_count > 0 -%}
 {%- assign wiki_link_title = '[' | append: page.title | append: ']' -%}
-{%- assign display_class = 'hide' -%}
-{%- if site.preferences.backlinks.enabled -%}
 {%- assign display_class = 'show' -%}
-{%- endif -%}
 <div class="related {{display_class}}" id="jekyll-seamless-backlinks">
     <h5 class="meta-title centre-title">Links to this note</h5>
     <div class="related-wrapper">

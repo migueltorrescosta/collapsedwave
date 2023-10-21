@@ -4,9 +4,7 @@
 <!--Static Page : pages/notes.md-->
 
 {%- if page.feedformat == "card" -%}
-    {%- if site.preferences.search.enabled -%}
-        {%- include SearchBar.html -%}
-    {%- endif -%}
+    {%- include SearchBar.html -%}
     <!-- feed with filter-->
     <div class="related-wrapper">
     {% assign note_items = site.notes | sort: "date" | reverse %}

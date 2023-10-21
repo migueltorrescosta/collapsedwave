@@ -17,9 +17,7 @@
 
   {%- if sameTagCount >= minCommonTags-%}
     {%- assign display_class = 'hide' -%}
-      {%- if site.preferences.related.enabled -%}
-        {%- assign display_class = 'show' -%}
-      {%- endif -%}
+      {%- assign display_class = 'show' -%}
     <div class="related {{display_class}}" id="jekyll-seamless-relatedposts">
       <h5 class="block-title">Related Posts</h5>
       <div class="related-wrapper">
