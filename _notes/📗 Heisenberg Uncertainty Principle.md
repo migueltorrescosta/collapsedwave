@@ -9,4 +9,4 @@ $( \Delta_\psi X ) ( \Delta_\psi P ) > \frac{\hbar}{2}$
 - $\Delta_\psi$ is the [[📘 Measurement uncertainty]] of an [[Operator]] for the [[quantum state vector]] $\psi$.
 - $\hbar$ is [[Plancks reduced constant]]
 ### 🧠 Proof
-[[🏗️ To be completed]]xx
+[[🏗️ To be completed]]

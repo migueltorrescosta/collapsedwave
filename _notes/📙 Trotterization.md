@@ -5,5 +5,6 @@ date: 2023-10-12
 
 ### ✍️ Notation
 - $\ket{\Psi(t)}$ is a [[quantum state vector]] evolving according to the [[📘 Hamiltonian Operator]] $H$.
+
 ### 🔗 See More
 - [quiskit.org](https://qiskit.org/ecosystem/algorithms/tutorials/13_trotterQRTE.html)
