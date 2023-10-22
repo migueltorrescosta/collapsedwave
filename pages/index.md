@@ -7,4 +7,4 @@ title: Collapsed Wave
 
 Searchable notes on Quantum Theory.
 
-[How could we improve these notes?](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose)
+_[How to make the most of this website?](/note/How-to-make-the-most-of-this-website)_
