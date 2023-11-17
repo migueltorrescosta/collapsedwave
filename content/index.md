@@ -9,6 +9,11 @@ Once you are on a note, you can
 2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Hilbert Space]]s are mentioned frequently.
 3. Use the graph view to navigate see an overview of linked notes without leaving the page
 4. Setup [Obsidian](https://obsidian.md) in order to explore these notes in your local laptop.
+
+# 📳 RSS Feed
+
+You can follow new notes from this webpage as they are being created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).
+
 # ❓ Note icons
 All notes have an icon before the title. This provides you with instant feedback about the contents of the note:
 
