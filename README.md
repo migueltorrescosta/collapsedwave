@@ -25,7 +25,7 @@ Run the command bellow to install the required dependencies. The `--user-install
 npm i 
 ```
 
-## Test changes
+## 🧪 Test changes
 
 ```shell
 npx quartz build --serve
