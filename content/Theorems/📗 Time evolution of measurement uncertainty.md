@@ -5,8 +5,8 @@ $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$
 ### ✍️ Notation
 - $H$ is the [[📘 Hamiltonian Operator]]
 - $\hat{H}$ is the [[📘 Self Adjoint Operator]] associated to $H$ 
-- $\psi$ is the [[quantum state vector]]
 - $[ \cdot , \cdot ]$ is the [[📘 Commutator]]
+- $\braket{A}_\psi$ is the [[📘 Expectation value]] of a measurement under operator $A$ given we're in the [[quantum state vector]] $\psi$ 
 ### 🧠 Proof
 $$\frac{d}{dt}\braket{A}_\psi = \frac{d}{dt} \braket{\psi, A \psi} = \braket{\frac{d}{dt}\psi , A \psi} + \braket{\psi, A \frac{d}{dt}\psi}$$
 
