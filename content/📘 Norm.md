@@ -9,6 +9,6 @@ $p: X \rightarrow \mathbb{R}$ such that
 - We have [[point separation]]: $p(x)=0 \implies x=0$ 
 
 ### ✍️ Notation
-- $X$ is a [[vector space]]
+- $X$ is a [[📘 Vector space]]
 - $F$ is a [[subfield]] of the [[complex numbers]] $\mathbb{C}$ 
 - $\| \cdot \| : F \rightarrow \mathbb{R}^+_0$ is the usual norm on $\mathbb{C}$, given by $\| a + bi \| = a^2 + b^2$ 
