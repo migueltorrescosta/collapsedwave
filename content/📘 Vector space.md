@@ -3,10 +3,10 @@ date: 2023-11-23
 tags:
   - definition
 ---
-A non empty set $V$ over a [[field]] $F$ satisfying with 2 [[binary operations]], commonly denoted as $+$ and $\times$, satisfying:
+A non empty set $V$ over a [[field]] $F$ satisfying with 2 [[binary operation]]s, commonly denoted as $+$ and $\times$, satisfying:
 
 | Axiom | Description |
-| --- | --- |
+| ---: | --- |
 | $u+(v+w)=(u+v)+w$ | addition of vectors is associative |
 | $u+v=v+u$ | Addition is commutative |
 | $\exists 0 \in V : v+0 = v \forall v \in V$ | There is an additive identity vector $0 \in V$ |

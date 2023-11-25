@@ -6,5 +6,5 @@ tags:
 $A: \braket{Ax, y} = \braket{x, yA}, \forall x,y \in D(A)$
 ### ✍️ Notation
 - $H$ is an [[📘 Hilbert Space]] 
-- $\braket{ \cdot , \cdot }$ is an [[Inner Product]] on $H$
+- $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
 - $A$ is an [[Operator]] defined on the domain $D(A) \subset H$
