@@ -2,9 +2,9 @@
 title: Home
 date: 2023-11-13
 ---
-Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar. Can you find [[📙 HDBSCAN]] without following the link?
+Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar.
 
-Once you are on a note, you can
+When on a note, you can
 1. Follow the links to see relevant content.
 2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Hilbert Space]]s are mentioned frequently.
 3. Use the graph view to navigate see an overview of linked notes without leaving the page
