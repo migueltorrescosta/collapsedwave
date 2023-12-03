@@ -9,6 +9,5 @@ tags:
 | $\sigma_y$ | $-i \sigma_z$ | $I$ | $i \sigma_x$ |
 | $\sigma_z$ | $i \sigma_y$ | $-i\sigma_x$ | $I$ |
 
-### ✍️ Notation
-
-- $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]
+>[!info]-
+> $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]

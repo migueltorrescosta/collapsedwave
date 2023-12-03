@@ -4,5 +4,4 @@ tags:
   - definition
   - quantum-theory
 ---
-
 The [[📘 Hilbert Space]] representing a [[quantum system state]].

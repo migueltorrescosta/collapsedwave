@@ -5,7 +5,4 @@ tags:
 ---
 Total derivates are often written as $\frac{df}{dt}$, not to be confused with a [[Partial Derivative]] .
 
-### ✍️ Notation
-- $\frac{df}{dt}$ 
-
-[[🏗️ To be completed]]
+[[🗺️ To be completed]]

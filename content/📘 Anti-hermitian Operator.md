@@ -4,6 +4,7 @@ tags:
   - definition
 ---
 $A: A = -A^*$
-### ✍️ Notation
-- $A$ represents a [[📘 Linear Operator]]
-- $A^*$ is the [[📘 Adjoint Operator]] of $A$
+
+>[!info]-
+> $A$ represents a [[📘 Linear Operator]]
+> $A^*$ is the [[📘 Adjoint Operator]] of $A$

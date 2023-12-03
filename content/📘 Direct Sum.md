@@ -5,8 +5,8 @@ tags:
 ---
 $V_1 \bigoplus V_2 := \{ v: v=v_1 + v_2, \exists v_1 \in V_1, v_2 \in V_2 \}$ 
 
-### ✍️ Notation
-- $V_i$ are [[subspace]]s of the same [[📘 Vector space]]
+>[!info]-
+> $V_i$ are [[subspace]]s of the same [[📘 Vector space]]
 
-### 💭 Intuition
-$V_1 \bigoplus V_2$ is the set of vectors spanned by the vectors in $V_1$ and $V_2$ 
+>[!tip]
+> $V_1 \bigoplus V_2$ is the set of vectors spanned by the vectors in $V_1$ and $V_2$ 

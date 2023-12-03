@@ -5,5 +5,5 @@ tags:
 ---
 A [[📘 Banach space]] that is equipped with an [[📘 Inner Product]] $\langle \cdot , \cdot \rangle$. $\| x\| := \langle \cdot , \cdot \rangle$.
 
-### ✍️ Notation
--  $\langle \cdot , \cdot \rangle$ is an [[📘 Inner Product]]
+>[!info]-
+> $\langle \cdot , \cdot \rangle$ is an [[📘 Inner Product]]

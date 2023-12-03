@@ -4,4 +4,4 @@ tags:
   - definition
   - quantum-theory
 ---
-[[🏗️ To be completed]]
+[[🗺️ To be completed]]

@@ -6,7 +6,8 @@ tags:
 $A: \braket{Ax, y} = \braket{x, Ay}, \forall x,y \in H$
 
 In other words, the [[📘 Adjoint Operator]] of $A$ is $A$
-### ✍️ Notation
-- $H$ is an [[📘 Hilbert Space]]
-- $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
-- $A$ is an [[Operator]] 
+
+>[!info]-
+> 1. $H$ is an [[📘 Hilbert Space]]
+> 2. $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
+> 3. $A$ is an [[Operator]] 

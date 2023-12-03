@@ -12,6 +12,6 @@ $$
 \frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n}
 \end{bmatrix}
 $$
-### ✍️ Notation
-- $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ is a real valued function
-- The Jacobian can be written as $Df$, $J_f$, $\nabla f$ and $\frac{\partial ( f_1, \cdots, f_m )}{\partial ( x_1, \cdots, x_n ) }$.
+>[!info]-
+> 1. $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ is a real valued function
+> 2. The Jacobian can be written as $Df$, $J_f$, $\nabla f$ and $\frac{\partial ( f_1, \cdots, f_m )}{\partial ( x_1, \cdots, x_n ) }$.

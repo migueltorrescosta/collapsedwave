@@ -4,7 +4,8 @@ tags:
   - definition
 ---
 $A: \braket{Ax, y} = \braket{x, yA}, \forall x,y \in D(A)$
-### ✍️ Notation
-- $H$ is an [[📘 Hilbert Space]] 
-- $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
-- $A$ is an [[Operator]] defined on the domain $D(A) \subset H$
+
+>[!info]-
+> 1. $H$ is an [[📘 Hilbert Space]] 
+> 2. $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
+> 3. $A$ is an [[Operator]] defined on the domain $D(A) \subset H$

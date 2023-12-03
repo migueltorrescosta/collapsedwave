@@ -5,6 +5,6 @@ tags:
 ---
 $X=(M,d)$
 
-### ✍️ Notation
-- $M$ is a set
-- $d$ is a [[📘 Distance]] on $M$
+>[!info]-
+> 1. $M$ is a set
+> 2. $d$ is a [[📘 Distance]] on $M$

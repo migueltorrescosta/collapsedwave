@@ -5,8 +5,10 @@ tags:
   - quantum-theory
 ---
 $\hat{P} \psi := -i \hbar \frac{\partial \psi}{\partial x}$ 
-### ✍️ Notation
-- $\psi \in H$ is a [[quantum state vector]]
-- $\hbar$ is [[Plancks reduced constant]]
-### 💭 Intuition
-This operator is thought of as giving us the linear momentum of a particle described by the [[unit vector]] $\psi$.
+
+>[!info]-
+> 1. $\psi \in H$ is a [[quantum state vector]]
+> 2. $\hbar$ is [[Plancks reduced constant]]
+
+>[!tip]
+> This operator is thought of as giving us the linear momentum of a particle described by the [[unit vector]] $\psi$.

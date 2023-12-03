@@ -4,11 +4,12 @@ tags:
   - theorem
   - quantum-theory
 ---
-
 If $A$ is a [[📘 Self Adjoint Operator]], then it is a [[📘 Symmetric Operator]].
-### ✍️ Notation
-- $H$ is an [[📘 Hilbert Space]]
-- $\braket{\cdot, \cdot}$ is the respective [[📘 Inner Product]] on $H$
-- $A: H \rightarrow H$ is a [[linear map]] on $H$
-### 🧠 Proof
-[[🏗️ To be completed]]
+
+>[!info]-
+> 1. $H$ is an [[📘 Hilbert Space]]
+> 2. $\braket{\cdot, \cdot}$ is the respective [[📘 Inner Product]] on $H$
+> 3. $A: H \rightarrow H$ is a [[linear map]] on $H$
+
+>[!success]
+> [[🗺️ To be completed]]

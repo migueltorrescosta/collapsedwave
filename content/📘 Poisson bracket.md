@@ -9,6 +9,7 @@ $\{ f, g \} := \sum_{i=i}^{n} \left ( \frac{\partial f}{\partial q_i} \frac{\par
 - [[bilinear]] : $\{ af + bg, h \} = a\{ f, h \} + b \{ g, h \}$
 - follows the [[Leibniz rule]] : $\{ fg,h \} = \{ f, h \} g + f \{ g,h \}$
 - follows the [[Jacobi identity]]: $\{ f, \{ g,h \} \} + \{ g, \{ h,f \} \} + \{ h, \{ f,g \} \} = 0$
-### ✍️ Notation
-- $p, q \in \mathbb{R}^n$ are coordinates in the [[📘 Phase Space]] .
-- $f,g,h: \mathbb{R}^{2n+1} \rightarrow \mathbb{R}$ are real valued scalar fields, with inputs $p,q \in \mathbb{R}^n$ and $t \in \mathbb{R}$ 
+
+>[!info]-
+> 1. $p, q \in \mathbb{R}^n$ are coordinates in the [[📘 Phase Space]] .
+> 2. $f,g,h: \mathbb{R}^{2n+1} \rightarrow \mathbb{R}$ are real valued scalar fields, with inputs $p,q \in \mathbb{R}^n$ and $t \in \mathbb{R}$ 

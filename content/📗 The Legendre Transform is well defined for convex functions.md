@@ -6,9 +6,9 @@ tags:
 
 Given a function $f: I \rightarrow \mathbb{R}$, it's [[📘 Legendre Transform]] $f^\star$ is always well defined for [[📘 Convex function]]s
 
-### ✍️ Notation
-- $I \subset \mathbb{R}$ is an [[interval]] in the [[real line]]
-- $f : I \rightarrow \mathbb{R}$ is a [[📘 Convex function]]
+>[!info]-
+> 1. $I \subset \mathbb{R}$ is an [[interval]] in the [[real line]]
+> 2. $f : I \rightarrow \mathbb{R}$ is a [[📘 Convex function]]
 
-### 🧠 Proof
-[[🏗️ To be completed]]
+>[!success]
+> [[🗺️ To be completed]]

@@ -16,15 +16,15 @@ A non empty set $V$ over a [[field]] $F$ satisfying with 2 [[binary operation]]s
 | $a(u+v) = au + av$ | Scalar multiplication is distributive over vector addition |
 | $(a+b)V = av + bv$ | Scalar multiplication is distributive over field addition |
 
-### ✍️ Notation
-- $u,v,w \in V$ are [[vector]]s
-- $a,b \in F$ are [[scalar]]s
+>[!info]-
+> 1. $u,v,w \in V$ are [[vector]]s
+> 2. $a,b \in F$ are [[scalar]]s
 
-### 🔗 See More
 
-It is common to work with extensions of a vector space. Common extensions include
-- [[algebra]]
-- [[normed vector space]]
-- [[📘 Banach space]]
-- [[📘 Hilbert Space]]
-- [[complete vector space]]
+>[!quote]
+> It is common to work with extensions of a vector space. Common extensions include
+> - [[algebra]]
+> - [[normed vector space]]
+> - [[📘 Banach space]]
+> - [[📘 Hilbert Space]]
+> - [[complete vector space]]

@@ -5,5 +5,6 @@ tags:
   - quantum-theory
 ---
 $\hat{X} \psi := x \psi$ 
-### ✍️ Notation
-- $\psi \in H$ is a [[wave function]]
+
+>[!info]-
+> 1. $\psi \in H$ is a [[wave function]]

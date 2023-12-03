@@ -23,31 +23,25 @@ All notes have an icon before the title. This provides you with instant feedback
 |   📘 | Definition             |  
 |   📗 | Proposition or Theorem |  
 |   📙 | Methodology            |  
-|   🗺️ | Open question          |  
-|   🧪 | Experiment             |  
-|   🚌 | Learning Resource      |
-|   👩‍🔧 | People & Projects      |
-|   ❓ | Miscellaneous          |
+|   🗺️ | Miscellaneous          |
 
 # 👩‍🔬 Advanced contributors  
 By using this website and sharing it, you are already contributing. If there is missing content that should be added do submit a [Content Request](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose).
 
 You can also write the note you want to see in this webpage by submitting a PR in [GitHub](https://github.com/migueltorrescosta/collapsedwave), following the contribution guidelines written in the `README.md` file. Since this process only requires a review to be accepted, it leads to a much faster addition to these notes.
-# 🗒️ Note sections
+# 🗒️ Banners
 
-You'll often find the sections below in a note. They are meant to make finding relevant information an instantaneous process.
-### ✍️ Notation  
+For easier read, we will often include the banners below.
 
-Includes an explanation for the symbols used in the description, to clarify any ambiguities  
+>[!success] Success / Proofs
+>Success sessions show proofs. Being able to prove statements is a strong metric of success
 
-### 💭 Intuition  
+>[!info] Info / Notation
+>Info sections describe the notation used. They are essential to understand the rest of the note, but can be ignored by the familiar reader. As such they are collapsed by default.
 
-A way of thinking about this note. While intuitive, it is not necessarily accurate  
+>[!tip] Tips / Intuition
+> Tips section provide intuition about the rest of the note
 
-### 🧠 Proof  
+>[!quote]
+> Quotes to external webpages
 
-If a theorem / proposition, this section contains the proof of the statement  
-
-### 🔗 See More  
-
-Links to other pages and information sources

@@ -16,25 +16,25 @@ HDBSCAN is a [[clustering algorithm]]. It has 5 steps:
 6. Return the list of leaf clusters that survived as our clustering 🎉
 
 *Note: If we selected a maximum cluster distance after step 2 and selected all clusters below it, this would be the implementation of [[DBSCAN]].*
-### ✍️ Notation  
-  
-- $core_k(x)$ is the [[core distance]] to the $k$ nearest neighbour from point $x$. $x$ does not need to be in our data.
-- $d_{mreach-k}(a,b) := max \{ core_k(a), core_k(b), d(a,b) \}$ is the [[mutual reachability distance]].
-- $m$ : The minimum cluster size, used for pruning the cluster tree.
-- $\sum_{p \in C} ( \lambda_p - \lambda_{birth})$ is the stability of a cluster of points $C$ .
-- $\lambda_p$ is the inverse of the distance when a point "fell of" a cluster
-- $\lambda_{birth}$ is the inverse distance of a cluster
 
-[[🏗️ To be completed]] - The description of $\lambda$ as the inverse of a distance needs to be flushed out: it is unclear which distance is being used.
+>[!info]-  
+> 1. $core_k(x)$ is the [[core distance]] to the $k$ nearest neighbour from point $x$. $x$ does not need to be in our data.
+> 2. $d_{mreach-k}(a,b) := max \{ core_k(a), core_k(b), d(a,b) \}$ is the [[mutual reachability distance]].
+> 3. $m$ : The minimum cluster size, used for pruning the cluster tree.
+> 4. $\sum_{p \in C} ( \lambda_p - \lambda_{birth})$ is the stability of a cluster of points $C$ .
+> 5. $\lambda_p$ is the inverse of the distance when a point "fell of" a cluster
+> 6. $\lambda_{birth}$ is the inverse distance of a cluster
+
+[[🗺️ To be completed]] - The description of $\lambda$ as the inverse of a distance needs to be flushed out: it is unclear which distance is being used.
   
-### 💭 Intuition  
+>[!tip]  
+>We can think of the steps above as
+> 1. Transforming the space according to the density/sparsity.
+> 2. Building the minimum spanning tree of the distance weighted graph.
+> 3. Constructing a cluster hierarchy of connected components.
+> 4. Condensing the cluster hierarchy based on minimum cluster size.
+> 5. Extracting the stable clusters from the condensed tree.  
   
-1. Transform the space according to the density/sparsity.
-2. Build the minimum spanning tree of the distance weighted graph.
-3. Construct a cluster hierarchy of connected components.
-4. Condense the cluster hierarchy based on minimum cluster size.
-5. Extract the stable clusters from the condensed tree.  
   
-### 🔗 See More  
-  
-- [readthedocs from Python's hdbscan package](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
+>[!quote]  
+> [readthedocs from Python's hdbscan package](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)

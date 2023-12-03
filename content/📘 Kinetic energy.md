@@ -6,8 +6,9 @@ tags:
 ---
 - $\frac{1}{2}mv^2$  for a classical particle
 - $\hat T = - \frac{\hbar}{2m}\nabla^2$ for a [[quantum state vector]].
-### ✍️ Notation
-- $m$ is the [[mass]]
-- $v = \dot x$ is the [[velocity]] 
-- $\hbar$ is [[Plancks reduced constant]]
-- $\nabla^2$ is the [[📘 Laplacian]]
+
+>[!info]-
+> 1. $m$ is the [[mass]]
+> 2. $v = \dot x$ is the [[velocity]] 
+> 3. $\hbar$ is [[Plancks reduced constant]]
+> 4.  $\nabla^2$ is the [[📘 Laplacian]]

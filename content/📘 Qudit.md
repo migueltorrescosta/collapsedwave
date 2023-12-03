@@ -6,5 +6,6 @@ tags:
 ---
 
 $d$-dimensional [[qubit]]
-### ✍️ Notation
-- $d \in \mathbb{N}$ 
+
+>[!info]-
+> $d \in \mathbb{N}$ 

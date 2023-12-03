@@ -6,12 +6,12 @@ tags:
 
 $p(x) > 0 \forall x \in X$ 
 
-### ✍️  Notation
-- $X$ is a [[📘 Vector field]]
-- $p$ is a [[📘 Norm]]
+>[!info]-
+> 1.  $X$ is a [[📘 Vector field]]
+> 2. $p$ is a [[📘 Norm]]
 
-### 🧠 Proof
-- Since a norm satisfies the [[triangle inequality]], $p(0) \leq p(x) + p(-x)$.
-- By [[absolute homogeneity]] , $p(-x) = \| 1 \| p(x) = p(x)$ 
-- By [[absolute homogeneity]] , $p(0) = \| 0 \| p(0) = 0$ 
-- Joining results, $0=p(0) \leq p(x) + p(-x) = 2p(x)$, so $p(x) \geq 0$ 
+>[!success]
+> Since a norm satisfies the [[triangle inequality]], $p(0) \leq p(x) + p(-x)$.
+> By [[absolute homogeneity]] , $p(-x) = \| 1 \| p(x) = p(x)$ 
+> By [[absolute homogeneity]] , $p(0) = \| 0 \| p(0) = 0$ 
+> Joining results, $0=p(0) \leq p(x) + p(-x) = 2p(x)$, so $p(x) \geq 0$

@@ -10,7 +10,7 @@ A map $\Omega: V \rightarrow V$  satisfying
 3. $\bra{V} a \Omega = \bra{V} \Omega a$ 
 4. $( \bra{V} a + \bra{W} b ) \Omega = a \bra{V} \Omega + b \bra{W} \Omega$ 
 
-### ✍️ Notation
-- $V,W$ are [[vector]]s
-- $a,b$ are [[scalar]]s in a [[field]]
-- $\bra{\cdot}$ and $\ket{\cdot}$ follow the [[braket notation]]
+>[!info]-
+> 1. $V,W$ are [[vector]]s
+> 2. $a,b$ are [[scalar]]s in a [[field]]
+> 3. $\bra{\cdot}$ and $\ket{\cdot}$ follow the [[braket notation]]
