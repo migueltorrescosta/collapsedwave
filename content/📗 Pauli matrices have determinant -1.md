@@ -9,7 +9,7 @@ $\det(\sigma_x) = \det(\sigma_y) = \det(\sigma_z) = -1$
 
 >[!info]-
 > 1. $\det$ is the [[determinant]] operator on a [[matrix]]
-> 2. $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]
+> 2. $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrix]]
 
 >[!success]
 >

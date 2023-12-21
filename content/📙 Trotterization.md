@@ -4,7 +4,7 @@ tags:
   - methodology
   - quantum-theory
 ---
-Approximating the time evolution of a [[quantum state vector]] $\ket{\Psi(t)} = e^{iHh} \ket{\Psi(0)}$, by applying the [[Quantum Gate]] $e^{\frac{iHh}{N}}$, $N$ times.
+Approximating the time evolution of a [[quantum state vector]] $\ket{\Psi(t)} = e^{iHh} \ket{\Psi(0)}$, by applying the [[📘 Quantum Gate]] $e^{\frac{iHh}{N}}$, $N$ times.
 
 >[!info]-
 > $\ket{\Psi(t)}$ is a [[quantum state vector]] evolving according to the [[📘 Hamiltonian Operator]] $H$.

@@ -8,7 +8,7 @@ $\sigma_x \sigma_x = \sigma_y \sigma_y = \sigma_z \sigma_z = I$
 
 >[!info]-
 > 1. $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ is the unitary $2 \times 2$ matrix- $A^{-1}$ is the [[inverse matrix]] of $A$ if $AA^{-1} = A^{-1}A = I$ 
-> 2. $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]
+> 2. $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrix]]
 > 3. $A$ is an [[📘 Involutory matrix]] if $A^2=I$
 
 >[!success]

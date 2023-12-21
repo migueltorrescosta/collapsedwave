@@ -9,7 +9,7 @@ $tr(\sigma_x) = tr(\sigma_y) = tr(\sigma_z) = 0$
 
 >[!info]-
 > 1. $\det$ is the [[determinant]] operator on a [[matrix]]
-> 2.  $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]
+> 2.  $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrix]]
 
 >[!success]
 > $$tr(\sigma_x) = tr \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix} = 0 + 0 = 0$$

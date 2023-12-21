@@ -10,4 +10,4 @@ tags:
 | $\sigma_z$ | $i \sigma_y$ | $-i\sigma_x$ | $I$ |
 
 >[!info]-
-> $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrices]]
+> $\sigma_x, \sigma_y, \sigma_z$ are the [[📘 Pauli Matrix]]

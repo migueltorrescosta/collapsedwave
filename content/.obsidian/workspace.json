@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "f39b29e1f9c910bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "43fd1abc1e44f7ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "586c549809c323b0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/quantum_logic_gates.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "999b6580f7a6c5ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "efb5178c4e3f24cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e2402906a5e3034",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a33d0966cf5e1c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "quantum gate",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "47f79be49cffc38d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bf8deb1a69910263",
+    "type": "split",
+    "children": [
+      {
+        "id": "d506a1fbabf1495d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b533d83e0e240a32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Images/quantum_logic_gates.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d963e1ae257ff6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Images/quantum_logic_gates.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a98366825e745bf6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "77e40d1f0846b68b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Images/quantum_logic_gates.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1e2402906a5e3034",
+  "lastOpenFiles": [
+    "📘 Quantum Gate.md",
+    "Images/quantum_logic_gates.png",
+    "📘 Pauli Matrix.md",
+    "Quantum_Logic_Gates.png",
+    "📘 Hadamard Gate.md",
+    "📘 F-score.md",
+    "📙 Gram–Schmidt.md",
+    "📕 Schrodinger equation.md"
+  ]
+}
