@@ -4,20 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "43fd1abc1e44f7ed",
-        "type": "tabs",
+        "id": "9df5d9f35c53adb8",
+        "type": "split",
         "children": [
           {
-            "id": "586c549809c323b0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/quantum_logic_gates.png"
+            "id": "39f42d8df933ffba",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ad1039cf9c002b6f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "📘 Fourier Transform.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "01e11125a126993d"
               }
-            }
+            ]
+          },
+          {
+            "id": "18f038ae0b1d0fba",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3edde22772a4b63",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "📘 Fourier Transform.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "01e11125a126993d"
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -46,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quantum gate",
+                "query": "Fourier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bf8deb1a69910263",
@@ -83,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/quantum_logic_gates.png",
+                "file": "📘 Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/quantum_logic_gates.png",
+                "file": "📘 Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/quantum_logic_gates.png"
+                "file": "📘 Fourier Transform.md"
               }
             }
           }
@@ -144,16 +197,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e2402906a5e3034",
+  "active": "ad1039cf9c002b6f",
   "lastOpenFiles": [
+    "📘 Fourier Transform.md~",
+    "📗 Fourier Inversion Integral.md",
+    "📘 Fourier Transform.md",
+    "📘 Conservative force.md",
+    "📘 Conjugate transpose.md",
+    "📘 Complex valued matrix.md",
+    "📘 Commutator.md",
+    "📘 Classical observable.md",
+    "📘 Block Sphere.md",
+    "📘 Banach space.md",
+    "📘 Anti-hermitian Operator.md",
+    "📘 Adjoint Operator.md",
+    "📗 All involutory matrices are unitary.md",
+    "📗 All norms are non-negative.md",
+    "📗 All Operators can be decomposed into an Hermitian and an Anti-hermitian sum.md",
+    "📗 Cauchy-Schwarz inequality.md",
+    "📗 Cayley Table for Pauli Matrices.md",
+    "📗 Position and Momentum operators do not commute.md",
+    "📕 All classical real valued functions have an associated self adjoint operator.md",
+    "📘 Hamiltonian Equations.md",
+    "📗 Newtons law.md",
+    "📘 Potential energy.md",
+    "📘 Momentum Operator.md",
+    "Images/quantum_logic_gates.png",
     "📘 Pauli Matrices.md",
     "📘 Quantum Gate.md",
-    "Images/quantum_logic_gates.png",
     "📘 Pauli Matrix.md",
-    "Quantum_Logic_Gates.png",
-    "📘 Hadamard Gate.md",
-    "📘 F-score.md",
-    "📙 Gram–Schmidt.md",
-    "📕 Schrodinger equation.md"
+    "Quantum_Logic_Gates.png"
   ]
 }
