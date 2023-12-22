@@ -4,72 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "9df5d9f35c53adb8",
-        "type": "split",
+        "id": "18f038ae0b1d0fba",
+        "type": "tabs",
         "children": [
           {
-            "id": "39f42d8df933ffba",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ad1039cf9c002b6f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "📘 Fourier Transform.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                },
-                "group": "01e11125a126993d"
+            "id": "d3edde22772a4b63",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "📘 Momentum Operator.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
               }
-            ]
+            }
           },
           {
-            "id": "18f038ae0b1d0fba",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d3edde22772a4b63",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "📘 Fourier Transform.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  }
-                },
-                "group": "01e11125a126993d"
+            "id": "87c0eb9b20017773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📘 Momentum Operator.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fourier",
+                "query": "Momentum Operator",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Fourier Transform.md",
+                "file": "📘 Momentum Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Fourier Transform.md",
+                "file": "📘 Momentum Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Fourier Transform.md"
+                "file": "📘 Momentum Operator.md"
               }
             }
           }
@@ -197,11 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad1039cf9c002b6f",
+  "active": "87c0eb9b20017773",
   "lastOpenFiles": [
+    "📘 Quantum Hilbert Space.md",
+    "📘 Fourier Transform.md",
     "📘 Fourier Transform.md~",
     "📗 Fourier Inversion Integral.md",
-    "📘 Fourier Transform.md",
     "📘 Conservative force.md",
     "📘 Conjugate transpose.md",
     "📘 Complex valued matrix.md",
