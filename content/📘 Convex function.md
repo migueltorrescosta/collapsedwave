@@ -3,7 +3,7 @@ date: 2023-11-14
 tags:
   - definition
 ---
-f: $\forall x,y \in X, \lambda \in [0,1]$ we satisfy the condition:
+$f: \forall x,y \in X, \lambda \in [0,1]$ we satisfy the condition:
 $$f(\lambda x + ( 1- \lambda ) y ) \leq \lambda f(x) + ( 1-\lambda ) f(y)$$
 
 >[!info]-
