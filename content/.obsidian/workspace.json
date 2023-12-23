@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Convex function.md",
+                "file": "📗 The inner product of quantum states is time independent.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Convex function.md",
+                "file": "📗 The inner product of quantum states is time independent.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "COnvex",
+                "query": "Inner product of quantum ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Convex function.md",
+                "file": "📗 The inner product of quantum states is time independent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Convex function.md",
+                "file": "📗 The inner product of quantum states is time independent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Convex function.md"
+                "file": "📗 The inner product of quantum states is time independent.md"
               }
             }
           }
@@ -185,6 +185,7 @@
   },
   "active": "87c0eb9b20017773",
   "lastOpenFiles": [
+    "📘 Convex function.md",
     "📗 The Legendre Transform is well defined for convex functions.md",
     "📘 Quantum Hilbert Space.md",
     "📘 Momentum Operator.md",
@@ -212,7 +213,6 @@
     "📘 Potential energy.md",
     "Images/quantum_logic_gates.png",
     "📘 Pauli Matrices.md",
-    "📘 Quantum Gate.md",
     "Quantum_Logic_Gates.png"
   ]
 }
