@@ -17,15 +17,27 @@ Machine Learning ⋃ Quantum Theory
 
 If there are notes that would be useful to have, the best way to add them is by making a PR into this repo, following the instructions below. 
 
+## 🧰 Prerequisites
+
+- Download the latest version of [NodeJS](https://nodejs.org/en) and [npm](https://www.npmjs.com/) installed
+- Clone this repo
+
 ## 🔧 Installation
 
-Run the command bellow to install the required dependencies. The `--user-install` flag is only needed if you do not want to install your dependencies globally. 
-
+Running the command below installs all needed packages:
 ```shell
-npm i 
+npm i
 ```
 
-## 🧪 Test changes
+## ⏯️ Make content changes
+
+### Obsidian
+
+[Obsidian](https://obsidian.md/) provides the best way to interact with these notes. Open the content folder as an Obsidian vault and you're ready to go 🚀
+
+### Quartz
+
+To ensure https://collapsedwave.com renders smoothly, you can run it locally via the command below. This will render a webpage locally, matching the way it is rendered on the website. 
 
 ```shell
 npx quartz build --serve
