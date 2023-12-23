@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Momentum Operator.md",
+                "file": "📘 Quantum Hilbert Space.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Momentum Operator.md",
+                "file": "📘 Quantum Hilbert Space.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Momentum Operator",
+                "query": "Quantum Hilbert Space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bf8deb1a69910263",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Momentum Operator.md",
+                "file": "📘 Quantum Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Momentum Operator.md",
+                "file": "📘 Quantum Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Momentum Operator.md"
+                "file": "📘 Quantum Hilbert Space.md"
               }
             }
           }
@@ -186,6 +185,7 @@
   },
   "active": "87c0eb9b20017773",
   "lastOpenFiles": [
+    "📘 Momentum Operator.md",
     "📘 Quantum Hilbert Space.md",
     "📘 Fourier Transform.md",
     "📘 Fourier Transform.md~",
@@ -209,7 +209,6 @@
     "📘 Hamiltonian Equations.md",
     "📗 Newtons law.md",
     "📘 Potential energy.md",
-    "📘 Momentum Operator.md",
     "Images/quantum_logic_gates.png",
     "📘 Pauli Matrices.md",
     "📘 Quantum Gate.md",
