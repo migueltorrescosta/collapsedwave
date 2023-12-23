@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Quantum Hilbert Space.md",
+                "file": "📘 Convex function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Quantum Hilbert Space.md",
+                "file": "📘 Convex function.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Quantum Hilbert Space",
+                "query": "COnvex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Quantum Hilbert Space.md",
+                "file": "📘 Convex function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Quantum Hilbert Space.md",
+                "file": "📘 Convex function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Quantum Hilbert Space.md"
+                "file": "📘 Convex function.md"
               }
             }
           }
@@ -185,8 +185,9 @@
   },
   "active": "87c0eb9b20017773",
   "lastOpenFiles": [
-    "📘 Momentum Operator.md",
+    "📗 The Legendre Transform is well defined for convex functions.md",
     "📘 Quantum Hilbert Space.md",
+    "📘 Momentum Operator.md",
     "📘 Fourier Transform.md",
     "📘 Fourier Transform.md~",
     "📗 Fourier Inversion Integral.md",
@@ -212,7 +213,6 @@
     "Images/quantum_logic_gates.png",
     "📘 Pauli Matrices.md",
     "📘 Quantum Gate.md",
-    "📘 Pauli Matrix.md",
     "Quantum_Logic_Gates.png"
   ]
 }
