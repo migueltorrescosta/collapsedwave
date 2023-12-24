@@ -19,7 +19,7 @@ $\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \ph
 > | $\braket{\frac{1}{i\hbar}\hat{H}\phi, \psi} + \braket{\phi, \frac{1}{i\hbar}\hat{H}\psi}$ | Using the linearity of the [[📘 Inner Product]] |
 > | $-\frac{1}{i\hbar}\braket{\hat{H}\phi, \psi} + \frac{1}{i\hbar}\braket{\phi, \hat{H}\psi}$ | Since $\hat H$ is self adjoint |
 > | $-\frac{1}{i\hbar}\braket{\hat{H}\phi, \psi} + \frac{1}{i\hbar}\braket{\hat{H}\phi, \psi}$ | |
-|>  $0$ |  |
+> | $0$ |  |
 > 
 > Hence $\frac{d}{dt}\braket{\phi, \psi}=0$, so the braket $\braket{\phi, \psi}$ is constant over time $t$
 
