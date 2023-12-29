@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Conjugate variable.md",
+                "file": "📘 Pauli Matrix.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗 Heisenberg Uncertainty Principle.md",
+                "file": "📘 Coherent state.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,19 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Fourier Transform.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ac2553925d33329",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📘 Conjugate variable.md",
+                "file": "📘 Pauli Matrix.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conju",
+                "query": "Pauli atrices",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Conjugate variable.md",
+                "file": "📘 Pauli Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Conjugate variable.md",
+                "file": "📘 Pauli Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Conjugate variable.md"
+                "file": "📘 Pauli Matrix.md"
               }
             }
           }
@@ -222,18 +210,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ac2553925d33329",
+  "active": "d7deeb037ee0a07f",
   "lastOpenFiles": [
+    "📗 Cayley Table for Pauli Matrices.md",
+    "📘 Pauli Matrix.md",
+    "📗 Pauli matrices have trace 0.md",
+    "📗 Pauli matrices have determinant -1.md",
+    "📗 Pauli Matrices are involutory.md",
+    "📗 Pauli Matrices are unitary.md",
+    "📘 Fourier Transform.md",
+    "📘 Coherent state.md",
+    "📗 Heisenberg Uncertainty Principle.md",
+    "📗 The inner product of quantum states is time independent.md",
+    "📘 Conjugate variable.md",
     "📘 Position Operator.md",
     "📗 Position and Momentum operators do not commute.md",
-    "📘 Conjugate variable.md",
-    "📗 Heisenberg Uncertainty Principle.md",
-    "📘 Fourier Transform.md",
-    "📗 The inner product of quantum states is time independent.md",
     "📕 Schrodinger equation.md",
     "📘 Del or Nabla.md",
     "📘 Bose-Einstein condensate.md",
-    "📘 Coherent state.md",
     "📘 Harmonic Oscillator.md",
     "📘 Convex function.md",
     "📗 The Legendre Transform is well defined for convex functions.md",
@@ -245,12 +239,6 @@
     "📘 Conjugate transpose.md",
     "📘 Complex valued matrix.md",
     "📘 Commutator.md",
-    "📘 Classical observable.md",
-    "📘 Block Sphere.md",
-    "📘 Banach space.md",
-    "📘 Anti-hermitian Operator.md",
-    "📘 Adjoint Operator.md",
-    "📗 All involutory matrices are unitary.md",
     "Images/quantum_logic_gates.png",
     "Quantum_Logic_Gates.png"
   ]
