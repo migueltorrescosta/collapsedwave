@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Pauli Matrix.md",
+                "file": "📘 Norm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -43,6 +43,19 @@
             }
           },
           {
+            "id": "d7deeb037ee0a07f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📘 Norm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dd3beaab4bbeb049",
             "type": "leaf",
             "state": {
@@ -61,20 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Coherent state.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7deeb037ee0a07f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📘 Pauli Matrix.md",
+                "file": "📘 Norm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,8 +128,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Pauli Matrix.md",
+                "file": "📘 Norm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Pauli Matrix.md",
+                "file": "📘 Norm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Pauli Matrix.md"
+                "file": "📘 Norm.md"
               }
             }
           }
@@ -212,14 +211,18 @@
   },
   "active": "d7deeb037ee0a07f",
   "lastOpenFiles": [
-    "📗 Cayley Table for Pauli Matrices.md",
+    "📗 Inner products define a canonical norm.md",
+    "📘 Norm.md",
+    "📗 All norms are non-negative.md",
+    "📘 Coherent state.md",
+    "📗 All involutory matrices are unitary.md",
     "📘 Pauli Matrix.md",
+    "📗 Cayley Table for Pauli Matrices.md",
     "📗 Pauli matrices have trace 0.md",
     "📗 Pauli matrices have determinant -1.md",
     "📗 Pauli Matrices are involutory.md",
     "📗 Pauli Matrices are unitary.md",
     "📘 Fourier Transform.md",
-    "📘 Coherent state.md",
     "📗 Heisenberg Uncertainty Principle.md",
     "📗 The inner product of quantum states is time independent.md",
     "📘 Conjugate variable.md",
@@ -235,10 +238,6 @@
     "📘 Momentum Operator.md",
     "📘 Fourier Transform.md~",
     "📗 Fourier Inversion Integral.md",
-    "📘 Conservative force.md",
-    "📘 Conjugate transpose.md",
-    "📘 Complex valued matrix.md",
-    "📘 Commutator.md",
     "Images/quantum_logic_gates.png",
     "Quantum_Logic_Gates.png"
   ]
