@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Conservative force.md",
+                "file": "📘 Legendre Transform.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Conservative force.md",
+                "file": "📘 Legendre Transform.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "force",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,8 +128,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Conservative force.md",
+                "file": "📘 Legendre Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Conservative force.md",
+                "file": "📘 Legendre Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Conservative force.md"
+                "file": "📘 Legendre Transform.md"
               }
             }
           }
@@ -210,12 +209,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a33d0966cf5e1c8",
+  "active": "d7deeb037ee0a07f",
   "lastOpenFiles": [
-    "📗 A force is conservative iff the partial derivatives commute.md",
-    "📘 Conservative force.md",
-    "📗 A level curve is smooth if it contains no critical points.md",
+    "📗 The Legendre Transform is well defined for convex functions.md",
+    "📘 Legendre Transform.md",
+    "📗 Time evolution of measurement uncertainty.md",
     "📗 The inner product of quantum states is time independent.md",
+    "📗 Self adjoint operators are symmetric.md",
+    "📗 Quantum observables measuring a quantum state that matches an eigenvector have a definite value.md",
+    "📘 Conservative force.md",
+    "📗 A force is conservative iff the partial derivatives commute.md",
+    "📗 A level curve is smooth if it contains no critical points.md",
     "📗 All involutory matrices are unitary.md",
     "📗 Stokes theorem.md",
     "📘 Adjoint Operator.md",
@@ -233,11 +237,6 @@
     "📗 Heisenberg Uncertainty Principle.md",
     "📘 Conjugate variable.md",
     "📘 Position Operator.md",
-    "📗 Position and Momentum operators do not commute.md",
-    "📕 Schrodinger equation.md",
-    "📘 Del or Nabla.md",
-    "📘 Bose-Einstein condensate.md",
-    "📘 Harmonic Oscillator.md",
     "📘 Fourier Transform.md~",
     "Images/quantum_logic_gates.png",
     "Quantum_Logic_Gates.png"
