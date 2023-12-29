@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📘 Bose-Einstein condensate.md",
+                "file": "📘 Position Operator.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -43,13 +43,14 @@
             }
           },
           {
-            "id": "87c0eb9b20017773",
+            "id": "dd3beaab4bbeb049",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Del or Nabla.md",
+                "file": "📗 The inner product of quantum states is time independent.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -80,29 +81,20 @@
             }
           },
           {
-            "id": "dd3beaab4bbeb049",
+            "id": "6ac2553925d33329",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📘 Bose-Einstein condensate.md",
+                "file": "📘 Position Operator.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0f4ca7e91b524943",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Heisen",
+                "query": "Schrodi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,8 +140,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📘 Bose-Einstein condensate.md",
+                "file": "📘 Position Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📘 Bose-Einstein condensate.md",
+                "file": "📘 Position Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📘 Bose-Einstein condensate.md"
+                "file": "📘 Position Operator.md"
               }
             }
           }
@@ -230,15 +221,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f4ca7e91b524943",
+  "active": "6ac2553925d33329",
   "lastOpenFiles": [
-    "📘 Fourier Transform.md",
-    "📘 Bose-Einstein condensate.md",
+    "📗 Position and Momentum operators do not commute.md",
+    "📘 Position Operator.md",
+    "📘 conjugate variable.md",
     "📗 Heisenberg Uncertainty Principle.md",
+    "📘 Fourier Transform.md",
+    "📗 The inner product of quantum states is time independent.md",
+    "📕 Schrodinger equation.md",
+    "📘 Del or Nabla.md",
+    "📘 Bose-Einstein condensate.md",
     "📘 Coherent state.md",
     "📘 Harmonic Oscillator.md",
-    "📘 Del or Nabla.md",
-    "📗 The inner product of quantum states is time independent.md",
     "📘 Convex function.md",
     "📗 The Legendre Transform is well defined for convex functions.md",
     "📘 Quantum Hilbert Space.md",
@@ -255,10 +250,6 @@
     "📘 Anti-hermitian Operator.md",
     "📘 Adjoint Operator.md",
     "📗 All involutory matrices are unitary.md",
-    "📗 All norms are non-negative.md",
-    "📗 All Operators can be decomposed into an Hermitian and an Anti-hermitian sum.md",
-    "📗 Cauchy-Schwarz inequality.md",
-    "📗 Cayley Table for Pauli Matrices.md",
     "Images/quantum_logic_gates.png",
     "Quantum_Logic_Gates.png"
   ]
