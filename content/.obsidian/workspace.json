@@ -13,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📗 The inner product of quantum states is time independent.md",
+                "file": "📘 Bose-Einstein condensate.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -48,14 +48,61 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📗 The inner product of quantum states is time independent.md",
+                "file": "📘 Del or Nabla.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "15171b2f13dc4da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📗 Heisenberg Uncertainty Principle.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7deeb037ee0a07f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📘 Fourier Transform.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd3beaab4bbeb049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📘 Bose-Einstein condensate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f4ca7e91b524943",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -84,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Inner product of quantum ",
+                "query": "Heisen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📗 The inner product of quantum states is time independent.md",
+                "file": "📘 Bose-Einstein condensate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📗 The inner product of quantum states is time independent.md",
+                "file": "📘 Bose-Einstein condensate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📗 The inner product of quantum states is time independent.md"
+                "file": "📘 Bose-Einstein condensate.md"
               }
             }
           }
@@ -183,13 +230,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87c0eb9b20017773",
+  "active": "0f4ca7e91b524943",
   "lastOpenFiles": [
+    "📘 Fourier Transform.md",
+    "📘 Bose-Einstein condensate.md",
+    "📗 Heisenberg Uncertainty Principle.md",
+    "📘 Coherent state.md",
+    "📘 Harmonic Oscillator.md",
+    "📘 Del or Nabla.md",
+    "📗 The inner product of quantum states is time independent.md",
     "📘 Convex function.md",
     "📗 The Legendre Transform is well defined for convex functions.md",
     "📘 Quantum Hilbert Space.md",
     "📘 Momentum Operator.md",
-    "📘 Fourier Transform.md",
     "📘 Fourier Transform.md~",
     "📗 Fourier Inversion Integral.md",
     "📘 Conservative force.md",
@@ -206,13 +259,7 @@
     "📗 All Operators can be decomposed into an Hermitian and an Anti-hermitian sum.md",
     "📗 Cauchy-Schwarz inequality.md",
     "📗 Cayley Table for Pauli Matrices.md",
-    "📗 Position and Momentum operators do not commute.md",
-    "📕 All classical real valued functions have an associated self adjoint operator.md",
-    "📘 Hamiltonian Equations.md",
-    "📗 Newtons law.md",
-    "📘 Potential energy.md",
     "Images/quantum_logic_gates.png",
-    "📘 Pauli Matrices.md",
     "Quantum_Logic_Gates.png"
   ]
 }

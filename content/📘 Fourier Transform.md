@@ -12,6 +12,13 @@ $$\hat f ( t ) := \int_{- \infty}^{\infty} f(x) e^{-2 \pi i t x  } dx$$
 # Inverting the Fourier Transform
 
 Given the Fourier Transform $\hat f$ of a function $f$, we are able to retrieve the original function by applying the result $$f ( x ) := \int_{- \infty}^{\infty} \hat f( t ) e^{2 \pi i t x  } d t$$
+# Uncertainty principle
+
+Let $A$ and $B$ be two random variables where the distribution of $B$ is given by the Fourier transform of $A$. The fourier uncertainty principle states that $$\textrm{var}(A)\textrm{var}(B) \geq \frac{1}{16 \pi^2}$$ 
+>[!quote]
+> Steve Brunton provides an amazing visual introduction to this principle on [this youtube video](https://www.youtube.com/watch?app=desktop&v=D1WfID6kk90)
+
+
 # Properties
 
 The usefulness of the Fourier transform comes from the results below

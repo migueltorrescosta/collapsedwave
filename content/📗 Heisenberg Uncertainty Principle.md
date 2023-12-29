@@ -6,6 +6,9 @@ tags:
 ---
 $( \Delta_\psi X ) ( \Delta_\psi P ) \geq \frac{\hbar}{2}$
 
+The above shows that the product of uncertainties in measurement between the [[📘 Position Operator]] and the [[📘 Momentum Operator]] is bounded below. The relation applies to any pair of [[conjugate variable]]s, and follows from the [[📘 Fourier Transform#Uncertainty principle]], since [[conjugate variable]]s are related to each other by being the fourier transform of each other, up to a constant defined in terms of [[Plancks reduced constant]] $\hbar$ .
+
+
 >[!info]-
 > 1. $X$ is the [[📘 Position Operator]]
 > 2. $P$ is the [[📘 Momentum Operator]]
@@ -14,4 +17,5 @@ $( \Delta_\psi X ) ( \Delta_\psi P ) \geq \frac{\hbar}{2}$
 > 5. $\hbar$ is [[Plancks reduced constant]]
 
 >[!success]
-[[🗺️ To be completed]]
+>The Heisenberg Uncertainty principle follows from
+
