@@ -20,3 +20,5 @@ The notation for quantum gates has been mostly standardised. Examples include
 | T | $\frac{\pi}{8}$ rotation gate |git 
 
 ![[quantum_logic_gates.png]]
+
+![[Pasted image 20231231203305.png]]
