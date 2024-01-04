@@ -25,7 +25,7 @@ HDBSCAN is a [[clustering algorithm]]. It has 5 steps:
 > 5. $\lambda_p$ is the inverse of the distance when a point "fell of" a cluster
 > 6. $\lambda_{birth}$ is the inverse distance of a cluster
 
-[[🗺️ To be completed]] - The description of $\lambda$ as the inverse of a distance needs to be flushed out: it is unclear which distance is being used.
+The description of $\lambda$ as the inverse of a distance needs to be flushed out: it is unclear which distance is being used. [[Help me❓]]
   
 >[!tip]  
 >We can think of the steps above as

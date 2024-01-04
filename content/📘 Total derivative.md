@@ -3,6 +3,6 @@ date: 2023-10-12
 tags:
   - definition
 ---
-Total derivates are often written as $\frac{df}{dt}$, not to be confused with a [[Partial Derivative]] .
+Total derivatives are often written as $\frac{df}{dt}$, not to be confused with a [[Partial Derivative]] .
 
-[[🗺️ To be completed]]
+I want to write or link to a nice explanation that distinguishes the 2 types of derivatives. [[Help me❓]]

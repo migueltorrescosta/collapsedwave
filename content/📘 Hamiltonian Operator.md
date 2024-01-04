@@ -8,4 +8,4 @@ tags:
 
 $H = T + V$
 
-[[🗺️ To be completed]]
+I need to improve this definition significantly. [[Help me❓]]

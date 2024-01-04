@@ -11,5 +11,5 @@ If $A$ is a [[📘 Self Adjoint Operator]], then it is a [[📘 Symmetric Operat
 > 2. $\braket{\cdot, \cdot}$ is the respective [[📘 Inner Product]] on $H$
 > 3. $A: H \rightarrow H$ is a [[linear map]] on $H$
 
->[!success]
-> [[🗺️ To be completed]]
+>[!success] Proof
+> [[Help me❓]]

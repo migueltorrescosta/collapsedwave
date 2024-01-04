@@ -8,6 +8,3 @@ tags:
 
 >[!info]-
 > $F: \mathbb{R}^n \rightarrow \mathbb{R}^n$ is a [[force]] only dependent on position 
-
->[!tip]
-> [[🗺️ To be completed]]

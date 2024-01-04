@@ -8,5 +8,5 @@ For an operator $A : H \rightarrow H$, for $H$ finite dimensional, the definitio
 >[!tip]
 > The subtle differences in these definitions become relevant when we work with an infinite dimensional [[📘 Hilbert Space]], where a [[Linear Operator]] might not be bounded.
 
->[!success]
-> [[🗺️ To be completed]]
+>[!success] Proof
+> I need to find neat proofs of this. [[Help me❓]]
