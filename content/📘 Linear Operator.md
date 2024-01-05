@@ -1,7 +1,5 @@
 ---
 date: 2023-11-23
-tags:
-  - definition
 ---
 A linear operator is a map $\Omega: V \rightarrow V$  satisfying
 
