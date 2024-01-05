@@ -1,7 +1,5 @@
 ---
 date: 2023-11-01
-tags:
-  - definition
 ---
 A function $d: X \times X \rightarrow \mathbb{R}^+$ that satisfies, $\forall x, y, z \in \mathbb{X}$
 1. $d(x,x)=0$

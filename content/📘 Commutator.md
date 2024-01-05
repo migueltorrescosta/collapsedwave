@@ -1,7 +1,6 @@
 ---
 date: 2022-10-14
 tags:
-  - definition
   - quantum-theory
 ---
 $[A, B] := AB - BA$ is defined to be the commutator between $A$ and $B$.

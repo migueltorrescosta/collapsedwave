@@ -1,7 +1,5 @@
 ---
 date: 2023-11-23
-tags:
-  - definition
 ---
 A non empty set $V$ over a [[field]] $F$ satisfying with 2 [[binary operation]]s, commonly denoted as $+$ and $\times$, satisfying:
 

@@ -1,7 +1,5 @@
 ---
 date: 2023-11-23
-tags:
-  - methodology
 ---
 The Gram-Schmidt methodology is a process that generates an [[orthonormal basis]] from a [[linearly independent basis]].
 

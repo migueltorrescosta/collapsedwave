@@ -1,7 +1,6 @@
 ---
 date: 2023-10-21
 tags:
-  - definition
   - quantum-theory
 ---
 

@@ -1,7 +1,6 @@
 ---
 date: 2023-10-21
 tags:
-  - definition
   - quantum-theory
 ---
 Pauli matrices operate on [[qubit]]s. They are represented by the following:

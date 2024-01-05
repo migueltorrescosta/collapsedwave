@@ -1,7 +1,5 @@
 ---
 date: 2023-10-14
-tags:
-  - definition
 ---
 $\braket{A}_\psi  := \braket{\psi, A \psi}$
 

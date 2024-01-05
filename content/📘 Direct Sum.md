@@ -1,7 +1,5 @@
 ---
 date: 2023-11-23
-tags:
-  - definition
 ---
 $V_1 \bigoplus V_2 := \{ v: v=v_1 + v_2, \exists v_1 \in V_1, v_2 \in V_2 \}$ 
 

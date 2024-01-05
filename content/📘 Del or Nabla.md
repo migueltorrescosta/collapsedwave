@@ -1,7 +1,5 @@
 ---
 date: 2023-10-13
-tags:
-  - definition
 ---
 Slightly ambiguous vector differential operator $\nabla$, defined as the vector operator $(\frac{\partial}{\partial x_1}, \cdots, \frac{\partial}{\partial x_n})$, which can represent a few different operations:
 - [[📘 Gradient]] of a [[scalar field]] $f: \mathbb{R}^n \rightarrow \mathbb{R}$, where  $\nabla f$ = $(\frac{\partial}{\partial x_1}f, \cdots, \frac{\partial}{\partial x_n}f)$

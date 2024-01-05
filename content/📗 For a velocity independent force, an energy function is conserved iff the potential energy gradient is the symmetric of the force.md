@@ -1,7 +1,5 @@
 ---
 date: 2023-10-12
-tags:
-  - theorem
 ---
 $E(x, \dot x) = \frac{1}{2}m \| \dot x \|^2 + V(x)$ is a [[📘 Constant of Motion]] $\Leftrightarrow - \nabla V = F$
 

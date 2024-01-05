@@ -2,7 +2,6 @@
 date: 2023-12-29
 tags:
   - "#quantum-theory"
-  - "#definition"
 ---
 Conjugate variables are pairs of [[Operator]]s that satisfy the relation $[A,B] = i\hbar$ . As examples we have:
 

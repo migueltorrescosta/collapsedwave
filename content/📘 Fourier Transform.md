@@ -1,7 +1,5 @@
 ---
 date: 2023-11-25
-tags:
-  - definition
 ---
 
 $$\hat f ( t ) := \int_{- \infty}^{\infty} f(x) e^{-2 \pi i t x  } dx$$

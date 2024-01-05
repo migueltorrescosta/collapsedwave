@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - definition
   - quantum-theory
 ---
 An operator $\hat{f}$ on the [[📘 Vector Space#Quantum Hilbert Space]] corresponding to a [[📘 Classical observable]] $f$, as per the axiom: [[📕 All classical real valued functions have an associated self adjoint operator]]

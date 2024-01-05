@@ -1,7 +1,5 @@
 ---
 date: 2023-10-13
-tags:
-  - theorem
 ---
 $\int \int_{\Sigma} (\nabla \times F) \cdot d \Sigma = \oint_{\partial \Sigma} F \cdot d \Gamma$ 
 

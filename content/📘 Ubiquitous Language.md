@@ -1,7 +1,5 @@
 ---
 date: 2023-10-30
-tags:
-  - definition
 ---
 It is essential for a software effort that we share the same language across business layers, from the clients, through the product managers, all the way to the engineers
 

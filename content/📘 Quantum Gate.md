@@ -2,7 +2,6 @@
 date: 2023-12-20
 tags:
   - quantum-theory
-  - definition
 ---
 A Quantum gate represents an operation that can be applied on qubits. Given the [[📘 Block Sphere]] visualization of a [[qubit]]'s state, we can think of a quantum gate as the application of a rotation on the state of multiple qubits.
 

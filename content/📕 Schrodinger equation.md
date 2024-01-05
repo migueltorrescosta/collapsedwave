@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - axiom
   - quantum-theory
 ---
 $\frac{d\psi}{dt} = \frac{1}{i\hbar}\hat{H}\psi$ defines the time evolution of a [[quantum state vector]] $\psi$

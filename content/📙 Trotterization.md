@@ -1,7 +1,6 @@
 ---
 date: 2023-10-12
 tags:
-  - methodology
   - quantum-theory
 ---
 Approximating the time evolution of a [[quantum state vector]] $\ket{\Psi(t)} = e^{iHh} \ket{\Psi(0)}$, by applying the [[📘 Quantum Gate]] $e^{\frac{iHh}{N}}$, $N$ times.

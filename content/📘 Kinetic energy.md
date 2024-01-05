@@ -1,7 +1,6 @@
 ---
 date: 2023-10-12
 tags:
-  - definition
   - classical-mechanics
 ---
 - $\frac{1}{2}mv^2$  for a classical particle

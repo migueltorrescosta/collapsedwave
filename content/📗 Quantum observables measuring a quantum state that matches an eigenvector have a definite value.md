@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - theorem
   - quantum-theory
 ---
 $\hat{f}\psi = \lambda \psi \implies \mathbb{E}[f^m] = \braket{(\hat{f})^m}_\psi =\lambda^m$

@@ -1,7 +1,5 @@
 ---
 date: 2023-10-13
-tags:
-  - definition
 ---
 The $m \times n$ Jacobian Matrix of $f$ is given by
 

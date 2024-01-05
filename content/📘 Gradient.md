@@ -1,7 +1,5 @@
 ---
 date: 2023-10-13
-tags:
-  - definition
 ---
 $\nabla f$ = $(\frac{\partial}{\partial x_1}f, \cdots, \frac{\partial}{\partial x_n}f)$ 
 

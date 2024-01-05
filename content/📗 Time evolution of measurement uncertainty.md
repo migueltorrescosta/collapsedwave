@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - theorem
   - quantum-theory
 ---
 $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$

@@ -1,7 +1,5 @@
 ---
 date: 2023-11-23
-tags:
-  - definition
 ---
 A [[binary operation]] $\braket{\cdot, \cdot}: V \times V \rightarrow F$ satisfying
 

@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - axiom
   - quantum-theory
 ---
 If a [[quantum system]] is described by a [[quantum state vector]] $\psi \in H$, the probability distribution of the [[📘 Classical observable]] $f$ is given by $\mathbb{E}[f^m] = \braket{\psi, ( \hat{f} )^m \psi}$

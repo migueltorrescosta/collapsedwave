@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - theorem
   - quantum-theory
 ---
 $( \Delta_\psi X ) ( \Delta_\psi P ) \geq \frac{\hbar}{2}$

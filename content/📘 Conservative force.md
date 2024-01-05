@@ -1,7 +1,5 @@
 ---
 date: 2023-10-12
-tags:
-  - definition
 ---
 A [[force]] $F$ is called conservative iff $\exists V: F = - \nabla V$
 

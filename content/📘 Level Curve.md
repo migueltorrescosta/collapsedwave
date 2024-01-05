@@ -1,7 +1,5 @@
 ---
 date: 2023-10-12
-tags:
-  - definition
 ---
 The set of points where a [[📘 Constant of Motion]] is kept constant. Using [[📘 Total Energy]] as the [[📘 Constant of Motion]], we get the example of a level curve as the set
 

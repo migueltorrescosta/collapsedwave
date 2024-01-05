@@ -1,7 +1,5 @@
 ---
 date: 2023-10-14
-tags:
-  - definition
 ---
 $( \Delta_\psi A )^2 := \braket{ ( A - \braket{A}_\psi I)^2} = \braket{A^2}_\psi - ( {A}_\psi )^2$
 

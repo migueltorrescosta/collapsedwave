@@ -1,7 +1,5 @@
 ---
 date: 2023-10-21
-tags:
-  - definition
 ---
 
 $f^\star(x^\star) := \sup_{x \in I} (x^\star x - f(x))$ for $x^\star \in I^\star , x \in I$

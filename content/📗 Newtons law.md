@@ -1,7 +1,5 @@
 ---
 date: 2023-10-12
-tags:
-  - theorem
 ---
 The relation $F=ma$ between [[force]], [[mass]] and [[acceleration]]  .
 

@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - theorem
   - quantum-theory
 ---
 $\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \phi$  of [[📕 Schrodinger equation]]

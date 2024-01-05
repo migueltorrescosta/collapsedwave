@@ -1,7 +1,6 @@
 ---
 date: 2023-10-14
 tags:
-  - theorem
   - quantum-theory
 ---
 If $A$ is a [[📘 Linear Operator#Self Adjoint Operator]], then it is a [[📘 Linear Operator#Symmetric Operator]].
