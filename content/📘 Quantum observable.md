@@ -4,7 +4,7 @@ tags:
   - definition
   - quantum-theory
 ---
-An operator $\hat{f}$ on the [[📘 Quantum Hilbert Space]] corresponding to a [[📘 Classical observable]] $f$, as per the axiom: [[📕 All classical real valued functions have an associated self adjoint operator]]
+An operator $\hat{f}$ on the [[📘 Vector Space#Quantum Hilbert Space]] corresponding to a [[📘 Classical observable]] $f$, as per the axiom: [[📕 All classical real valued functions have an associated self adjoint operator]]
 
 >[!info]-
 > 1. $f : \mathbb{R}^{2n} \rightarrow \mathbb{R}$ is a [[📘 Classical observable]]

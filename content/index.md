@@ -6,7 +6,7 @@ Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quant
 
 When on a note, you can
 1. Follow the links to see relevant content.
-2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Hilbert Space]]s are mentioned frequently.
+2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Vector Space#Hilbert Space]]s are mentioned frequently.
 3. Use the graph view to navigate see an overview of linked notes without leaving the page
 4. Setup [Obsidian](https://obsidian.md) in order to explore these notes in your local laptop.
 

@@ -6,6 +6,6 @@ tags:
 $A: \braket{Ax, y} = \braket{x, yA}, \forall x,y \in D(A)$
 
 >[!info]-
-> 1. $H$ is an [[📘 Hilbert Space]] 
+> 1. $H$ is an [[📘 Vector Space#Hilbert Space]] 
 > 2. $\braket{ \cdot , \cdot }$ is an [[📘 Inner Product]] on $H$
 > 3. $A$ is an [[Operator]] defined on the domain $D(A) \subset H$

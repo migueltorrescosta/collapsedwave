@@ -7,7 +7,7 @@ tags:
 If $A$ is a [[📘 Self Adjoint Operator]], then it is a [[📘 Symmetric Operator]].
 
 >[!info]-
-> 1. $H$ is an [[📘 Hilbert Space]]
+> 1. $H$ is an [[📘 Vector Space#Hilbert Space]]
 > 2. $\braket{\cdot, \cdot}$ is the respective [[📘 Inner Product]] on $H$
 > 3. $A: H \rightarrow H$ is a [[linear map]] on $H$
 

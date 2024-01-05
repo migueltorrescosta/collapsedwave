@@ -8,7 +8,7 @@ $\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \ph
 
 >[!info]-
 > 1. $\psi, \phi$ are time parameterized [[quantum state vector]] solutions to [[📕 Schrodinger equation]]
-> 2. $\braket{ \cdot, \cdot } : H \times H \rightarrow \mathbb{C}$ is an [[📘 Inner Product]] on the [[📘 Quantum Hilbert Space]] 
+> 2. $\braket{ \cdot, \cdot } : H \times H \rightarrow \mathbb{C}$ is an [[📘 Inner Product]] on the [[📘 Vector Space#Quantum Hilbert Space]] 
 > 3. $t \in \mathbb{R}^+$ denotes time.
 
 >[!success]
