@@ -4,7 +4,7 @@ tags:
   - theorem
   - quantum-theory
 ---
-If $A$ is a [[📘 Self Adjoint Operator]], then it is a [[📘 Symmetric Operator]].
+If $A$ is a [[📘 Linear Operator#Self Adjoint Operator]], then it is a [[📘 Linear Operator#Symmetric Operator]].
 
 >[!info]-
 > 1. $H$ is an [[📘 Vector Space#Hilbert Space]]

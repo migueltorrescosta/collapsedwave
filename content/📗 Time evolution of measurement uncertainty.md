@@ -8,7 +8,7 @@ $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$
 
 >[!info]-
 > 1. $H$ is the [[📘 Hamiltonian Operator]]
-> 2. $\hat{H}$ is the [[📘 Self Adjoint Operator]] associated to $H$ 
+> 2. $\hat{H}$ is the [[📘 Linear Operator#Self Adjoint Operator]] associated to $H$ 
 > 3. $[ \cdot , \cdot ]$ is the [[📘 Commutator]]
 > 4. $\braket{A}_\psi$ is the [[📘 Expectation value]] of a measurement under operator $A$ given we're in the [[quantum state vector]] $\psi$ 
 
@@ -19,6 +19,6 @@ $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$
 >
 > $$\braket{\frac{1}{i\hbar}\hat{H}\psi , A \psi} + \braket{\psi, A \frac{1}{i\hbar}\hat{H}\psi} = \frac{1}{i\hbar} \left ( - \braket{\hat{H}\psi, A\psi} + \braket{\psi, A\bar{H}\psi} \right )$$
 > 
-> Since $\hat{H}$ is a [[📘 Self Adjoint Operator]], we can rearrange the above to equal
+> Since $\hat{H}$ is a [[📘 Linear Operator#Self Adjoint Operator]], we can rearrange the above to equal
 >
 > $$\frac{1}{i\hbar} \left ( - \braket{\psi, \hat{H}A\psi} + \braket{\psi, A\bar{H}\psi} \right ) = \frac{1}{i\hbar}\braket{\psi, ( - \hat{H}A + A\hat{H}) \psi} = \frac{1}{i\hbar}\braket{A\hat{H}-\hat{H}A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$$
