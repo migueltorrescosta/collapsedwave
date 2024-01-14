@@ -46,6 +46,8 @@ $A: A*A = AA* = AA^{-1} =I$
 $A: \braket{Ax, y} = \braket{x, yA}, \forall x,y \in D(A)$
 $D(A) \subset H$ is the Domain of $A$.
 
+## Involuntory Operator
+$A: A^2 = I$
 # Properties
 
 ## All Operators can be decomposed into an Hermitian and an Anti-hermitian sum

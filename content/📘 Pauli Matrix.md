@@ -10,7 +10,15 @@ $$\sigma_2 = \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$$
 $$\sigma_3 = \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
 
 # Cayley table
-Below we describe the multiplication table for Pauli Matrices
+We have the results:
+- $\sigma_x^2 = \sigma_y^2 = \sigma_z^2 = I$
+- $\sigma_i \sigma_{i+1} = i \sigma_{i+2}$
+- $\sigma_i \sigma_{i-1} = - i \sigma_{i-2}$
+
+>[!info]-
+> Indices are taken mod 3
+
+Explicitly, this means:
 
 | $\times$ | $\sigma_x$ | $\sigma_y$ | $\sigma_z$ |
 | --- | --- | --- | --- |
@@ -19,13 +27,13 @@ Below we describe the multiplication table for Pauli Matrices
 | $\sigma_z$ | $i \sigma_y$ | $-i\sigma_x$ | $I$ |
 
 # Properties
-All the Pauli matrices
-1. are Involuntary
-2. are unitary
-3. have trace $0$
-4. have determinant $-1$
+Any Pauli matrix is also a
+1. [[📘 Linear Operator#Involuntory Operator]]
+2. [[📘 Linear Operator#Unitary Operator]]
+3. has trace $0$
+4. has determinant $-1$
 
->[!success] Proof that any Pauli matrix is also an [[📘 Involutory matrix]]
+>[!success] Proof that any Pauli matrix is also an [[📘 Linear Operator#Involuntory Operator]]
 > 
 > $$\sigma_x \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 0*0 + 1*1 & 0*1+1*0 \\ 0*1+1*0 & 0*0+1*1 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = I$$
 > 
@@ -33,8 +41,8 @@ All the Pauli matrices
 > 
 > $$\sigma_y \sigma_y = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} = \begin{pmatrix} 1*1 + 0*0 & 1*0+0*-1 \\ 0*1+-1*0 & 0*0+-1*-1 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = I$$
 
->[!success] Proof that Pauli matrices are unitary
-It follows from Pauli matrices being involuntary
+>[!success] Proof that any Pauli matrix is also an [[📘 Linear Operator#Unitary Operator]]
+Since all [[📘 Linear Operator#Involuntory Operator]]s are [[📘 Linear Operator#Unitary Operator]], we get the desired result. 
 
 >[!success] Proof that Pauli matrices have trace equal to $0$
 > $$tr(\sigma_x) = tr \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix} = 0 + 0 = 0$$
