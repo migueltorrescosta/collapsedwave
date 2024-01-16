@@ -45,3 +45,25 @@ The results below are frequently useful when manipulating algebraic expressions 
 > - $P$ is the [[📘 Quantum Hilbert Space#Momentum Operator]]
 
 
+## The inner product of quantum states is time independent
+
+$\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \phi$  of the same equation ( [[📕 Postulates of Quantum Mechanics#Postulate 4 Schrodinger's Equation]] )
+
+>[!info]-
+> 1. $\psi, \phi$ are time parameterized [[quantum state vector]] solutions to [[📕 Postulates of Quantum Mechanics#Postulate 4 Schrodinger's Equation]]
+> 2. $\braket{ \cdot, \cdot } : H \times H \rightarrow \mathbb{C}$ is an [[📘 Inner Product]] on the [[📘 Vector Space#Quantum Hilbert Space]] 
+> 3. $t \in \mathbb{R}^+$ denotes time.
+
+>[!success]
+> |  | Action |
+> | ---: | :--- |
+> | $\frac{d}{dt}\braket{\phi, \psi}$ | Taking the derivative of the product |
+> | $\braket{\frac{d}{dt}\phi, \psi} + \braket{\phi, \frac{d}{dt}\psi}$ | Applying [[📕 Postulates of Quantum Mechanics#Postulate 4 Schrodinger's Equation]] |
+> | $\braket{\frac{1}{i\hbar}\hat{H}\phi, \psi} + \braket{\phi, \frac{1}{i\hbar}\hat{H}\psi}$ | Using the linearity of the [[📘 Inner Product]] |
+> | $-\frac{1}{i\hbar}\braket{\hat{H}\phi, \psi} + \frac{1}{i\hbar}\braket{\phi, \hat{H}\psi}$ | Since $\hat H$ is self adjoint |
+> | $-\frac{1}{i\hbar}\braket{\hat{H}\phi, \psi} + \frac{1}{i\hbar}\braket{\hat{H}\phi, \psi}$ | |
+> | $0$ |  |
+> 
+> Hence $\frac{d}{dt}\braket{\phi, \psi}=0$, so the braket $\braket{\phi, \psi}$ is constant over time $t$
+
+

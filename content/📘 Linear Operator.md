@@ -15,6 +15,24 @@ A linear operator is a map $\Omega: V \rightarrow V$  satisfying
 
 Operators are a generalisation of matrices: They act on vector spaces linearly, without being attached to any basis representation. When working with finite vector spaces, the choice of a basis allows us to represent the operator as a matrix. This won't be always possible: some operators do not have a matrix representation
 
+# Relations
+
+The diagram below aims to make relations between operators and their matrix representation memorable. An arrow means an implication.
+
+```mermaid
+stateDiagram
+	Hermitian: Hermitian Operator
+	Positive: Positive Operator
+	Real: Has real valued eigenvalues
+	SelfAdjoint: Self Adjoint Operator
+	Spectral: Can be decomposed using spectral decomposition
+	Symmetric: Symmetric Operator
+	Unitary: Unitary Operator
+	Positive --> Spectral
+	Hermitian --> Real
+	SelfAdjoint --> Symmetric
+```
+
 # Operators
 
 ## Adjoint Operator
@@ -56,3 +74,12 @@ $A: A^2 = I$
 > 1. $A = \frac{A+A^*}{2} + \frac{A-A^*}{2}$
 > 2. $\frac{A+A^*}{2}$ is an [[📘 Linear Operator#Definitions#Hermitian Operator]] by construction
 > 3. $\frac{A-A^*}{2}$ is an [[📘 Linear Operator#Definitions#Anti-Hermitian Operator]] by construction
+
+## In finite dimensional spaces, the definitions of Hermitian, Symmetric and Self-Adjoint all match
+For an operator $A : H \rightarrow H$, for $H$ finite dimensional, the definitions of [[📘 Linear Operator#Self Adjoint Operator]], [[📘 Hermitian Operator]] and [[📘 Linear Operator#Symmetric Operator]] are equivalent.
+
+>[!tip]
+> The subtle differences in these definitions become relevant when we work with an infinite dimensional [[📘 Vector Space#Hilbert Space]], where a [[Linear Operator]] might not be bounded.
+
+>[!success] Proof
+> I need to find neat proofs of this. [[Help me❓]]
