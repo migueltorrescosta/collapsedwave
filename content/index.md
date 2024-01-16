@@ -2,7 +2,7 @@
 title: Home
 date: 2023-11-13
 ---
-Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar.
+Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar. If this is your first time, the [[📕 Postulates of Quantum Mechanics]] are a decent starting point.
 
 When on a note, you can
 1. Follow the links to see relevant content.
