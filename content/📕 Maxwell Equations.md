@@ -6,7 +6,7 @@ tags:
 Maxwell equations describe the behaviour of magnetic and electric fields.
 
 | Equation | Comment |
-| ----: | ---- |
+| :----: | ---- |
 | $\nabla \cdot E=\frac{\rho}{\epsilon_0}$ |  |
 | $\nabla \cdot B = 0$ |  |
 | $\nabla \times E = - \partial_t B$ |  |

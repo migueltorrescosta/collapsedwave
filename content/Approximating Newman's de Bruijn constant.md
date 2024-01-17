@@ -28,11 +28,17 @@ Both of the points below follow Andrea's email suggestion
 1. Choose a $t \geq Λ$ ( $t>.2$ suffices for the time being )
 2. Take $n$ zeroes $(x_1, x_2, \dots , x_n)$ of $H_t$
 3. Computationally estimate how the $x_i$ evolve backwards in time (i.e. towards $t=0$, getting an estimate of the time $t_k$ at which the trajectories of the various $x_i$ converge to a single point
-4. Reproduce the above with higher values for $n$, obtaining iteratively better estimates of $Λ$.
+4. Reproduce the above with $n \rightarrow \infty$, obtaining better estimates of $Λ$.
 5. If
    1. $G \approx 0$, we proved nothing 😢.
    2. $G$ is statistically far from $0$, we have shown that Riemann's Hypothesis is likely true 🎉
   
 # Pre-requisites
-1. Do we have examples ( in code or books ) of approximating path trajectories using heatflow?
-2. What are the best methods known to find zeroes of the Riemann Zeta, i.e. the $(x_1, x_2, ... , x_n)$
+
+## Finding zeros
+What are the best methods known to find zeroes of the $H_t$. I have no clue how to find zeroes given the lack of knowledge about the properties of $\Phi$ and $\zeta$ , namely bounds on the change rate of the function.
+
+#next-steps Plot the function $H_t(z)$ for $t = .22$ and $z \in \mathbb{R}$. Visualise these zeroes. I can do this visually, but I have no confidence this gives me a good approximation of zeroes due to continuity concerns.
+
+## Modelling the time evolution of the zeroes
+Do we have examples ( in code or books ) of approximating path trajectories using heatflow?Andrea suggested Runge-Kutta. Sounds good
