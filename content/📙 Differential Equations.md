@@ -7,7 +7,7 @@ A differential equation relates a function $\psi$ and it's derivatives. Below we
 
 | Equation | Solution | Note |
 | ---: | ---- | ---- |
-| $a \ddot \psi + b \dot \psi + c \psi = 0$ | $\left \{\begin{matrix} A e^{x_1t} + B e^{x_2t}, & x_1 \neq x_2 \\ A x e^{x_1t} + B e^{x_1t}, & x_1 = x_2 \end{matrix} \right .$ | $(x-x_1)(x-x_2)=ax^2+bx+c$ |
+| $a \ddot \psi + b \dot \psi + c \psi = 0$ | $\left \{\begin{matrix} A e^{x_1t} + B e^{x_2t}, & x_1 \neq x_2 \\ A x e^{x_1t} + B e^{x_1t}, & x_1 = x_2 \end{matrix} \right .$ | $a(x-x_1)(x-x_2)=ax^2+bx+c$ |
 | $\dot \psi + f(x) \psi = g(x)$ | $\psi(x) = e^{-h(x)}\int g(x) e^{h(x)} dx$ | $h(x) := \int f(x) dx$ |
 
 # Second Order Differential Equation
