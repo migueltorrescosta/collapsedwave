@@ -10,7 +10,7 @@ When on a note, you can
 3. Use the graph view to navigate see an overview of linked notes without leaving the page
 4. Setup [Obsidian](https://obsidian.md) in order to explore these notes in your local laptop.
 
-# Keywords
+# 🗝️ Keywords
 As I study through the topic, the following keywords became relevant. To understand a keyword we wouldn't need any of the keywords after it, but we'll likely need a few of the keywords listed before. This "rule" might be broken on occasion.
 
 [[📘 Harmonic Oscillator]]
@@ -52,10 +52,21 @@ For easier read, we will often include the banners below.
 >[!quote]
 > Quotes to external webpages
 
-# DataView
+# 🦅 DataView
 
-The section below allows the easy visualisation of all notes in the Obsidian editor
+The section below allows the easy visualisation of all notes in the Obsidian editor. It does not work well on a browser. Viewing the results uses the DataView plugin while using [Obsidian](https://obsidian.md).
+
+## 🗒️ Recent notes
+
 
 ```dataview
-TABLE date, tags SORT date DESC
+TABLE rows.file.link as File SORT file.ctime DESC LIMIT 20 GROUP BY file.cday as Date
+```
+
+# ⚒️ Work in progress
+
+There are many notes that can be improved. I keep those labelled by linking to the [[Help me❓]] note.
+
+```dataview
+TABLE rows.file.link as File WHERE contains(file.outlinks.file.name, "Help me") GROUP BY file.cday as Date
 ```
