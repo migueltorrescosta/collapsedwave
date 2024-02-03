@@ -15,7 +15,7 @@ As I study through the topic, the following keywords became relevant. To underst
 
 [[📘 Harmonic Oscillator]]
 
-[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, Bounded Linear Transformation Theorem, [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], De Broglie Hypothesis, Superposition, Canonical Commutation Relation, [[📘 Commutator]].
+[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, Bounded Linear Transformation Theorem, [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], De Broglie Hypothesis, Superposition, Canonical Commutation Relation, [[📘 Commutator]].
 
 # 📳 RSS Feed
 
@@ -52,3 +52,10 @@ For easier read, we will often include the banners below.
 >[!quote]
 > Quotes to external webpages
 
+# DataView
+
+The section below allows the easy visualisation of all notes in the Obsidian editor
+
+```dataview
+TABLE date, tags SORT date DESC
+```

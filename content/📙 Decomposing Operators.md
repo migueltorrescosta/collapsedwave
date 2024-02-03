@@ -1,5 +1,5 @@
 ---
-date: 2024-10-11
+date: 2024-01-11
 ---
 Decomposing operators is often useful as a way of building proofs and simplifying calculations. In this document we list different ways of decomposing matrices.
 
