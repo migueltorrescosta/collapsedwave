@@ -13,8 +13,6 @@ When on a note, you can
 # 🗝️ Keywords
 As I study through the topic, the following keywords became relevant. To understand a keyword we wouldn't need any of the keywords after it, but we'll likely need a few of the keywords listed before. This "rule" might be broken on occasion.
 
-[[📘 Harmonic Oscillator]]
-
 [[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, Bounded Linear Transformation Theorem, [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], De Broglie Hypothesis, Superposition, Canonical Commutation Relation, [[📘 Commutator]].
 
 # 📳 RSS Feed
