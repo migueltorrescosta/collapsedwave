@@ -7,4 +7,4 @@ tags:
 
 $H = T + V$
 
-I need to improve this definition significantly. [[Help me❓]]
+I need to improve this definition significantly. [[Help me ❓]]

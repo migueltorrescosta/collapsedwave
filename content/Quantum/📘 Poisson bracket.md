@@ -13,4 +13,4 @@ $\{ f, g \} := \sum_{i=i}^{n} \left ( \frac{\partial f}{\partial q_i} \frac{\par
 > 1. $p, q \in \mathbb{R}^n$ are coordinates in the [[📘 Vector Space#Phase Space]] .
 > 2. $f,g,h: \mathbb{R}^{2n+1} \rightarrow \mathbb{R}$ are real valued scalar fields, with inputs $p,q \in \mathbb{R}^n$ and $t \in \mathbb{R}$ 
 
-I don't have an intuitive explanation of what the Poisson bracket represents. [[Help me❓]]
+I don't have an intuitive explanation of what the Poisson bracket represents. [[Help me ❓]]

@@ -16,4 +16,4 @@ $\int \int_{\Sigma} \left ( \left ( \frac{\partial F_z}{\partial y} - \frac{\par
 > The integral of a vector field's divergence measures the flow through the surface under the given force, meaning that it matches the boundary integral of said force.
 
 >[!success] Proof
-> [[Help me❓]]
+> [[Help me ❓]]

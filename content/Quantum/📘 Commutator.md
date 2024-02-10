@@ -3,7 +3,7 @@ date: 2022-10-14
 tags:
   - quantum-theory
 ---
-$[A, B] := AB - BA$ is defined to be the commutator between $A$ and $B$.
+$[A, B] := AB - BA$ is defined to be the commutator between operators $A$ and $B$.
 
 # Properties
 | Equation | Property |

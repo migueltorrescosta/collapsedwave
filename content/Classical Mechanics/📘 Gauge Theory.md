@@ -3,7 +3,7 @@ date: 2024-01-26
 tags:
   - "#physics"
 ---
-A gauge theory is a type of field theory in which the Lagrangian, and hence the dynamics of the system itself, do not change under local transformations according to certain smooth families of operations (Lie groups).
+A gauge theory is a type of [[field theory]] in which the [[Lagrangian]], and hence the dynamics of the system itself, do not change under local transformations according to certain smooth families of operations ([[Lie groups]]).
 
 # Group relations
 

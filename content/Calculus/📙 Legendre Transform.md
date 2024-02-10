@@ -19,7 +19,7 @@ It is used to convert functions of one quantity into the [[conjugate]] quantity,
 | pressure | volume |
 | temperature | entropy |
  
-It is still unclear how the Legendre Transform should be visualised. [[Help me❓]]
+It is still unclear how the Legendre Transform should be visualised. [[Help me ❓]]
 
 # Converting between Lagrangian and Hamiltonian mechanics
 

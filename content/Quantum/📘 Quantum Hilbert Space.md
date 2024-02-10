@@ -67,3 +67,4 @@ $\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \ph
 > Hence $\frac{d}{dt}\braket{\phi, \psi}=0$, so the braket $\braket{\phi, \psi}$ is constant over time $t$
 
 
+A key part of Quantum Hilbert Spaces are [[Linear Operator]]s and [[📘 Hamiltonian Operator]] 

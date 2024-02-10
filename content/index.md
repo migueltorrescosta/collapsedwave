@@ -13,8 +13,15 @@ When on a note, you can
 # 🗝️ Keywords
 As I study through the topic, the following keywords became relevant. To understand a keyword we wouldn't need any of the keywords after it, but we'll likely need a few of the keywords listed before. This "rule" might be broken on occasion.
 
-[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, Bounded Linear Transformation Theorem, [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], De Broglie Hypothesis, Superposition, Canonical Commutation Relation, [[📘 Commutator]].
+## I'm familiar with...
 
+[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, [[Bounded Linear Transformation Theorem]], [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], [[De Broglie Hypothesis]], Superposition, [[📘 Commutator]], Canonical Commutation Relation.
+
+## I want to learn...
+
+I need to review the concepts below.
+
+Fock space, Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix
 # 📳 RSS Feed
 
 You can follow new notes from this webpage as they are being created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).
@@ -56,14 +63,13 @@ The section below allows the easy visualisation of all notes in the Obsidian edi
 
 ## 🗒️ Recent notes
 
-
 ```dataview
 TABLE rows.file.link as File SORT file.ctime DESC LIMIT 20 GROUP BY file.cday as Date
 ```
 
 # ⚒️ Work in progress
 
-There are many notes that can be improved. I keep those labelled by linking to the [[Help me❓]] note.
+There are many notes that can be improved. I keep those labelled by linking to the [[Help me ❓]] note.
 
 ```dataview
 TABLE rows.file.link as File WHERE contains(file.outlinks.file.name, "Help me") GROUP BY file.cday as Date

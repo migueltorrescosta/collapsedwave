@@ -8,7 +8,7 @@ The value $\Delta_\psi A$ is known as the uncertainty of [[measurement]] $A$ in 
 >[!info]-
 > 1. $A: H \rightarrow H$ is a [[📘 Linear Operator#Self Adjoint Operator]]
 > 2. $\psi \in H$ is a [[quantum state vector]]
-> 3. $\braket{A}_\psi$ is the [[📘 Expectation value]] of $A$ given the [[quantum state vector]] $\psi$
+> 3. $\braket{A}_\psi$ is the [[📘 Expectation]] of $A$ given the [[quantum state vector]] $\psi$
 > 4. $I$ is the identity matrix
 
 ## Time evolution of the measurement uncertainty
@@ -18,7 +18,7 @@ $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$
 > 1. $H$ is the [[📘 Hamiltonian Operator]]
 > 2. $\hat{H}$ is the [[📘 Linear Operator#Self Adjoint Operator]] associated to $H$ 
 > 3. $[ \cdot , \cdot ]$ is the [[📘 Commutator]]
-> 4. $\braket{A}_\psi$ is the [[📘 Expectation value]] of a measurement under operator $A$ given we're in the [[quantum state vector]] $\psi$ 
+> 4. $\braket{A}_\psi$ is the [[📘 Expectation]] of a measurement under operator $A$ given we're in the [[quantum state vector]] $\psi$ 
 
 >[!success]
 > $$\frac{d}{dt}\braket{A}_\psi = \frac{d}{dt} \braket{\psi, A \psi} = \braket{\frac{d}{dt}\psi , A \psi} + \braket{\psi, A \frac{d}{dt}\psi}$$
