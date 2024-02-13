@@ -29,13 +29,14 @@ You can follow new notes from this webpage as they are being created by subscrib
 # ❓ Note icons
 All notes have an icon before the title. This provides you with instant feedback about the contents of the note:
 
-| Icon | Type                   |  
-|-----:|------------------------|  
-|   📕 | Axiom                  |  
-|   📘 | Definition             |  
-|   📗 | Proposition or Theorem |  
-|   📙 | Methodology            |  
-|   🗺️ | Miscellaneous          |
+| Icon | Type |
+| ---: | ---- |
+| 📕 | Axiom |
+| 📘 | Definition |
+| 📗 | Proposition or Theorem |
+| 📙 | Methodology |
+| 🗒️ | Papers |
+| 🗺️ | Miscellaneous |
 
 # 👩‍🔬 Advanced contributors  
 By using this website and sharing it, you are already contributing. If there is missing content that should be added do submit a [Content Request](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose).
@@ -61,16 +62,26 @@ For easier read, we will often include the banners below.
 
 The section below allows the easy visualisation of all notes in the Obsidian editor. It does not work well on a browser. Viewing the results uses the DataView plugin while using [Obsidian](https://obsidian.md).
 
-## 🗒️ Recent notes
-
 ```dataview
-TABLE rows.file.link as File SORT file.ctime DESC LIMIT 20 GROUP BY file.cday as Date
+TABLE WITHOUT ID
+file.link as Papers,
+file.frontmatter.tags as Tags,
+file.frontmatter.url as "ArXiV URL"
+FROM "Papers"
+SORT file.ctime
 ```
 
-# ⚒️ Work in progress
+
+```dataview
+TABLE
+rows.file.link as "Recently edited files"
+SORT file.ctime DESC LIMIT 20 GROUP BY file.cday as Date
+```
+
+## ⚒️ Work in progress
 
 There are many notes that can be improved. I keep those labelled by linking to the [[Help me ❓]] note.
 
 ```dataview
-TABLE rows.file.link as File WHERE contains(file.outlinks.file.name, "Help me") GROUP BY file.cday as Date
+TABLE rows.file.link as WIP WHERE contains(file.outlinks.file.name, "Help me") GROUP BY file.cday as Date
 ```
