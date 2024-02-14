@@ -10,7 +10,7 @@ Below I've written up the aspects of this paper
 
 # 💻 Algorithm
 
-The decomposition of $\log N$ as $\log p_i + \log \hat N_i$ is possible as the first qubit is in a state $\log p_i$ and the second qubit in a state $\log j$, for $i, j \in \{ 1, 2, ... , m \}$. Then the decomposition of $\ket{log N}$ is only possible if $\log \hat N_i \leq \log m \Rightarrow \hat N_i < m, \exists $\bar N_i$. Letting $p$ be the greatest prime factor of $n$, we would then need to have $m \geq N/p$ in order for the algorithm to work, otherwise none of the eigenstates of $\bar H$ have energy level $\log N$. What happens if this is the case?
+The decomposition of $\log N$ as $\log p_i + \log \hat N_i$ is possible as the first qubit is in a state $\log p_i$ and the second qubit in a state $\log j$, for $i, j \in \{ 1, 2, ... , m \}$. Then the decomposition of $\ket{log N}$ is only possible if $\log \hat N_i \leq \log m \Rightarrow \hat N_i < m$, \exists $\bar N_i$. Letting $p$ be the greatest prime factor of $n$, we would then need to have $m \geq N/p$ in order for the algorithm to work, otherwise none of the eigenstates of $\bar H$ have energy level $\log N$. What happens if this is the case?
 
 Example: If $N = 2^{500}$, then the only possible decomposition of $\log{N}$ is given by $\log(N) = \log(2^{500}) = \log(2) + \log ( 2^{499} )$. For the measurement potentially return $\ket{\log 2} \ket{\log 2^{499}}$ we need $m \geq 2^{499}$.
 
