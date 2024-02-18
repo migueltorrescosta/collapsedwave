@@ -21,7 +21,7 @@ As I study through the topic, the following keywords became relevant. To underst
 
 I need to review the concepts below.
 
-Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix, Lie Algebra, Lie Group, Fock space, Moyal bracket
+Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix, Lie Algebra, Lie Group, Fock space, Moyal bracket, Weyl Quantization
 # 📳 RSS Feed
 
 You can follow new notes from this webpage as they are being created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).

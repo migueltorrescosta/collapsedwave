@@ -1,4 +1,4 @@
-[Dataview][https://blacksmithgu.github.io/obsidian-dataview/] is an [Obsidian](https://obsidian.md/) Plugin that summarises my notes in a tabular form. This is very valuable locally, however it does not render nicely on the website.
+[Dataview](https://blacksmithgu.github.io/obsidian-dataview/) is an [Obsidian](https://obsidian.md/) Plugin that summarises my notes in a tabular form. This is very valuable locally, however it does not render nicely on the website.
 
 ```dataview
 TABLE WITHOUT ID
@@ -27,15 +27,11 @@ SORT file.mtime ASC
 LIMIT 5
 ```
 
-```dataview
-TABLE WITHOUT ID
-file.link as Papers,
-file.frontmatter.url as "ArXiV URL"
-FROM "Papers"
-SORT file.ctime
-```
-
 ## The tables below should be empty
+
+```tasks
+
+```
 
 ```dataview
 TABLE WITHOUT ID
