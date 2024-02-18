@@ -1,7 +1,7 @@
 ---
 date: 2023-10-12
 tags:
-  - classical-mechanics
+  - "#classical-mechanics"
 ---
 - $\frac{1}{2}mv^2$  for a classical particle
 - $\hat T = - \frac{\hbar}{2m}\nabla^2$ for a [[quantum state vector]].

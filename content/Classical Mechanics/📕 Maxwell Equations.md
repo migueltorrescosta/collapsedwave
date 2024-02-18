@@ -1,9 +1,9 @@
 ---
 date: 2024-01-17
 tags:
-  - classical-mechanics
+  - "#classical-mechanics"
 ---
-Maxwell equations describe the behaviour of magnetic and electric fields.
+Maxwell equations describe the behaviour of the [[magnetic field]] and [[electric field]].
 
 | Equation | Comment |
 | :----: | ---- |

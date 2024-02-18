@@ -24,3 +24,5 @@ $F$ is a conservative force iff $\frac{\delta F_j}{\delta x_k} = \frac{\delta F_
 >[!success]
 > If $F$ is conservative, $\exists V : F = -\nabla V$ . Hence $$\frac{\partial F_j}{\partial x_k} = \frac{\partial^2 V}{\partial x_k \partial x_j} = \frac{\partial^2 V}{\partial x_j \partial x_k} = \frac{\partial F_k}{\partial x_j}$$
 Conversely, If $F$ satisfies $\frac{\partial F_j}{\partial x_k} = \frac{\partial F_k}{\partial x_j}$ we can use path integrals to define $V$, and use [[📗 Stokes theorem]] to show that the integral is independent of the choice of paths.
+
+I need to rename the result above so that they fit into nice notes. [[Help me ❓]] Maybe these results have well known names that I haven't found yet.

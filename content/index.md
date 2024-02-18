@@ -2,26 +2,26 @@
 title: Home
 date: 2023-11-13
 ---
-Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar. If this is your first time, the [[📕 Postulates of Quantum Mechanics]] are a decent starting point.
+Hey 👋 Collapsed Wave is a glossary of notes around Machine Learning and Quantum Theory. Finding notes is easy using the Search Bar. If this is your first time, the postulates of quantum are a good starting point: [[📕 Postulate 1]], [[📕 Postulate 2]], [[📕 Postulate 3]], [[📕 Postulate 4 - Schrodinger Equation]].
 
 When on a note, you can
 1. Follow the links to see relevant content.
-2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Vector Space#Hilbert Space]]s are mentioned frequently.
+2. Follow the back links to find mentions of a page. Some concepts such as [[📘 Potential energy]] and [[📘 Hilbert Space]]s are mentioned frequently.
 3. Use the graph view to navigate see an overview of linked notes without leaving the page
 4. Setup [Obsidian](https://obsidian.md) in order to explore these notes in your local laptop.
 
 # 🗝️ Keywords
-As I study through the topic, the following keywords became relevant. To understand a keyword we wouldn't need any of the keywords after it, but we'll likely need a few of the keywords listed before. This "rule" might be broken on occasion.
+As I study through the topic, the following keywords became relevant. To understand a keyword we wouldn't need any of the keywords after it, but we'll likely need a few of the keywords listed before. This "rule" might be broken on occasion.sa
 
 ## I'm familiar with...
 
-[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, [[Bounded Linear Transformation Theorem]], [[📘 Quantum Hilbert Space#Position Operator]], [[📘 Quantum Hilbert Space#Momentum Operator]], [[De Broglie Hypothesis]], Superposition, [[📘 Commutator]], Canonical Commutation Relation.
+[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], Symmetric Operator, Self-adjoint Operator, Unbounded Operator, [[Bounded Linear Transformation Theorem]], [[📘 Position Operator]], [[📘 Momentum Operator]], [[De Broglie Hypothesis]], Superposition, [[📘 Commutator]], Canonical Commutation Relation.
 
 ## I want to learn...
 
 I need to review the concepts below.
 
-Fock space, Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix
+Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix, Lie Algebra, Lie Group, Fock space, Moyal bracket
 # 📳 RSS Feed
 
 You can follow new notes from this webpage as they are being created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).
@@ -58,36 +58,6 @@ For easier read, we will often include the banners below.
 >[!quote]
 > Quotes to external webpages
 
-# 🦅 DataView
+# 🦅 Dataview Summary
 
-The section below allows the easy visualisation of all notes in the Obsidian editor. It does not work well on a browser. Viewing the results uses the DataView plugin while using [Obsidian](https://obsidian.md).
-
-## ⚒️ Work in progress
-
-There are many notes that can be improved. I keep those labelled by linking to the [[Help me ❓]] note.
-
-```dataview
-TABLE WITHOUT ID
-file.link as "Work in Progress",
-file.cday as "Last edited"
-SORT file.ctime DESC
-WHERE contains(file.outlinks.file.name, "Help me")
-```
-
-
-```dataview
-TABLE WITHOUT ID
-file.link as Papers,
-file.frontmatter.url as "ArXiV URL"
-FROM "Papers"
-SORT file.ctime
-```
-
-
-```dataview
-TABLE WITHOUT ID
-file.link as "Recently edited files",
-file.tags as Tags
-SORT file.ctime DESC
-LIMIT 10
-```
+I keep [[🦅 Dataview Summary]] to quickly see work in progress, broken tags and other useful information at a glance.

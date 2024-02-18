@@ -1,7 +1,7 @@
 ---
 date: 2024-01-26
 tags:
-  - math
+  - "#calculus"
 ---
 A differential equation relates a function $\psi$ and it's derivatives. Below we list a few types of equations and their solutions. These are often needed to solve other problems in physics. Below we have a table of solutions:
 

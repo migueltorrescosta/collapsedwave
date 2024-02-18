@@ -1,7 +1,7 @@
 ---
 date: 2023-10-21
 tags:
-  - quantum-theory
+  - "#quantum-theory"
 ---
 
 $d$-dimensional [[qubit]]

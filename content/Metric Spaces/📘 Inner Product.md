@@ -5,8 +5,8 @@ A [[binary operation]] $\braket{\cdot, \cdot}: V \times V \rightarrow F$ satisfy
 
 | Axiom | Description |
 | ---: | --- |
-| $\braket{v,w}=\overline{\braket{w,v}}$ | conjugate symmetry |
-| $\braket{v,v} \geq 0 \forall v \in \mathbb{V}$, with $\braket{v,v}=0 \Leftrightarrow v=0$ | positive semidefinitiveness |
+| $\braket{v,w}=\overline{\braket{w,v}}$ | [[conjugate symmetry]] |
+| $\braket{v,v} \geq 0 \forall v \in \mathbb{V}$, with $\braket{v,v}=0 \Leftrightarrow v=0$ | [[positive semidefinitiveness]] |
 | $\braket{v,aw+bz}=a\braket{v,w} + b\braket{v,z}$ | Linearity |
 
 >[!info]-

@@ -1,7 +1,7 @@
 ---
 date: 2023-10-12
 tags:
-  - classical-mechanics
+  - "#classical-mechanics"
 ---
 A conserved quantity for a given [[📘 Trajectory]]. This is true of the [[📘 Total Energy]] of a system, however other quantities can also be constants of motion
 
@@ -41,3 +41,5 @@ $E(x, \dot x) = \frac{1}{2}m \| \dot x \|^2 + V(x)$ is a [[📘 Constant of Moti
 > $$ \frac{d}{dt} \left ( \frac{1}{2}m \| \dot x \|^2 + V(x(t)) \right ) = \dot x(t) \cdot \left [ F(x) + \nabla V \right ] = \dot x(t) \cdot [ - \nabla V + F_2(x,v) + \nabla V ] = \dot x(t) \cdot F_2(x,v) $$
 > 
 > Hence the Energy is constant iff $F_2$ is orthogonal to the velocity $v = \dot x$ .
+
+I need to rename the results above so that they fit into nice notes. [[Help me ❓]] Maybe these results have well known names that I haven't found yet.

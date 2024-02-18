@@ -1,9 +1,10 @@
 ---
 date: 2023-10-12
 tags:
-  - quantum-theory
+  - "#quantum-theory"
+  - "#numerical-analysis"
 ---
-Approximating the time evolution of a [[quantum state vector]] $\ket{\Psi(t)} = e^{iHh} \ket{\Psi(0)}$, by applying the [[📘 Quantum Gate]] $e^{\frac{iHh}{N}}$, $N$ times.
+Trotterization is the approximating the time evolution of a [[quantum state vector]] $\ket{\Psi(t)} = e^{iHh} \ket{\Psi(0)}$, by applying the [[📘 Quantum Gate]] $e^{\frac{iHh}{N}}$, $N$ times.
 
 >[!info]-
 > $\ket{\Psi(t)}$ is a [[quantum state vector]] evolving according to the [[📘 Hamiltonian Operator]] $H$.
