@@ -24,7 +24,7 @@ file.link as "Stale files",
 join(file.tags, ", ") as Tags,
 file.mtime as "Last edited at"
 SORT file.mtime ASC
-LIMIT 5
+LIMIT 20
 ```
 
 ## The tables below should be empty
