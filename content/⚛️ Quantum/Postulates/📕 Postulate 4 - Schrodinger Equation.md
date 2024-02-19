@@ -9,5 +9,3 @@ Different systems make use of the above equation by specifying different [[📘 
 > - $H$ is the [[📘 Hamiltonian Operator]] 
 > - $\hbar$ is [[Plancks reduced constant]]
 > - $V$ is the [[📘 Potential energy]]
-
-I need to find the best way of splitting the above postulates into multiple files. [[Help me ❓]]
