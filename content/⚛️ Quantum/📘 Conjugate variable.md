@@ -5,4 +5,4 @@ tags:
 ---
 Conjugate variables are pairs of [[Linear Operator]]s that satisfy the relation $[A,B] = i\hbar$ . 
 # Example
-- [[📗 Position and Momentum are conjugate variables]]
+- [[📗 Position and Momentum Operators are Canonical Commutators]]
