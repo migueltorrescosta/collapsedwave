@@ -15,13 +15,24 @@ As I study through the topic, the following keywords became relevant. To underst
 
 ## I'm familiar with...
 
-[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], [[📘 Symmetric Operator]], [[📘 Self-Adjoint Operator]], Unbounded Operator, [[Bounded Linear Transformation Theorem]], [[📘 Position Operator]], [[📘 Momentum Operator]], [[De Broglie Hypothesis]], Superposition, [[📘 Commutator]], Canonical Commutation Relation.
+[[📘 Trajectory]], Hooke's law, [[📘 Harmonic Oscillator]], Frequency of Oscillation, [[📘 Kinetic energy]], [[📘 Potential energy]], [[📘 Constant of Motion]] aka Conserved Quantity, [[Implicit Function Theorem]], Integral of Motion, Damped Harmonic Oscillator, [[📘 Conservative force]], [[📘 Gradient]], [[📘 Curl]], [[📗 Stokes theorem]], center of mass, angular momentum, Kepler's 2nd Law, [[📘 Poisson bracket]], [[Diffeomorphism]], [[📘 Flow]], Complete Flow, Sympletic Form, Symplectomorphism, Canonical Transformation, Hamiltonian flow, Hamiltonian generator, Hamiltonian generator of rotations, joint level, [[Riesz Representation Theorem]], [[📘 Symmetric Operator]], [[📘 Self-Adjoint Operator]], Unbounded Operator, [[Bounded Linear Transformation Theorem]], [[📘 Position Operator]], [[📘 Momentum Operator]], [[De Broglie Hypothesis]], Superposition, [[📘 Commutator]], [[📘 Canonical Commutation Relations]], [[📘 Angular Momentum]], [[📘 Lie Algebra]], [[Lie Group]], [[📘 Fock Space]]
 
 ## I want to learn...
 
 I need to review the concepts below.
 
-Heisenberg picture, Schrodinger picture, Fermi Golden Rule, Dense coding, Angular Momentum, Spin, Stern-Gerlach Experiment, gamma matrix, Lie Algebra, Lie Group, Fock space, Moyal bracket, Weyl Quantization
+- [ ] Heisenberg picture
+- [ ] Schrodinger picture
+- [ ] Fermi Golden Rule
+- [ ] Dense coding,
+- [ ] Spin
+- [ ] Stern-Gerlach Experiment
+- [ ] gamma matrix
+- [ ] Lie Group
+- [ ] Moyal bracket
+- [ ] Weyl Quantization
+- [ ] Rabi oscillations
+- [ ] Infinitesimal Generator ( of a one parameter unitary group )
 # 📳 RSS Feed
 
 You can follow new notes from this webpage as they are being created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).
