@@ -13,7 +13,7 @@ Given the Fourier Transform $\hat f$ of a function $f$, we are able to retrieve 
 # Properties
 - [[📗 Fourier Uncertainty Principle]]
 
-The usefulness of the Fourier transform comes from the results below
+The results below make Fourier transforms very useful
 
 | | $f(x)$ | $\bar f ( t )$ |
 | ---: | --- | --- |
@@ -31,10 +31,10 @@ The usefulness of the Fourier transform comes from the results below
 
 Below we list frequently needed Fourier transforms
 
-| | $f(x)$ | $\hat f(t)$ |
-| ---: | --- | :--- |
-| Dirac | $\delta (x)$ | 1 |
-| Constant | 1 | $\delta ( t )$ |
-| Cosine | $\cos(2 \pi A x)$ | $\frac{1}{2} (\delta( t - A) + \delta( t + A) )$ |
-| Sine | $\sin(2 \pi A x)$ | $\frac{1}{2i} (\delta( t - A) - \delta( t + A) )$ |
-| Step function | $\mathbb{1}_{x \geq 0}$ | $\frac{1}{2 \pi i t }$ |
+|               | $f(x)$                  | $\hat f(t)$                                       |
+| ------------: | ----------------------- | :------------------------------------------------ |
+|         Dirac | $\delta (x)$            | 1                                                 |
+|      Constant | 1                       | $\delta ( t )$                                    |
+|        Cosine | $\cos(2 \pi A x)$       | $\frac{1}{2} (\delta( t - A) + \delta( t + A) )$  |
+|          Sine | $\sin(2 \pi A x)$       | $\frac{1}{2i} (\delta( t - A) - \delta( t + A) )$ |
+| Step function | $\mathbb{1}_{x \geq 0}$ | $\frac{1}{2 \pi i t }$                            |

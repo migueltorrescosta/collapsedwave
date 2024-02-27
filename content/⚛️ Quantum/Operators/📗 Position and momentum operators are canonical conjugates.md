@@ -2,6 +2,7 @@
 tags:
   - "#quantum-theory"
 ---
+The [[📘 Position Operator]] and [[📘 Momentum Operator]] are [[Canonical conjugates]]
 We explicitly calculate $[X,P]\psi$ for a generic $\psi$:
 
 |  | Action |
