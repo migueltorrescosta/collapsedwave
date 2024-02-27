@@ -1,5 +1,7 @@
 [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) is an [Obsidian](https://obsidian.md/) Plugin that summarises my notes in a tabular form. This is very valuable locally, however it does not render nicely on the website.
 
+
+
 ```dataview
 TABLE WITHOUT ID
 tags as "All Tags",
@@ -27,11 +29,15 @@ SORT file.mtime ASC
 LIMIT 20
 ```
 
-## The tables below should be empty
+# The tables below should be empty
 
+## Tasks
 ```tasks
 
 ```
+
+## WIP
+Pages that link to [[Help me ❓]]
 
 ```dataview
 TABLE WITHOUT ID
@@ -41,16 +47,23 @@ SORT file.ctime DESC
 WHERE contains(file.outlinks.file.name, "Help me")
 ```
 
+## Missing files
+Some terms are mentioned often, but I have yet to create a page for them.
+
 ```dataview
-TABLE without id 
-out AS "Uncreated files",
-length(rows.file.link) as "Mentions"
+TABLE WITHOUT ID
+" (" + length(rows.file.links) + ") " + out AS "Missing File",
+join(rows.file.link, ", ") as Mentions
 FLATTEN file.outlinks as out
 WHERE !(out.file) AND !contains(meta(out).path, "/")
-GROUP BY out
+GROUP by out
 SORT length(rows.file.link) DESC
 LIMIT 10
 ```
+
+
+## Sublinks
+I am avoiding having concepts nested in a single note. The view below lists these.
 
 ```dataview
 TABLE without id 

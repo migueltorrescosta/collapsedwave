@@ -12,7 +12,7 @@ $[A, B] := AB - BA$ is defined to be the commutator between operators $A$ and $B
 | $[A, B] = - [B, A]$ | anti-commutativity |
 | $[xA + yB, C] = x[A, C] + y[B,C]$ | Bilinearity |
 | $[A, BC] = [A,B]C + B[A,C]$ | Distributivity |
-| $[A, [B,C]] + [B, [C,A]] + [C, [A,B]] = 0$ | [[Jacobi identity]] |
+| $[A, [B,C]] + [B, [C,A]] + [C, [A,B]] = 0$ | [[📘 Jacobi identity]] |
 >[!info]-
 > $x,y \in \mathbb{C}$
 
