@@ -1,0 +1,7 @@
+---
+date: ???
+location: ???
+lecturer: ???
+---
+
+Write all info here
