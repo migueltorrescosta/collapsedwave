@@ -8,7 +8,7 @@ Conjugate variables are pairs of [[Linear Operator]]s that satisfy the relation 
 - [[📗 Position and momentum operators are canonical conjugates]]
 
 
-The following concepts are blurry. [[Help me ❓]]
+The differences between the following concepts are blurry. [[Help me ❓]]
 - Conjugate Variable
 - Canonical Conjugates
 - Canonical Commutators

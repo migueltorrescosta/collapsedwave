@@ -18,15 +18,6 @@ The above only describes the algorithm used. The paper also addresses physical i
 
 🌞 nitpick: It was unclear in Eq 3 that the [[Hamiltonian]] $\bar H_1$ and $\bar H_2$ were operating on distinct [[qubit]]s. The notation for this is the [[tensor product]], $\bar H = \bar H_1 \otimes \bar H_2$
 
-## 🎅 Requirement for a large $m$
-The decomposition of $\log N$ as $\log p_i + \log \hat N_i$ is possible as 
-- the first [[qubit]] is in a state $\log p_i$
-- the second [[qubit]] in a state $\log j$, for $i, j \in \{ 1, 2, ... , m \}$. 
-
-Focusing on the 2nd [[qubit]], the decomposition of $\ket{\log N}$ is only possible if there exists a $\bar N_i$ such that $\log \hat N_i \leq \log m \Rightarrow \hat N_i < m$. Letting $p$ be the [[📘 Greatest prime factor]] of $n$, we would then need to have $m \geq N/p$ in order for the algorithm to work, otherwise none of the [[📘 Eigenstate]] of $\bar H$ have energy level $\log N$. What happens if this is the case?
-
-Example: If $N = 2^{500}$, then the only possible decomposition of $\log{N}$ is given by $\log(N) = \log(2^{500}) = \log(2) + \log ( 2^{499} )$. For the measurement to return $\ket{\log 2} \ket{\log 2^{499}}$ we need $m \geq 2^{499}$.
-
 # 🌍 Quantum Potentials
 
 I'm lost here as my own understanding of Quantum Physics is limited. [[Help me ❓]]. I need to learn the concepts of
