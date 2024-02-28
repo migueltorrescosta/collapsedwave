@@ -22,7 +22,7 @@ stateDiagram
 	M_n(R) --> O(n) : preserves inner products
 	O(n) --> SO(n) : determinant equals 1
 	GL(n,F) --> U(n,F) : preserves inner products
-	SL(n,F) --> SU(n,F) : determinant equals 1
+	SL(n,F) --> SU(n,F) : preserves inner products
 	U(n,F) --> O(n) : real matrices only
 	SU(n,F) --> SO(n) : real matrices only
 ```
