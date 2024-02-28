@@ -3,29 +3,7 @@ tags:
   - "#group-theory"
   - "#diagram"
 ---
-The table below summarises the relations between frequently used groups
-
-
-```mermaid
-flowchart LR
-	MF[n by n matrices over F]
-	MR[n by n matrices over the real line]
-	GL[General Linear Group over F]
-	U[Unitary Group over F]
-	SL[Special Linear Group over F]
-	SU[Special Unitary Group over F]
-	O[Orthogonal Group]
-	SO[Special Orthogonal Group]
-	MF-. non-zero determinant .-> GL
-	GL-. determinant equals 1 .-> SL
-	U-. determinant equals 1 .-> SU
-	MR-. stuff .-> O
-	O-. stuff .-> SO
-	GL-. preserves inner products .-> U
-	SL-. determinant equals 1 .-> SU
-	U-. stuff .-> O
-	SU-. stuff .-> SO
-```
+The table below summarises the inclusion relations between frequently used groups
 
 
 ```mermaid
@@ -38,18 +16,16 @@ stateDiagram
 	M_n(R)
 	O(n)
 	SO(n)
-	M_n(F) --> GL(n,F)
-	GL(n,F) --> SL(n,F)
-	U(n,F) --> SU(n,F)
-	M_n(R) --> O(n)
-	O(n) --> SO(n)
-	GL(n,F) --> U(n,F)
-	SL(n,F) --> SU(n,F)
-	U(n,F) --> O(n)
-	SU(n,F) --> SO(n)
+	M_n(F) --> GL(n,F) : invertible matrices
+	GL(n,F) --> SL(n,F) : determinant equals 1
+	U(n,F) --> SU(n,F) : determinant equals 1
+	M_n(R) --> O(n) : preserves inner products
+	O(n) --> SO(n) : determinant equals 1
+	GL(n,F) --> U(n,F) : preserves inner products
+	SL(n,F) --> SU(n,F) : determinant equals 1
+	U(n,F) --> O(n) : real matrices only
+	SU(n,F) --> SO(n) : real matrices only
 ```
-
-
 
 Where, up to LaTeX formatting, we have the following groups:
 - $\mathbb{F}$ is a [[field]]
