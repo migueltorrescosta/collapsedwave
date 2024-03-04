@@ -14,4 +14,5 @@ The statistical operator $\hat \rho$ is
 
 # Examples
 1. We have a system which is in state $\ket{\psi_\alpha}$ with probability $p_\alpha$, $\sum_{\alpha} p_\alpha = 1$, and make a measurement $\hat O = \sum_n O_n \ket{O_n}\bra{O_n}$. Then $\mathbb{P}[O_n] = \sum_\alpha p_\alpha | \braket{p_\alpha | O_n } |^2$. This can be rewritten as $\mathbb{P}[O_n] = \braket{O_n | \hat \rho | O_n}$, where $\hat \rho$ is our density matrix.
-2. 
+
+The difference between [[📘 Density matrix]] and Density Operator is tricky to define. [[Help me ❓]]
