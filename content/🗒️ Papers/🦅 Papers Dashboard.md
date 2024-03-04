@@ -2,7 +2,6 @@
 tags:
   - "#dashboard"
 ---
-
 ```dataview
 TABLE WITHOUT ID
 file.link as Papers,
