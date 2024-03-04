@@ -1,5 +1,7 @@
 ---
 date: 2023-11-25
+tags:
+  - "#lookup-table"
 ---
 
 $$\hat f ( t ) := \int_{- \infty}^{\infty} f(x) e^{-2 \pi i t x  } dx$$
