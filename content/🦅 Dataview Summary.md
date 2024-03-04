@@ -72,3 +72,20 @@ WHERE contains(meta(out).display, " > ")
 SORT length(rows.file.link) DESC
 LIMIT 10
 ```
+
+## I still need to add notes on the topics below
+
+I need to review the concepts below.
+
+- [ ] Heisenberg picture
+- [ ] Schrodinger picture
+- [ ] Fermi Golden Rule
+- [ ] Dense coding,
+- [ ] Spin
+- [ ] Stern-Gerlach Experiment
+- [ ] gamma matrix
+- [ ] Lie Group
+- [ ] Moyal bracket
+- [ ] Weyl Quantization
+- [ ] Rabi oscillations
+- [ ] Infinitesimal Generator ( of a one parameter unitary group )
