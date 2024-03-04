@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#organization"
+  - "#dashboard"
 ---
 
 ```dataview

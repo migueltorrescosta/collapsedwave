@@ -1,3 +1,8 @@
+---
+tags:
+  - "#dashboard"
+---
+
 The dataview below allows me to see a summary of all seminars. It is REALLY useful locally, but it doesn't render on the web.
 
 ```dataview
