@@ -6,7 +6,7 @@ url: https://arxiv.org/abs/2309.10757
 ---
 # 🧮 Summary
 
-1. Build a [[📘 Quantum Hilbert Space]] from the [[tensor product]] $\tilde H = \tilde H_1 \otimes \tilde H_2$ of two systems given by [[Hamiltonian]]s $\tilde H_1$ and $\tilde H_2$. For a chosen $m \in \mathbb{Z}^+$ 
+1. Build a [[📘 Quantum Hilbert Space]] from the [[📘 Tensor product]] $\tilde H = \tilde H_1 \otimes \tilde H_2$ of two systems given by [[Hamiltonian]]s $\tilde H_1$ and $\tilde H_2$. For a chosen $m \in \mathbb{Z}^+$ 
 	1. $\tilde H_1$ has eigenvalues given by $\log p_i, i \in \{1, 2 ,... m \}$
 	2. $\tilde H_2$ has eigenvalues given by $\log j, j \in \{1, 2 ,... m \}$
 	3. The two systems above can be realised using either [[Supersymmetric Quantum Mechanics]]. This can be done more efficiently using a result from [[🗒️ Quantum algorithm for nonlinear differential equations]]
@@ -16,7 +16,7 @@ The above only describes the algorithm used. The paper also addresses physical i
 
 # ❓ Questions
 
-🌞 nitpick: It was unclear in Eq 3 that the [[Hamiltonian]] $\bar H_1$ and $\bar H_2$ were operating on distinct [[qubit]]s. The notation for this is the [[tensor product]], $\bar H = \bar H_1 \otimes \bar H_2$
+🌞 nitpick: It was unclear in Eq 3 that the [[Hamiltonian]] $\bar H_1$ and $\bar H_2$ were operating on distinct [[qubit]]s. The notation for this is the [[📘 Tensor product]], $\bar H = \bar H_1 \otimes \bar H_2$
 
 # 🌍 Quantum Potentials
 

@@ -1,12 +1,14 @@
 ---
 tags:
   - "#quantum-theory"
+aliases:
+  - Reduced trace
 ---
-The Partial Trace allows us to map a [[📘 Density matrix]] $\rho_{SE}$ into a the [[📘 Density matrix]] $\rho_S$ of a [[📘 Reduced system]]. It has the key defining properties:
+The Partial Trace $\mathrm{Tr}_E$ allows us to map a [[📘 Density matrix]] $\rho_{SE}$ into a the [[📘 Density matrix]] $\rho_S$ of a [[📘 Reduced system]]. $\rho_S$ is also known as the [[📘 Partial Trace|Reduced trace]] It has the key defining properties:
 
 - $\mathrm{Tr}_{E} : H_S \bigotimes H_E \rightarrow H_S$, where
 	- $H_S$ and $H_E$ are [[📘 Quantum Hilbert Space]]s
-	- $\bigotimes$ is their [[tensor product]].
+	- $\bigotimes$ is their [[📘 Tensor product]].
 - $\braket{A} = \mathrm{Tr}[ ( A \bigotimes \mathbb{I}_E ) \rho_{SE}] = \mathrm{Tr} [ A \rho_S]$, where
 	- $A$ is a [[📘 Quantum observable]].
 	- $\mathbb{I}_E$ is the [[📘 Identity]] operator on $H_E$
