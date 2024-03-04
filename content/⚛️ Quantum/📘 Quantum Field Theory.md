@@ -2,6 +2,7 @@
 date: 2024-01-17
 tags:
   - "#quantum-theory"
+  - "#diagram"
 ---
 Quantum Field Theory joins the ideas behind [[quantum theory]] and [[special relativity]]. There are multiple field theories that apply to different forces:
 
