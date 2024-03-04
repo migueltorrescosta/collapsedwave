@@ -64,6 +64,14 @@ LIMIT 10
 ```
 
 
+## No links
+The tables below are disconnected from the rest of the graph. Tags are ignored in this view
+
+```dataview
+TABLE WITHOUT ID
+file.link as "No links present"
+WHERE !file.outlinks and !file.inlinks
+```
 ## Sub-links
 I am avoiding having concepts nested in a single note. The view below lists mentions to sub-links.
 

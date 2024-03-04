@@ -31,4 +31,4 @@ You can also write the note you want to see in this webpage by submitting a PR i
 
 # 🦅 Dataview Summary
 
-I keep [[🦅 Dashboard]] to quickly see work in progress, broken tags and other useful information at a glance.
+I keep [[🦅 Core Dashboard]] to quickly see work in progress, broken tags and other useful information at a glance.

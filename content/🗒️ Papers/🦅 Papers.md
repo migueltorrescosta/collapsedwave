@@ -2,6 +2,8 @@
 tags:
   - "#dashboard"
 ---
+See the [[🦅 Core Dashboard]] for other key information.
+
 ```dataview
 TABLE WITHOUT ID
 file.link as Papers,

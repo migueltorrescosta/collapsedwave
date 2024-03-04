@@ -2,7 +2,7 @@
 tags:
   - "#dashboard"
 ---
-The dataview below allows me to see a summary of all seminars. It is REALLY useful locally, but it doesn't render on the web.
+The dataview below allows me to see a summary of all seminars. See the [[🦅 Core Dashboard]] for other key information.
 
 ```dataview
 TABLE WITHOUT ID
