@@ -14,7 +14,7 @@ WHERE lecturer
 sort Class ASC
 ```
 
-# Questions to ask
+# Clarifications needed
 
 ```dataview
 TABLE WITHOUT ID
