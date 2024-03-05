@@ -2,6 +2,6 @@
 tags:
   - "#quantum-theory"
 ---
-Reduced systems are based on statistical consideration of a non-isolated Hilbert space $H_S$, whereas the isolated system is made of two components $H = H_S \bigotimes H_E$, where $H_S$ is our system and $H_E$ is the environment.[]()
+Reduced systems refer to replacing working on a full system $H = H_S \bigotimes H_E$ with working solely on the non-closed system $H_S$, which the environment impacts on. Often the environment actions are taken as probabilistic.
 
 ![[environment_action_on_a_quantum_system.png]]

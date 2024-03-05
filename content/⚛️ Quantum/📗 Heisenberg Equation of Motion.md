@@ -1,7 +1,7 @@
 ---
 tags: #quantum-theory 
 ---
-In the [[Heisenberg picture]], the time evolution of measurement uncertainty follows the equation $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$. This result ties to the [[📗 Liouville–von Neumann equation]] from the [[Schrodinger picture]], which applies to a [[📘 Density matrix]] $\hat \rho$.
+In the [[Heisenberg picture]], the time evolution of measurement uncertainty follows the equation $\frac{d}{dt} \braket{A}_\psi = \braket{\frac{1}{i\hbar} [ A, \hat{H} ]}_\psi$. This result ties to the [[📗 Liouville–von Neumann equation]] from the [[Schrodinger picture]], which applies to a [[📘 Statistical Operator]] $\hat \rho$.
 
 >[!info]-
 > 1. $H$ is the [[📘 Hamiltonian Operator]]
