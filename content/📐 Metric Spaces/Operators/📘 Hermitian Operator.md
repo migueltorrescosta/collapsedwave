@@ -2,7 +2,7 @@
 tags:
   - "#algebra"
 ---
-$A: A = A^*$, where $A$ is an operator over the complex [[📘 Vector field]] $\mathbb{C}$
+$A: A = A^\dagger$, where $A$ is an operator over the complex [[📘 Vector field]] $\mathbb{C}$ and $A^\dagger$ is the [[📘 Adjoint Operator]].
 
 # Properties
 - [[📗 Hermitian Operators are Self-Adjoint]]
