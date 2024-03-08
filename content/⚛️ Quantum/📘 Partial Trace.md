@@ -17,7 +17,6 @@ The Partial Trace $\mathrm{Tr}_E$ allows us to map a [[📘 Statistical Operator
 	- $\rho_S$ is the [[📘 Statistical Operator]] of the [[📘 Reduced system]], obtained via $\rho_S = \mathrm{Tr}_E [ \rho_{SE}]$ 
 
 The definition of Trace follows from the condition $\mathrm{Tr}_S[ ( A \bigotimes \mathbb{I}_E ) \rho_{SE}] = \mathrm{Tr} [ A \rho_S]$, and I want to learn that derivation. [[Help me ❓]]
-
 # Properties
 We have that
 - $\mathrm{Tr}[A \bigotimes B] = \mathrm{Tr}[A] \mathrm{Tr}[B]$ 

@@ -4,6 +4,7 @@ tags:
 ---
 [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) is an [Obsidian](https://obsidian.md/) Plugin that summarises my notes in a tabular form. This is very valuable locally, however it does not render nicely on the website.
 
+
 ```dataview
 TABLE WITHOUT ID
 tags as "All Tags",
@@ -59,8 +60,8 @@ join(rows.file.link, ", ") as Mentions
 FLATTEN file.outlinks as out
 WHERE !(out.file) AND !contains(meta(out).path, "/")
 GROUP by out
+WHERE length(rows.file.links)>2
 SORT length(rows.file.link) DESC
-LIMIT 10
 ```
 
 
@@ -101,3 +102,6 @@ I need to review the concepts below.
 - [ ] Weyl Quantization
 - [ ] Rabi oscillations
 - [ ] Infinitesimal Generator ( of a one parameter unitary group )
+
+Also,
+- [ ] Remove the collapsed info sections. I thought it was a good idea at 1st, but it is not

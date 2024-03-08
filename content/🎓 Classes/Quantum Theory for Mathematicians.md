@@ -1,5 +1,5 @@
 ---
-lecturer: Brian C. Hall
+lecturer: "[[Brian C. Hall]]"
 ---
 This isn't exactly a class, but a book I've been following.
 
