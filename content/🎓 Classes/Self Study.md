@@ -1,5 +1,5 @@
 ---
-lecturer:
+lecturer: Miguel Costa
 ---
 While not a class, this section lists topics that I aim to study soon, in order, and some tasks / suggestions of how to get there.
 

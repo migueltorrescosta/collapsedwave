@@ -25,6 +25,7 @@ FLATTEN file.inlinks as inlink
 FLATTEN file.outlinks as outlink
 
 WHERE contains(inlink.file.folder, "Classes")
+AND !contains(inlink.file.name, "🦅")
 AND contains(outlink.file.name, "Help me")
 
 GROUP BY inlink
