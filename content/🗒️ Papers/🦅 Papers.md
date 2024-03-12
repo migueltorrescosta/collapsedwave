@@ -10,5 +10,5 @@ file.frontmatter.url as URL,
 file.link + ": " + file.frontmatter.summary as Paper
 FROM "🗒️ Papers"
 WHERE !contains(file.name, "🦅")
-SORT file.mtime ASC
+SORT file.mtime DESC
 ```
