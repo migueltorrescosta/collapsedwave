@@ -29,6 +29,14 @@ By using this website and sharing it, you are already contributing. If there is 
 
 You can also write the note you want to see in this webpage by submitting a PR in [GitHub](https://github.com/migueltorrescosta/collapsedwave), following the contribution guidelines written in the `README.md` file. Since this process only requires a review to be accepted, it leads to a much faster addition to these notes.
 
+# 🖩 Notation choices
+
+There is variability in the way authors write their mathematics and physics. In this webpage we've made some choices:
+
+- The hat over operators, such as $\hat \rho$ and $\hat U_t^\dagger$, is often skipped in favour of $\rho$ and $U_t^\dagger$. What is/isn't an operator is made clear from context, and writing the hat on top of every symbol is time consuming.
+- Indices are always subscript. It takes as much work to write $K_\alpha$ as it does $K^\alpha$. This standardisation allows me to immediately know that $K_\alpha$ is the $K$ operator indexed by $\alpha$, whereas $K^\alpha$ is $K$ to the power of $\alpha$. If we have multiple scripts, we can keep them ordered, for example as $K_{i, i', j, j'}$.
+- We always use $dt$ as one of the delimiters of the integrand, i.e. we always write $\int t^2dt$ and never $\int dt t^2$. This choice clarifies what the integrand is, for instance, $\int_0^t\rho ds$ is the integral with integrand $\rho(s)$, even though we decided to omit the parameterization of $\rho$ as a function of $s$.
+
 # 🦅 Dataview Summary
 
 I keep [[🦅 Core Dashboard]] to quickly see work in progress, broken tags and other useful information at a glance.
