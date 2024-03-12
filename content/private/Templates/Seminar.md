@@ -4,4 +4,4 @@ location: ???
 lecturer: ???
 ---
 
-Write all info here
+<Contents of the Seminar>

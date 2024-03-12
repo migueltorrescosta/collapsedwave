@@ -6,8 +6,9 @@ See the [[🦅 Core Dashboard]] for other key information.
 
 ```dataview
 TABLE WITHOUT ID
-file.link as Papers,
-file.frontmatter.url as "ArXiV URL"
+file.frontmatter.url as URL,
+file.link + ": " + file.frontmatter.summary as Paper
 FROM "🗒️ Papers"
-SORT file.mtime DESC
+WHERE !contains(file.name, "🦅")
+SORT file.mtime ASC
 ```

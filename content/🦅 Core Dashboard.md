@@ -6,8 +6,7 @@ tags:
 
 ```dataview
 TABLE WITHOUT ID
-tags as "All Tags",
-length(rows) as Count
+tags + " (" + length(rows) + ") "  as "All Tags"
 WHERE tags
 FLATTEN tags
 GROUP BY tags
