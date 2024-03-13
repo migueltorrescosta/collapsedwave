@@ -33,9 +33,25 @@ You can also write the note you want to see in this webpage by submitting a PR i
 
 There is variability in the way authors write their mathematics and physics. In this webpage we've made some choices:
 
-- The hat over operators, such as $\hat \rho$ and $\hat U_t^\dagger$, is often skipped in favour of $\rho$ and $U_t^\dagger$. What is/isn't an operator is made clear from context, and writing the hat on top of every symbol is time consuming.
-- Indices are always subscript. It takes as much work to write $K_\alpha$ as it does $K^\alpha$. This standardisation allows me to immediately know that $K_\alpha$ is the $K$ operator indexed by $\alpha$, whereas $K^\alpha$ is $K$ to the power of $\alpha$. If we have multiple scripts, we can keep them ordered, for example as $K_{i, i', j, j'}$.
-- We always use $dt$ as one of the delimiters of the integrand, i.e. we always write $\int t^2dt$ and never $\int dt t^2$. This choice clarifies what the integrand is, for instance, $\int_0^t\rho ds$ is the integral with integrand $\rho(s)$, even though we decided to omit the parameterization of $\rho$ as a function of $s$.
+## Hat operators
+Hat over operators, such as $\hat \rho$ and $\hat U_t^\dagger$, are often skipped in favour of $\rho$ and $U_t^\dagger$. I try to make operators clear from context, and writing the hat on top of every symbol is time consuming.
+
+## Super / sub scripts
+Indices are subscript, powers are superscripts.
+
+It takes as much work to write $K_\alpha$ as it does $K^\alpha$. This standardisation allows me to immediately know that $K_\alpha$ is the $K$ operator indexed by $\alpha$, whereas $K^\alpha$ is $K$ to the power of $\alpha$. If we have multiple scripts, we can keep them ordered, for example as $K_{i, i', j, j'}$.
+
+## Integrands
+We always use $dt$ as one of the delimiters of the integrand, i.e. we always write $\int t^2dt$ and never $\int dt t^2$. This choice clarifies what the integrand is, for instance, $\int_0^t\rho ds$ is the integral with integrand $\rho(s)$, even though we decided to omit the parameterization of $\rho$ as a function of $s$.
+
+## "Identity" function
+I often use the function $\mathbb{I}_A =  \begin{cases}1 & \text{ if } x \in A \\0 & \text{ if } x \notin A \end{cases}$ in unusual places. This notation is very powerful as it is easy to memorise, and it replaces a lot of custom functions, such as: 
+
+- Heaviside step function: $\theta(x) = \mathbb{I}_{x \geq 0}$
+- Kronecker delta: $\delta_{ij} = \mathbb{I}_{ i = j }$ 
+- Step function: $\mathbb{I}_{x \in [0,1]}$ 
+
+It also come very handy as a way of preventing the branching of equations: I can write any equation $f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$ as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
 
 # 🦅 Dataview Summary
 
