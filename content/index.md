@@ -53,6 +53,9 @@ I often use the function $\mathbb{I}_A =  \begin{cases}1 & \text{ if } x \in A \
 
 It also come very handy as a way of preventing the branching of equations: I can write any equation $$f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$$ ( with $B \cap C = \varnothing$ ) as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
 
+## Usage of singular in titles
+In order to permit the usage of both singular and plurals when referring notes, I write all notes in singular. This allows mean to mention the same note in singular and plural: [[📘 Reduced system]] and [[📘 Reduced system]]s, even if the plural usages look strange.
+
 # 🦅 Dataview Summary
 
 I keep [[🦅 Core Dashboard]] to quickly see work in progress, broken tags and other useful information at a glance.
