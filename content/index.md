@@ -51,7 +51,7 @@ I often use the function $\mathbb{I}_A =  \begin{cases}1 & \text{ if } x \in A \
 - Kronecker delta: $\delta_{ij} = \mathbb{I}_{ i = j }$ 
 - Step function: $\mathbb{I}_{x \in [0,1]}$ 
 
-It also come very handy as a way of preventing the branching of equations: I can write any equation $f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$ as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
+It also come very handy as a way of preventing the branching of equations: I can write any equation $$f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$$ as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
 
 # 🦅 Dataview Summary
 
