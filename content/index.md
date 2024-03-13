@@ -10,19 +10,19 @@ This is a work in progress. You can see the ( many ) parts I still need to impro
 
 # 📳 RSS Feed
 
-You can get notified of new notes as they are created by subscribing to our [RSS Feed](https://collapsedwave.com/index.xml).
-
+You can get notified of new notes as they are created by subscribing to CollapedWave's [RSS Feed](https://collapsedwave.com/index.xml).
 # ❓ Note icons
 All notes (should) have an icon before the title. This provides you with instant feedback about the contents of the note:
 
-| Icon | Type |
-| ---: | ---- |
-| 📕 | Axiom |
-| 📘 | Definition |
-| 📗 | Proposition or Theorem |
-| 📙 | Methodology |
-| 🗒️ | Papers |
-| 🗺️ | Miscellaneous |
+| Icon | Type                   |
+| ---: | ---------------------- |
+|   📕 | Axiom                  |
+|   📘 | Definition             |
+|   📗 | Proposition or Theorem |
+|   📙 | Methodology            |
+|  🗒️ | Papers                 |
+|   🎓 | Classes                |
+|  🗺️ | Miscellaneous          |
 
 # 👩‍🔬 Advanced contributors  
 By using this website and sharing it, you are already contributing. If there is missing content that should be added do submit a [Content Request](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose).
@@ -51,7 +51,7 @@ I often use the function $\mathbb{I}_A =  \begin{cases}1 & \text{ if } x \in A \
 - Kronecker delta: $\delta_{ij} = \mathbb{I}_{ i = j }$ 
 - Step function: $\mathbb{I}_{x \in [0,1]}$ 
 
-It also come very handy as a way of preventing the branching of equations: I can write any equation $$f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$$ as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
+It also come very handy as a way of preventing the branching of equations: I can write any equation $$f(x) = \begin{cases}g(x) & \text{ if } x \in B \\h(x) & \text{ if } x \in C \end{cases}$$ ( with $B \cap C = \varnothing$ ) as $f(x) = g(x)\mathbb{I}_{x \in B} + h(x)\mathbb{I}_{x \in C}$. I find the latter easier to reason with during algebraic manipulations.
 
 # 🦅 Dataview Summary
 

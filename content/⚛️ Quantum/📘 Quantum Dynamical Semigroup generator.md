@@ -3,4 +3,4 @@ tags:
   - "#quantum-theory"
   - "#group-theory"
 ---
-The generator $\mathbb{L}$ on a [[📘 Quantum Dynamical Semigroup]] is defined by $\mathbb{L} [ \rho ] = \lim_{h \rightarrow 0^+} (T_h[\rho] - \rho)\frac{1}{h}$.
+The generator $\mathbb{L}$ is defined by $\mathbb{L} [ \rho ] = \left . \frac{d}{dt}T_t \right | _{t=0}$. $T_t$ comes from the associated [[📘 Quantum Dynamical Semigroup]].
