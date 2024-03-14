@@ -7,8 +7,8 @@ See the [[🦅 Core Dashboard]] for other key information.
 
 ```dataview
 TABLE WITHOUT ID
-lecturer as Lecturer,
-file.link as Class
+file.link as Class,
+lecturer as Lecturer
 FROM "🎓 Classes"
 WHERE lecturer
 sort Class ASC
