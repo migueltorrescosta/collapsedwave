@@ -1,6 +1,8 @@
 ---
 date: 2023-10-12
 feed: hide
+tags:
+  - "#meta"
 ---
 I refer to this note whenever there are concepts I still need to clarify, and often understand myself. If any of it is clear to you, feel free to reach out directly. I am usually reachable via
 - GitHub, where you can [submit an issue](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose)

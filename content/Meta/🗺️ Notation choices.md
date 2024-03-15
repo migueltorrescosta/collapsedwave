@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - "#meta"
 ---
  There is variability in the way authors write their mathematics and physics. In this webpage we've made some choices:
 

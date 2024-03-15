@@ -1,6 +1,7 @@
 ---
 tags:
   - "#dashboard"
+  - "#meta"
 ---
 The dataview below allows me to see a summary of all seminars. See the [[🦅 Core Dashboard]] for other key information.
 

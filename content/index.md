@@ -1,6 +1,8 @@
 ---
 title: Home
 date: 2023-11-13
+tags:
+  - "#meta"
 ---
 Collapsed Wave contains my published study notes. I hope it will become useful to others as a glossary of Quantum Theory and Machine Learning concepts. Notes are meant to be succinct, with details provided through linked pages, and easily searchable through the search bar.
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - "#dashboard"
+  - "#meta"
 ---
 See the [[🦅 Core Dashboard]] for other key information.
 
