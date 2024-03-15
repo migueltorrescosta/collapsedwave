@@ -18,8 +18,8 @@ sort Class ASC
 
 ```dataview
 TABLE WITHOUT ID
-"(" + length(rows.file.outlinks) + ") " + inlink as Class,
-rows.file.link as File
+rows.file.link as File,
+"(" + length(rows.file.outlinks) + ") " + inlink as Class
 
 FLATTEN file.inlinks as inlink
 FLATTEN file.outlinks as outlink
