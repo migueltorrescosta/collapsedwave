@@ -6,9 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "🌊 CollapsedWave",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     baseUrl: "collapsedwave.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
