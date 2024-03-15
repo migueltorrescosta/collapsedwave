@@ -3,6 +3,22 @@ tags: []
 ---
  There is variability in the way authors write their mathematics and physics. In this webpage we've made some choices:
 
+# Frequently used icons
+Notation consistency removes the mental overhead of understanding notation when jumping through different contexts. I (try to) use the symbols below consistently across all notes.
+
+| Symbol                    | Meaning                                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ |
+| $X^\dagger$               | [[📘 Adjoint Operator]] of a [[matrix]] $X$                                                            |
+| $X^\top$                  | [[Transpose]] of a [[matrix]] $X$                                                                      |
+| $\overline{X}$            | [[complex conjugate]] of $X$. $X$ can be a [[matrix]], a [[scalar]], a [[function]], etc               |
+| $[ \cdot , \cdot ]$       | [[📘 Commutator]]                                                                                      |
+| $\mathbb{E}[ \cdot ]$     | [[expectation operator]]                                                                               |
+| $\mathbb{P}[A]$           | Probability of an event $A$                                                                            |
+| $\mathbb{L}$              | [[📘 Quantum Dynamical Semigroup generator]]                                                           |
+| $\mathrm{Tr}[ \cdot ]$    | [[Trace]]                                                                                              |
+| $\mathrm{Tr}^E [ \cdot ]$ | [[📘 Partial Trace]] over a subspace $E$. This is usually referred to as tracing an operator over $E$. |
+| $f(x) \propto g(x)$       | $f$ is proportional to $g$, meaning that $\frac{f}{g}$ is a constant                                   |
+|                           |                                                                                                        |
 # Hat operators
 Hat over operators, such as $\hat \rho$ and $\hat U_t^\dagger$, are often skipped in favour of $\rho$ and $U_t^\dagger$. I try to make operators clear from context, and writing the hat on top of every symbol is time consuming.
 
