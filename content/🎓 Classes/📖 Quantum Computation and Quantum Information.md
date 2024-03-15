@@ -1,8 +1,6 @@
 ---
 lecturer: "[[Nielsen]] and [[Chuang]]"
 ---
-**Overview:** 
-
 **Chapter 1:** [[qubit]], [[measurement]], [[quantum circuit]], [[bell state]], [[Deutsch's algorithm]], [[Deutscha-Josza algorithm]], [[🧪 Stern-Gerlach Experiment]]
 
 **Chapter 2:** [[Basis]], [[linearly independent basis]], [[📘 Pauli Matrix]], [[📘 Inner Product]], [[eigenvalue]], [[📘 Adjoint Operator]], [[📘 Tensor product]], [[📘 Operator]], [[📘 Commutator]], [[anti-commutator]], [[📙 Polar decomposition]], [[singular value decomposition]], [[measurement]], [[projective quantum measurement]], [[POVM]], [[Global Phase]], [[Superdense coding]], [[Quantum state ensemble]], [[📘 Statistical Operator|Density Matrix]], [[📙 Gram–Schmidt]], [[EPR]], [[Bell inequalities]]
