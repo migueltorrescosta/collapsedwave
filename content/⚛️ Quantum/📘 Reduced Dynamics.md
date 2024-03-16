@@ -9,9 +9,9 @@ More formally, this is a [[📘 Quantum Dynamical Semigroup]] $\{T_t \}_{t \geq 
 
 $$
 \begin{CD}
-\rho_0 @>{U_t}>\text{Unitarily}> \rho_t = U_t\rho_oU_t^\dagger\\
+\rho_0 @>{U_t \cdot U_t^\dagger}>\text{Unitarily}> \rho_t\\
 @V\mathrm{Tr}^E[ \cdot ]VV @VV\mathrm{Tr}^E[ \cdot ]V \\
-\rho_{S,0} @>{T_t}>\text{Reduced Dynamics}> \rho_{S,t} := \mathrm{Tr}^E[U_t\rho_0U_t^\dagger]
+\rho_{S,0} @>{T_t}>\text{Reduced Dynamics}> \rho_{S,t}
 \end{CD}
 $$
 
