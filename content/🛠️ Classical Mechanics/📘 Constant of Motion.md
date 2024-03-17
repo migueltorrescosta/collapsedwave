@@ -21,7 +21,7 @@ We differentiate the potential energy to get
 $$\begin{array}{rll}
 \frac{d}{dt} \left ( \frac{1}{2}m \| \dot x \|^2 + V(x) \right ) & = m \sum_{j=1}^{n}\dot x_j\ddot x_j + \sum_{j=1}^{n}\frac{\partial V}{\partial x_j}\dot x_j \\
 & = \dot x \cdot \| m \ddot x + \nabla V \| \\
-& = \dot x \cdot \| F(x) + \nabla V \| \\
+& = \dot x \cdot \| F(x) + \nabla V \|
 \end{array}
 $$
 Since $\dot x(t)$ changes over time, the derivative is zero iff $F(x) + \nabla V = 0$
