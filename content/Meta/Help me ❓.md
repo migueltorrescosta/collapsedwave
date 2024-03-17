@@ -4,6 +4,10 @@ feed: hide
 tags:
   - "#meta"
 ---
+
+> [!Quote]
+> If you can't explain it simply, you don't understand it well enough
+
 I link to this note whenever I want to further clarify another note. You can find all mentions of this note in the backlinks below. If you want to chat about any of these topics, or if I should add a missing note, I am reachable
 - Directly if you know me 😉
 - via GitHub, where you can [submit requests and improvements](https://github.com/migueltorrescosta/collapsedwave/issues/new/choose)
