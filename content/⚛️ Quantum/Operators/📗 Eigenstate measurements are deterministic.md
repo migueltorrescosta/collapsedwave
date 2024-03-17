@@ -4,15 +4,22 @@ tags:
   - "#theorem"
 ---
 
-If $\psi$ is an [[📘 Eigenstate]] of a [[measurement]] $f$, then we have that $\hat{f}\psi = \lambda \psi \implies \mathbb{E}[f^m] = \braket{(\hat{f})^m}_\psi =\lambda^m$
+$\hat{f}\psi = \lambda \psi \implies \mathbb{E}[f^m] = \braket{(\hat{f})^m}_\psi =\lambda^m$, where
+- $\psi$ is an [[📘 Eigenstate]] of a [[measurement]] $f$
+- $\psi \in H$ is a [[quantum state vector]]
+- $f$ is a [[📘 Classical observable]]
+- $\hat{f}$ is the corresponding [[📘 Quantum observable]]
+- $\lambda \in \mathbb{R}, m \in \mathbb{Z}^+$ 
 
->[!info]-
-> 1. $\psi \in H$ is a [[quantum state vector]]
-> 2. $f$ is a [[📘 Classical observable]]
-> 3. $\hat{f}$ is the corresponding [[📘 Quantum observable]]
-> 4. $\lambda \in \mathbb{R}, m \in \mathbb{Z}^+$ 
+# Proof
+$$
+\begin{array}{rll}
+\mathbb{E}[f^m] & = \braket{\psi, ( \hat{f} )^m \psi} & \text{Due to the 3rd postulate of QM}\\
+& = \braket{\psi, \lambda^m \psi} \\
+& = \lambda^m \braket{\psi, \psi} \\
+& = \lambda^m \| \psi \| \\
+& = \lambda^m
+\end{array}
+$$
 
->[!success]
-> $\mathbb{E}[f^m] = \braket{\psi, ( \hat{f} )^m \psi} = \braket{\psi, \lambda^m \psi} = \lambda^m \braket{\psi, \psi} = \lambda^m \| \psi \| = \lambda^m$.
-> 
-> The first equality holds due to [[📕 Postulate 3]]
+We used [[📕 Postulate 3]]

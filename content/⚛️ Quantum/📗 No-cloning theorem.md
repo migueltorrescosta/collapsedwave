@@ -5,5 +5,6 @@ tags:
 ---
 It is impossible to create an independent copy of a given [[qubit]] in an unknown state $\ket{\psi}$.
 
-> [!success]
-> All actions on a [[📘 Quantum Hilbert Space]] can be represented by unitary operators. No unitary operator can transform $\ket{\psi} \times \ket{\phi}$ into $\ket{\psi} \times \ket{\psi}$ for all possible inputs $\ket{\psi} \times \ket{\phi} \in H \times H$. Hence, there is no transformation that clones a [[qubit]].
+# Proof
+
+All actions on a [[📘 Quantum Hilbert Space]] can be represented by unitary operators. The map $\ket{\psi} \times \ket{\phi} \rightarrow \ket{\psi} \times \ket{\psi}$, mapping $H^2 \mapsto H^2$ is not unitary. Hence, there is no transformation that clones a [[qubit]].

@@ -10,8 +10,8 @@ $\{ f, g \} := \sum_{i=i}^{n} \left ( \frac{\partial f}{\partial q_i} \frac{\par
 - follows the [[Leibniz rule]] : $\{ fg,h \} = \{ f, h \} g + f \{ g,h \}$
 - follows the [[📘 Jacobi identity]]: $\{ f, \{ g,h \} \} + \{ g, \{ h,f \} \} + \{ h, \{ f,g \} \} = 0$
 
->[!info]-
-> 1. $p, q \in \mathbb{R}^n$ are coordinates in the [[📘 Phase Space]] .
-> 2. $f,g,h: \mathbb{R}^{2n+1} \rightarrow \mathbb{R}$ are real valued scalar fields, with inputs $p,q \in \mathbb{R}^n$ and $t \in \mathbb{R}$ 
+In the above we had
+- $p, q \in \mathbb{R}^n$ as coordinates in the [[📘 Phase Space]]
+- $f,g,h: \mathbb{R}^{2n+1} \rightarrow \mathbb{R}$ as real valued [[scalar field]]s, with inputs $p,q \in \mathbb{R}^n$ and $t \in \mathbb{R}$ 
 
 I don't have an intuitive explanation of what the Poisson bracket represents. [[Help me ❓]]

@@ -4,7 +4,4 @@ tags:
   - "#quantum-theory"
 ---
 
-$d$-dimensional [[qubit]]
-
->[!info]-
-> $d \in \mathbb{N}$ 
+$d$-dimensional [[qubit]], $d \in \mathbb{N}$ 

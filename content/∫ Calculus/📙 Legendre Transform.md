@@ -1,23 +1,19 @@
 ---
 date: 2023-10-21
 ---
-The Legendre transform is an [[📘 Involuntory Operator]] that converts [[📘 Convex function]]s into [[📘 Convex function]]s, as defined via the equation below.
+$f^\star(x^\star) := \sup_{x \in I} (x^\star x - f(x))$ for $x^\star \in I^\star , x \in I$, where
+- $I \subset \mathbb{R}$ is an [[interval]] in the [[real line]]
+- $f : I \rightarrow \mathbb{R}$ is a [[📘 Convex function]]
+- $I^\star := \{ x^\star \in \mathbb{R} : f^\star(x^\star) < \infty \}$
+- $\sup$ is the [[supremum operator]]
 
-$f^\star(x^\star) := \sup_{x \in I} (x^\star x - f(x))$ for $x^\star \in I^\star , x \in I$
+The Legendre transform is an [[📘 Involuntory Operator]] that converts [[📘 Convex function]]s into [[📘 Convex function]]s, as defined via the equation below. It is used to convert functions of one quantity into the [[conjugate]] quantity, such as
 
->[!info]-
-> 1. $I \subset \mathbb{R}$ is an [[interval]] in the [[real line]]
-> 2. $f : I \rightarrow \mathbb{R}$ is a [[📘 Convex function]]
-> 3. $I^\star := \{ x^\star \in \mathbb{R} : f^\star(x^\star) < \infty \}$
-> 4. $\sup$ is the [[supremum operator]]
-
-It is used to convert functions of one quantity into the [[conjugate]] quantity, such as
-
-| Variable | Conjugate variable |
-| ---- | ---- |
-| position | momentum |
-| pressure | volume |
-| temperature | entropy |
+| Variable    | Conjugate variable |
+| ----------- | ------------------ |
+| position    | momentum           |
+| pressure    | volume             |
+| temperature | entropy            |
  
 It is unclear how the Legendre Transform should be visualised. [[Help me ❓]]
 

@@ -14,9 +14,9 @@ A non empty set $V$ over a [[field]] $F$ satisfying with 2 [[binary operation]]s
 | $a(u+v) = au + av$ | Scalar multiplication is distributive over vector addition |
 | $(a+b)V = av + bv$ | Scalar multiplication is distributive over field addition |
 
->[!info]-
-> 1. $u,v,w \in V$ are [[vector]]s
-> 2. $a,b \in F$ are [[scalar]]s
+In the above,
+- $u,v,w \in V$ are [[vector]]s
+- $a,b \in F$ are [[scalar]]s
 
 # Examples
 - [[📘 Banach Space]]

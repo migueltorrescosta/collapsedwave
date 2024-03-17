@@ -16,13 +16,12 @@ HDBSCAN is a [[clustering algorithm]]. It has 5 steps:
 
 *Note: If we selected a maximum cluster distance after step 2 and selected all clusters below it, this would be the implementation of [[DBSCAN]].*
 
->[!info]-  
-> 1. $core_k(x)$ is the [[core distance]] to the $k$ nearest neighbour from point $x$. $x$ does not need to be in our data.
-> 2. $d_{mreach-k}(a,b) := max \{ core_k(a), core_k(b), d(a,b) \}$ is the [[mutual reachability distance]].
-> 3. $m$ : The minimum cluster size, used for pruning the cluster tree.
-> 4. $\sum_{p \in C} ( \lambda_p - \lambda_{birth})$ is the stability of a cluster of points $C$ .
-> 5. $\lambda_p$ is the inverse of the distance when a point "fell of" a cluster
-> 6. $\lambda_{birth}$ is the inverse distance of a cluster
+- $core_k(x)$ is the [[core distance]] to the $k$ nearest neighbour from point $x$. $x$ does not need to be in our data.
+- $d_{mreach-k}(a,b) := max \{ core_k(a), core_k(b), d(a,b) \}$ is the [[mutual reachability distance]].
+- $m$ : The minimum cluster size, used for pruning the cluster tree.
+- $\sum_{p \in C} ( \lambda_p - \lambda_{birth})$ is the stability of a cluster of points $C$ .
+- $\lambda_p$ is the inverse of the distance when a point "fell of" a cluster
+- $\lambda_{birth}$ is the inverse distance of a cluster
 
 The description of $\lambda$ as the inverse of a distance needs to be flushed out: it is unclear which distance is being used. [[Help me ❓]]
   
@@ -35,5 +34,5 @@ The description of $\lambda$ as the inverse of a distance needs to be flushed ou
 > 5. Extracting the stable clusters from the condensed tree.  
   
   
->[!quote]  
-> [readthedocs from Python's hdbscan package](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)
+# External resources
+- [readthedocs from Python's hdbscan package](https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html)

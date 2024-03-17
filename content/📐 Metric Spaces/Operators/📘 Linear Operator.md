@@ -2,6 +2,7 @@
 date: 2023-11-23
 tags:
   - "#algebra"
+  - "#diagram"
 ---
 A linear operator is a map $\Omega: V \rightarrow V$  satisfying
 
@@ -10,26 +11,29 @@ A linear operator is a map $\Omega: V \rightarrow V$  satisfying
 3. $\bra{V} a \Omega = \bra{V} \Omega a$ 
 4. $( \bra{V} a + \bra{W} b ) \Omega = a \bra{V} \Omega + b \bra{W} \Omega$ 
 
->[!info]-
-> 1. $V,W$ are [[vector]]s
-> 2. $a,b$ are [[scalar]]s in a [[field]]
-> 3. $\bra{\cdot}$ and $\ket{\cdot}$ follow the [[braket notation]]
+In the above:
+- $V,W$ are [[vector]]s
+- $a,b$ are [[scalar]]s in a [[field]]
+- $\bra{\cdot}$ and $\ket{\cdot}$ follow the [[braket notation]]
 
-Operators are a generalisation of matrices: They act on [[📘 Vector Space]]s linearly, without being attached to any basis representation. When working with finite vector spaces, the choice of a basis allows us to represent the operator as a matrix. This won't be always possible: operators in infinite dimensional spaces do not always have a matrix representation
+[[📘 Operator]]s are a generalisation of matrices: They act on [[📘 Vector Space]]s linearly, without being attached to any specific [[basis]]. When working with finite [[📘 Vector Space]]s, the choice of a [[basis]] allows us to represent the [[📘 Operator]] as a matrix. This won't be always possible: operators in infinite dimensional spaces do not always have a matrix representation
 
 # Relations
 
-The diagram below aims to make relations between operators and their matrix representation memorable. An arrow means an implication. I need to improve on this diagram. [[Help me ❓]]
+The diagram below aims to make relations between [[📘 Operator]]s and their matrix representation memorable. An arrow means an implication. I need to improve on this diagram. [[Help me ❓]]
 
 ```mermaid
 stateDiagram
-	Hermitian: Hermitian Operator
-	Positive: Positive Operator
+	Hermitian: Hermitian
+	Positive: Positive
+	Bounded: Bounded Operators
 	Real: Has real valued eigenvalues
-	SelfAdjoint: Self Adjoint Operator
-	Spectral: Can be decomposed using spectral decomposition
-	Symmetric: Symmetric Operator
-	Unitary: Unitary Operator
+	SelfAdjoint: Self Adjoint
+	Spectral: Has a spectral decomposition
+	Symmetric: Symmetric
+	Unitary: Unitary
+	Symmetric --> Hermitian : Bounded operators
+	Bounded --> Hermitian : Symmetric operators
 	Positive --> Spectral
 	Hermitian --> Real
 	SelfAdjoint --> Symmetric
