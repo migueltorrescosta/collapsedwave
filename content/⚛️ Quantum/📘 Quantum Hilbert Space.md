@@ -24,7 +24,7 @@ The results below are frequently useful when manipulating algebraic expressions 
 
 - $\ket{p}$ is the eigenstate associated with a definite momentum $p$
 - $\ket{x}$ is the eigenstate associated with a definite momentum $x$
-- $\ket{\psi}$ is a generic [[quantum state vector]]
+- $\ket{\psi}$ is a generic [[📘 Quantum state vector]]
 - $\hbar$ is [[📘 Planck's reduced constant]]
 - $X$ is the [[📘 Position Operator]]
 - $P$ is the [[📘 Momentum Operator]]

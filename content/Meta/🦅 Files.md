@@ -2,6 +2,7 @@
 tags:
   - "#dashboard"
 ---
+
 ```dataview
 TABLE WITHOUT ID
 " (" + length(rows.file.links) + ") " + out AS "Missing File",
@@ -31,4 +32,9 @@ LIMIT 20
 ```
 
 
+```dataview
+TABLE WITHOUT ID
+file.link as "Disconnected pages"
+WHERE !file.outlinks and !file.inlinks
+```
 

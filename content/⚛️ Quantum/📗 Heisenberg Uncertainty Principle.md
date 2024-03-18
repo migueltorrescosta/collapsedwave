@@ -10,6 +10,6 @@ The above shows that the product of [[📘 Measurement uncertainty]] between the
 
 - $X$ is the [[📘 Position Operator]]
 - $P$ is the [[📘 Momentum Operator]]
-- $\psi \in H$ is a [[quantum state vector]]
-- $\Delta_\psi$ is the [[📘 Measurement uncertainty]] of an [[📘 Operator]] for the [[quantum state vector]] $\psi$.
+- $\psi \in H$ is a [[📘 Quantum state vector]]
+- $\Delta_\psi$ is the [[📘 Measurement uncertainty]] of an [[📘 Operator]] for the [[📘 Quantum state vector]] $\psi$.
 - $\hbar$ is [[📘 Planck's reduced constant]]

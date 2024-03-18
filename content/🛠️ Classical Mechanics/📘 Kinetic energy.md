@@ -4,7 +4,7 @@ tags:
   - "#classical-mechanics"
 ---
 - $\frac{1}{2}mv^2$  for a classical particle
-- $\hat T = - \frac{\hbar}{2m}\nabla^2$ for a [[quantum state vector]].
+- $\hat T = - \frac{\hbar}{2m}\nabla^2$ for a [[📘 Quantum state vector]].
 
 >[!info]-
 > 1. $m$ is the [[mass]]

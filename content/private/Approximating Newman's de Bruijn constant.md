@@ -38,7 +38,7 @@ Both of the points below follow Andrea's email suggestion
 ## Finding zeros
 What are the best methods known to find zeroes of the $H_t$. I have no clue how to find zeroes given the lack of knowledge about the properties of $\Phi$ and $\zeta$ , namely bounds on the change rate of the function.
 
-- [ ] Plot the function $H_t(z)$ for $t = .22$ and $z \in \mathbb{R}$. Visualise these zeroes. I can do this visually, but I have no confidence this gives me a good approximation of zeroes due to continuity concerns.
+- [ ] Plot the function $H_t(z)$ for $t = .22$ and $z \in \mathbb{R}$. Visualise these zeroes. I can do this visually, but I have no confidence this gives me a good approximation of zeroes due to continuity concerns. ⏫ 
 
 ## Modelling the time evolution of the zeroes
 Do we have examples ( in code or books ) of approximating path trajectories using heatflow?Andrea suggested Runge-Kutta. Sounds good

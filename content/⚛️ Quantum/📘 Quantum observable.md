@@ -8,5 +8,7 @@ An operator $\hat{f}$ on the [[📘 Quantum Hilbert Space]] corresponding to a [
 - $f : \mathbb{R}^{2n} \rightarrow \mathbb{R}$ is a [[📘 Classical observable]]
 - $\hat{f}: \mathscr{H} \rightarrow \mathbb{R}$ is the corresponding [[📘 Quantum observable]]
 
+The act of generating [[📘 Quantum observable]] from [[📘 Classical observable]] is known as [[Quantization]].
+
 # Properties
 - [[📗 Eigenstate measurements are deterministic]]

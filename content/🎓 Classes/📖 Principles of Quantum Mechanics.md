@@ -3,7 +3,7 @@ lecturer: "[[Shankar]]"
 tags:
   - "#book"
 ---
-**Chapter 10:** [[Multi particle systems]], [[📘 Cartesian Product]], [[📘 Tensor product]], [[📘 Separable Hamiltonian]], [[Indistinguishable Particles]], [[📗 Particle in a Box]], [[📙 CM coordinate]], 
+**Chapter 10:** [[Multi particle systems]], [[📘 Cartesian Product]], [[📘 Tensor product]], [[📘 Separable Hamiltonian]], [[Indistinguishable Particles]], [[📗 Particle in a Box]], [[📙 CM coordinate]], [[parity]], [[📘 Quantum Harmonic Oscillator]], [[📗 Solving the Quantum Harmonic Oscillator]]
 
 **Chapter 14:** [[Spin]]
 
