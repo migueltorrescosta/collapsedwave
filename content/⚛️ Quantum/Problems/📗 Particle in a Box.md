@@ -10,9 +10,9 @@ Suppose we have a particle moving freely in a box. We can model this as a [[quan
 Using the [[📘 Time-independent Schrodinger equation]], we get
 $$
 \begin{array}{rll}
-H \ket{\psi} & = E\ket{\psi} \\
-\frac{P^2}{2m} \ket{\psi} & = E\ket{\psi} \\
-\frac{1}{2m} \nabla^2\ket{\psi} & = E\ket{\psi} \\
+E\ket{\psi} & = H \ket{\psi} & \text{By definition of our Hamiltonian $H$}\\
+&= \frac{P^2}{2m} \ket{\psi} & \text{By definition of the Momentum Operator}\\
+& = \frac{1}{2m} \nabla^2\ket{\psi}\\
 \end{array}
 $$
 This relatively standard [[📙 Differential Equation]] has the general solution $\ket{\psi} = Ae^\frac{2mx_i}{E} + Be^{-\frac{2mx_i}{E}}$, where $x_i$ is any of the dimensions involved. Putting in the boundary conditions along the $\overrightarrow{e_i}$ axis, and re-expressing the solution as $\ket{\psi} = A\sin ( \frac{2m}{E}x ) + B\cos ( -\frac{2m}{E}x_i)$, we get 
