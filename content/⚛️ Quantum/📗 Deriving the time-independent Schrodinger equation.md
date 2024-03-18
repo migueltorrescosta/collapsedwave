@@ -3,7 +3,7 @@ tags:
   - "#quantum-theory"
   - "#calculus"
 ---
-We can derive the [[📘 Time-independent Schrodinger equation]] via [[separation of variables]] as follows:
+We can derive the [[📘 Time-independent Schrodinger equation]] via [[📙 Separation of variables]] as follows:
 
 $$
 \begin{array}{rll}
