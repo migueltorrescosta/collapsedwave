@@ -9,5 +9,5 @@ tags:
 >[!info]-
 > 1. $m$ is the [[mass]]
 > 2. $v = \dot x$ is the [[velocity]] 
-> 3. $\hbar$ is [[Plancks reduced constant]]
+> 3. $\hbar$ is [[📘 Planck's reduced constant]]
 > 4.  $\nabla^2$ is the [[📘 Laplacian]]

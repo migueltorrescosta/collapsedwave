@@ -12,36 +12,36 @@ $$
 \begin{array}{rll}
 E\ket{\psi} & = H \ket{\psi} & \text{By definition of our Hamiltonian $H$}\\
 &= \frac{P^2}{2m} \ket{\psi} & \text{By definition of the Momentum Operator}\\
-& = \frac{1}{2m} \nabla^2\ket{\psi}\\
+& = - \frac{\hbar^2}{2m} \nabla^2\ket{\psi}\\
 \end{array}
 $$
-This relatively standard [[📙 Differential Equation]] has the general solution $\ket{\psi} = Ae^\frac{2mx_i}{E} + Be^{-\frac{2mx_i}{E}}$, where $x_i$ is any of the dimensions involved. Putting in the boundary conditions along the $\overrightarrow{e_i}$ axis, and re-expressing the solution as $\ket{\psi} = A\sin ( \frac{2m}{E}x ) + B\cos ( -\frac{2m}{E}x_i)$, we get 
+This relatively standard [[📙 Differential Equation]] has the general solution $\ket{\psi} = Ae^\frac{2mx_i}{\hbar E} + Be^{-\frac{2mx_i}{\hbar E}}$, where $x_i$ is any of the dimensions involved. Putting in the boundary conditions along the $\overrightarrow{e_i}$ axis, and re-expressing the solution as $\ket{\psi} = A\sin ( \frac{2m}{\hbar E}x ) + B\cos ( -\frac{2m}{\hbar E}x_i)$, we get 
 $$
 \left \{
 \begin{matrix}
 0 = A\sin ( 0 ) + B\cos ( 0) \\
-0 = A\sin ( \frac{2mL}{E} ) + B\cos ( -\frac{2mL}{E})
+0 = A\sin ( \frac{2mL}{\hbar E} ) + B\cos ( -\frac{2mL}{\hbar E})
 \end{matrix}
 \right .
 \Rightarrow
 \left \{
 \begin{matrix}
 0 = B \\
-0 = \sin ( \frac{2mL}{E} )
+0 = \sin ( \frac{2mL}{\hbar E} )
 \end{matrix}
 \right .
 \Rightarrow
 \left \{
 \begin{matrix}
 0 = B \\
-\pi n_i = \frac{2mL}{E}
+\pi n_i = \frac{2mL}{\hbar E}
 \end{matrix}
 \right .
 \Rightarrow
 \left \{
 \begin{matrix}
 B = 0 \\
-E = \frac{2mL}{\pi n_i}
+E = \frac{2mL}{\hbar \pi n_i}
 \end{matrix}, n_i \in \mathbb{N}
 \right .
 $$

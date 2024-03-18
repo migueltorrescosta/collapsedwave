@@ -7,40 +7,8 @@ tags:
 
 ```dataview
 TABLE WITHOUT ID
-tags + " (" + length(rows) + ") "  as "All Tags"
-WHERE tags
-FLATTEN tags
-GROUP BY tags
-SORT length(rows) DESC
-```
-
-
-
-```dataview
-TABLE WITHOUT ID
-tags as "All Tags",
-length(rows) as Count
-WHERE tags
-FLATTEN tags
-GROUP BY tags
-SORT length(rows) DESC
-```
-
-```dataview
-TABLE WITHOUT ID
-file.link as "Recently edited files",
-join(file.tags, ", ") as Tags
-SORT file.mtime DESC
-LIMIT 10
-```
-
-```dataview
-TABLE WITHOUT ID
-file.link as "Stale files",
-join(file.tags, ", ") as Tags,
-file.mtime as "Last edited at"
-SORT file.mtime ASC
-LIMIT 20
+file.link as Dashboards
+WHERE contains(file.name, "🦅")
 ```
 
 # The tables below should be empty
@@ -60,21 +28,6 @@ file.cday as "Last edited"
 SORT file.ctime DESC
 WHERE contains(file.outlinks.file.name, "Help me")
 ```
-
-## Missing files
-Some terms are mentioned often, but I have yet to create a page for them.
-
-```dataview
-TABLE WITHOUT ID
-" (" + length(rows.file.links) + ") " + out AS "Missing File",
-join(rows.file.link, ", ") as Mentions
-FLATTEN file.outlinks as out
-WHERE !(out.file) AND !contains(meta(out).path, "/")
-GROUP by out
-WHERE length(rows.file.links)>2
-SORT length(rows.file.link) DESC
-```
-
 
 ## No links
 The tables below are disconnected from the rest of the graph. Tags are ignored in this view
