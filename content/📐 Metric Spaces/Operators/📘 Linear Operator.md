@@ -32,9 +32,9 @@ stateDiagram
 	Spectral: Has a spectral decomposition
 	Symmetric: Symmetric
 	Unitary: Unitary
-	Symmetric --> Hermitian : Bounded operators
-	Bounded --> Hermitian : Symmetric operators
-	Positive --> Spectral
+	Symmetric --> Hermitian : If Bounded
+	Bounded --> Hermitian : If Symmetric
+	Positive --> Spectral : If compact
 	Hermitian --> Real
 	SelfAdjoint --> Symmetric
 ```
@@ -47,6 +47,7 @@ See more details on:
 - [[📘 Unitary Operator]]
 - [[📘 Symmetric Operator]]
 - [[📘 Involuntory Operator]]
+- [[📘 Compact Operator]]
 
 # Properties
 - [[📗 All operators can be decomposed into hermitian and anti-hermitian components]]

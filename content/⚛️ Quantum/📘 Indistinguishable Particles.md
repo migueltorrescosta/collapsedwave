@@ -11,7 +11,7 @@ $$
 &= \alpha\beta \ket{ba} + \alpha \gamma \ket{ab} \\
 \end{array}
 $$
-From matching coefficients we get $\beta = \alpha \gamma$ and $\gamma = \alpha \beta$, which implies that $\alpha = \pm 1$. This property defines [[Bosons]] and [[Fermions]]:
+From matching coefficients we get $\beta = \alpha \gamma$ and $\gamma = \alpha \beta$, which implies that $\alpha = \pm 1$. This property defines [[Boson]]s and [[Fermion]]s:
 
 $$
 \left \{

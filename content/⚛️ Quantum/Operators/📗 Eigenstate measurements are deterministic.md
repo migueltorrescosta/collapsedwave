@@ -6,7 +6,7 @@ tags:
 
 $\hat{f}\psi = \lambda \psi \implies \mathbb{E}[f^m] = \braket{(\hat{f})^m}_\psi =\lambda^m$, where
 - $\psi$ is an [[📘 Eigenstate]] of a [[📘 Measurement]] $f$
-- $\psi \in H$ is a [[📘 Quantum state vector]]
+- $\psi \in H$ is a [[📘 Quantum state]]
 - $f$ is a [[📘 Classical observable]]
 - $\hat{f}$ is the corresponding [[📘 Quantum observable]]
 - $\lambda \in \mathbb{R}, m \in \mathbb{Z}^+$ 

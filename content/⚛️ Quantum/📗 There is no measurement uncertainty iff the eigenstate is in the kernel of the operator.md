@@ -5,7 +5,7 @@ tags:
 i.e. $\Delta_\psi A=0 \Leftrightarrow A \psi = 0$, where
 
 - A is an [[📘 Operator]]
-- $\psi$ is a [[📘 Quantum state vector]].
+- $\psi$ is a [[📘 Quantum state]].
 - $\Delta_\psi A$ is the [[📘 Measurement uncertainty]] 
 
 # Proof

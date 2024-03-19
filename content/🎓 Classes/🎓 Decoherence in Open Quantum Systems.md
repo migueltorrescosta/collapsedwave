@@ -9,6 +9,6 @@ lecturer: "[[Carlesso Matteo]]"
 
 **Lecture 4:** [[📘 Quantum Brownian Motion]], [[Effective Hamiltonian]], [[Wigner function]], [[🗒️ Quantum Langevin equation]], [[Hu-Paz-Zhang Equation]], [[Ford O'Connel Equation]], [[Weyl Algebra]], [[Weyl Algebra generator]], [[Linear Super Operator]], [[📘 Markovian Master Equation]]
 
-**Lecture 5:** [[Collisional Decoherence]], [[Scattering Theory]], [[Elastic Scattering]], [[Out-going differential cross-section]], [[Gallis-Flemming Master Equation]], [[Short Distance Limit]], [[Long Distance Limit]], [[Decoherence Rate]], [[GRW Model]]
+**Lecture 5:** [[Collisional Decoherence]], [[Scattering Theory]], [[Elastic Scattering]], [[Out-going differential cross-section]], [[Gallis-Flemming Master Equation]], [[Short Distance Limit]], [[Long Distance Limit]], [[Decoherence Rate]], [[Ghirardi–Rimini–Weber Model]]
 
 **Lecture 6:** [[Optomechanics]], [[Fabry-Perot cavity]], [[Optomechanical coupling]], [[Kerr amplification]], [[Thermal Bosonic Occupation Number]], [[Cooling Process]], [[Heating Process]], [[Ground state]], [[Rotating wave transformation]], [[Detuning]], [[Red Dynamics]], [[Blue Dynamics]], [[Red detuned]], [[Blue detuned]], [[Ground state sideban cooling]]

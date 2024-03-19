@@ -3,7 +3,7 @@ tags:
   - "#quantum-theory"
 ---
 ## Setup
-Suppose we have a particle moving freely in a box. We can model this as a [[📘 Quantum state vector]] $\psi(x), x \in [0,L]^n$, with the [[wave function]] being $0$ on the [[boundary]] $\partial [0,L]^n$ of the domain. Since we are working with a [[free particle]], the [[Hamiltonian]] $H$ is given by $H=\frac{P^2}{2m}$, where $m$ is the particle's [[mass]] and $P$ is the [[📘 Momentum Operator]].
+Suppose we have a particle moving freely in a box. We can model this as a [[📘 Quantum state]] $\psi(x), x \in [0,L]^n$, with the [[wave function]] being $0$ on the [[boundary]] $\partial [0,L]^n$ of the domain. Since we are working with a [[free particle]], the [[Hamiltonian]] $H$ is given by $H=\frac{P^2}{2m}$, where $m$ is the particle's [[mass]] and $P$ is the [[📘 Momentum Operator]].
 
 ## Solution
 

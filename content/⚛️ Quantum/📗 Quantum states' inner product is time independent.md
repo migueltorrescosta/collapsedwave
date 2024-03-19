@@ -6,7 +6,7 @@ tags:
 $\braket{\phi(t) \mid \psi(t)}$ is independent of $t$ for 2 solutions $\psi, \phi$  of the same equation ( [[📕 Postulate 4 - Schrodinger Equation]] )
 
 >[!info]-
-> 1. $\psi, \phi$ are time parameterized [[📘 Quantum state vector]] solutions to [[📕 Postulate 4 - Schrodinger Equation]]
+> 1. $\psi, \phi$ are time parameterized [[📘 Quantum state]] solutions to [[📕 Postulate 4 - Schrodinger Equation]]
 > 2. $\braket{ \cdot, \cdot } : H \times H \rightarrow \mathbb{C}$ is an [[📘 Inner Product]] on the [[📘 Quantum Hilbert Space]] 
 > 3. $t \in \mathbb{R}^+$ denotes time.
 
