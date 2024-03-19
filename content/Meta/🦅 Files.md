@@ -5,6 +5,17 @@ tags:
 
 ```dataview
 TABLE WITHOUT ID
+cday as "Created on",
+rows.file.link as "Most recent 20 notes"
+SORT file.ctime DESC
+LIMIT 20
+GROUP BY file.cday as cday
+SORT cday DESC
+```
+
+
+```dataview
+TABLE WITHOUT ID
 " (" + length(rows.file.links) + ") " + out AS "Missing File",
 join(rows.file.link, ", ") as Mentions
 FLATTEN file.outlinks as out
@@ -22,15 +33,6 @@ SORT file.mtime DESC
 LIMIT 10
 ```
 
-```dataview
-TABLE WITHOUT ID
-file.link as "Stale files",
-join(file.tags, ", ") as Tags,
-file.mtime as "Last edited at"
-SORT file.mtime ASC
-LIMIT 20
-```
-
 
 ```dataview
 TABLE WITHOUT ID
@@ -38,3 +40,12 @@ file.link as "Disconnected pages"
 WHERE !file.outlinks and !file.inlinks
 ```
 
+
+```dataview
+TABLE WITHOUT ID
+mday as "Last edited on",
+rows.file.link as "Stale files"
+SORT file.mtime ASC
+LIMIT 20
+GROUP BY file.mday as mday
+```

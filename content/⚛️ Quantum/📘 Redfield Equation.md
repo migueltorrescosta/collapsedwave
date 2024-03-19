@@ -10,7 +10,7 @@ The Redfield equation is the [[📘 Markovian Master Equation]] $\frac{d}{dt}\rh
 - $S_\alpha^I(s)$ is the .. [[Help me ❓]].
 - The upper index $I$ represents that we are working in the [[📘 Interaction Picture]].
 
-I don't know where the Redfield equation comes from. [[Help me ❓]]
+It is unclear whether the Redfield equation is assumed, or derived. [[Help me ❓]]
 
 By applying the [[📘 Markov Approximation]] and moving the equation back to the [[Schrodinger picture]], we get the [[📘 Master equation]]:
 

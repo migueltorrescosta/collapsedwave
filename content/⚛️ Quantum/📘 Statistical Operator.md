@@ -13,7 +13,7 @@ The statistical operator $\hat \rho$ is
 3. Has trace 1: $\mathrm{Tr}[\hat \rho] = 1$ 
 
 My understanding of the boundaries between Statistical Operator / Density Operator / Statistical Matrix / Density Matrix is vague:
-- Matrix vs Operator seems to be dependent on a choice of basis.
-- Statistical vs Density means... ? ( [[Help me ❓]] )
+- Matrix vs Operator corresponds to whether we made a choice of basis or not.
+- Statistical vs Density does not have a clear distinction AFAICT. [[Help me ❓]]
 # Examples
 1. We have a system which is in state $\ket{\psi_\alpha}$ with probability $p_\alpha$, $\sum_{\alpha} p_\alpha = 1$, and make a measurement $\hat O = \sum_n O_n \ket{O_n}\bra{O_n}$. Then $\mathbb{P}[O_n] = \sum_\alpha p_\alpha | \braket{p_\alpha | O_n } |^2$. This can be rewritten as $\mathbb{P}[O_n] = \braket{O_n | \hat \rho | O_n}$, where $\hat \rho$ is our density matrix.
