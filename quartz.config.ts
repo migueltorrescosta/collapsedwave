@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: 'goatcounter',
       websiteId: 'goatcounter-2r3f',
       host: 'onrender.com',
-      scriptSrc: 'https://goatcounter-2r3f.onrender.com/count.js'
+      scriptSrc: '//goatcounter-2r3f.onrender.com/count.js'
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
