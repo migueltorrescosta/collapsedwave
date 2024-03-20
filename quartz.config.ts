@@ -13,8 +13,8 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: 'goatcounter',
-      websiteId: '',
-      host: 'goatcounter-2r3f.onrender.com',
+      websiteId: 'goatcounter-2r3f',
+      host: 'onrender.com',
       scriptSrc: 'https://goatcounter-2r3f.onrender.com/count.js'
     },
     locale: "en-US",
