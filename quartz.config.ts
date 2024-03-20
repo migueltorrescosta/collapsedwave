@@ -12,7 +12,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'goatcounter',
+      websiteId: 'collapsedwave.com',
+      host: 'goatcounter-2r3f.onrender.com',
+      scriptSrc: 'https://goatcounter-2r3f.onrender.com/count.js'
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
