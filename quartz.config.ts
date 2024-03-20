@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: 'goatcounter',
-      websiteId: 'collapsedwave.com',
+      websiteId: '',
       host: 'goatcounter-2r3f.onrender.com',
       scriptSrc: 'https://goatcounter-2r3f.onrender.com/count.js'
     },
