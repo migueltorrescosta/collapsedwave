@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🌊 CollapsedWave",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       scriptSrc: '//goatcounter-2r3f.onrender.com/count.js'
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "collapsedwave.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
