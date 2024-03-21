@@ -13,4 +13,13 @@ In the [[Schrodinger picture]], we consider the [[📘 Quantum observable]] $A$ 
 - a measurement is given by $\braket{A}_{\psi(t)} := \braket{\psi(t), A \psi(t)}$.
 - $\psi(t)$ evolves according to the equation $\psi(t)=e^{-\frac{itH}{\hbar}}\psi(0)$.
 
-Joining the above, $\braket{A(t)}_\psi = \braket{\psi, A(t) \psi} = \braket{\psi, e^{\frac{itH}{\hbar}}Ae^{-\frac{itH}{\hbar}} \psi} = \braket{-e^{\frac{itH}{\hbar}} \psi, Ae^{-\frac{itH}{\hbar}} \psi} = \braket{ \psi(t), A \psi(t)} = \braket{A}_{\psi(t)}$  
+As such
+$$
+\begin{array}{rll}
+\braket{A(t)}_\psi &= \braket{\psi, A(t) \psi} & \text{By the Heisenberg picture}\\
+&= \braket{\psi, e^{\frac{itH}{\hbar}}Ae^{-\frac{itH}{\hbar}} \psi} & \text{Moving the operator based on antilinearity}\\
+&= \braket{-e^{\frac{itH}{\hbar}} \psi, Ae^{-\frac{itH}{\hbar}} \psi} & \text{By the Schrodinger picture} \\ 
+&= \braket{ \psi(t), A \psi(t)} & \text{By definition of a measurement}\\
+&= \braket{A}_{\psi(t)}
+\end{array}
+$$
