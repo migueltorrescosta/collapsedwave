@@ -59,4 +59,4 @@ $$
 A & = (\frac{\pi}{2L})^n \prod_{i=1}^n n_i
 \end{array}
 $$
-The value observed in this constant $A$ differs from the expected value according to [[📖 Principles of Quantum Mechanics]], Chapter 10, page 259. [[Help me ❓]]
+The value observed in this constant $A$ differs from the expected value by a factor of $\prod_{i=1}^nn_i$ according to [[📖 Principles of Quantum Mechanics]], Chapter 10, page 259. [[Help me ❓]]

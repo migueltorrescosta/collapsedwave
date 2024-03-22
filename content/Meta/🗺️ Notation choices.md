@@ -19,7 +19,7 @@ Notation consistency removes the mental overhead of understanding notation when 
 | $\mathrm{Tr}[ \cdot ]$    | [[Trace]]                                                                                              |
 | $\mathrm{Tr}^E [ \cdot ]$ | [[📘 Partial Trace]] over a subspace $E$. This is usually referred to as tracing an operator over $E$. |
 | $f(x) \propto g(x)$       | $f$ is proportional to $g$, meaning that $\frac{f}{g}$ is a constant                                   |
-| $H$                       | The [[Hamiltonian]] of a system                                                                        |
+| $H$                       | The [[📘 Hamiltonian Operator]] of a system                                                            |
 | $\mathscr{H}$             | A [[📘 Hilbert Space]]                                                                                 |
 # Hat operators
 Hat over operators, such as $\hat \rho$ and $\hat U_t^\dagger$, are often skipped in favour of $\rho$ and $U_t^\dagger$. I try to make operators clear from context, and writing the hat on top of every symbol is time consuming.

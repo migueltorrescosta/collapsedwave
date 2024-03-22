@@ -27,7 +27,7 @@ stateDiagram
 	SU(n,F) --> SO(n) : real matrices only
 ```
 
-Where, up to LaTeX formatting, we have the following groups:
+Where, up to LaTeX formatting, we have the following:
 - $\mathbb{F}$ is a [[field]]
 - $\mathbb{R}$ is the [[real line]]
 - $M_n(\mathbb{F})$ is the set of $n \times n$ matrices over $\mathbb{F}$ 
