@@ -2,13 +2,14 @@
 tags:
   - "#dashboard"
 ---
+This page summarises my file system. See the [[🦅 Core Dashboard]] for other key information.
 
 ```dataview
 TABLE WITHOUT ID
 cday as "Created on",
-rows.file.link as "Most recent 20 notes"
+join(rows.file.link, ", ") as "Notes"
 SORT file.ctime DESC
-LIMIT 20
+LIMIT 200
 GROUP BY file.cday as cday
 SORT cday DESC
 ```
@@ -36,16 +37,24 @@ LIMIT 10
 
 ```dataview
 TABLE WITHOUT ID
-file.link as "Disconnected pages"
+join(rows.file.link, ", ") as "Disconnected pages"
 WHERE !file.outlinks and !file.inlinks
+GROUP BY 1
+```
+
+```dataview
+TABLE WITHOUT ID
+join(rows.file.link, ", ") as "Files with no tags"
+WHERE !file.tags
+GROUP BY 1
 ```
 
 
 ```dataview
 TABLE WITHOUT ID
-mday as "Last edited on",
-rows.file.link as "Stale files"
+mday as "Last edit",
+join(rows.file.link, ", ") as "Stale files"
 SORT file.mtime ASC
-LIMIT 20
+LIMIT 50
 GROUP BY file.mday as mday
 ```

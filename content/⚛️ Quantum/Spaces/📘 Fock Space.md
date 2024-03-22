@@ -11,4 +11,4 @@ $F_\nu(H) := \overline{\bigoplus_{n=0}^{\infty}S_\nu H^{\bigotimes n}}$ , where
 - $\bigoplus$ describes the [[📘 Direct Sum]] of [[📘 Hilbert Space]]s
 - $\overline{V}$ represents the [[closure]] of a [[📘 Hilbert Space]] $V$.
 
-The fock space allows us to act on spaces with a varying number of particles through the use of [[annihilation operator]]s and [[creation operator]]s. I need to define these. [[Help me ❓]]
+The fock space allows us to act on spaces with a varying number of particles through the use of [[annihilation operator]]s and [[creation operator]]s.
