@@ -4,7 +4,7 @@ tags:
   - "#numerical-analysis"
   - "#approximation"
 ---
-The [[📘 Born Approximation]] assumes that $\forall t \in \mathbb{R}_0^+$the [[📘 Statistical Operator]] $\rho_t$ can be written as a [[📘 Tensor product]] between the [[📘 Reduced system]] $\rho_S$ and the [[📘 Thermal Bath]] component $\rho_b$, such that $\rho_t = \rho_S \bigotimes \rho_b = \mathrm{Tr} [ \rho_t ] \bigotimes \rho_b$.
+The [[📘 Born Approximation]] assumes that $\forall t \in \mathbb{R}_0^+$the [[📘 Density Operator]] $\rho_t$ can be written as a [[📘 Tensor product]] between the [[📘 Reduced system]] $\rho_S$ and the [[📘 Thermal Bath]] component $\rho_b$, such that $\rho_t = \rho_S \bigotimes \rho_b = \mathrm{Tr} [ \rho_t ] \bigotimes \rho_b$.
 
 Since we are working with a [[📘 Thermal Bath]], [[📘 Decoherence Time]]s are short, quickly leading to [[dissipation]], which justifies the assumption in the Born Approximation.
 

@@ -2,7 +2,7 @@
 tags:
   - "#quantum-theory"
 ---
-$\frac{d \rho_t}{dt} = \frac{1}{i \hbar} [ H, \rho_t ]$, for a [[📘 Statistical Operator]] $\rho_t = \ket{\psi_t}\bra{\psi_t}$ evolving according to the [[📕 Postulate 4 - Schrodinger Equation]] $i \hbar \frac{d }{dt} \ket{\psi_t} = H \ket{\psi_t}$.
+$\frac{d \rho_t}{dt} = \frac{1}{i \hbar} [ H, \rho_t ]$, for a [[📘 Density Operator]] $\rho_t = \ket{\psi_t}\bra{\psi_t}$ evolving according to the [[📕 Postulate 4 - Schrodinger Equation]] $i \hbar \frac{d }{dt} \ket{\psi_t} = H \ket{\psi_t}$.
 
 # Proof
 

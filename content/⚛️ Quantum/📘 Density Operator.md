@@ -1,10 +1,8 @@
 ---
 tags:
   - "#quantum-theory"
-aliases:
-  - Density Matrix
 ---
-A density matrix describes quantum states. It is more generic than a [[📘 Quantum state]], allowing us to represent [[mixed states]]. This is useful when we have classically uncertain quantum states, or are working in a [[📘 Reduced system]].
+A density operator describes quantum states. It is more generic than a [[📘 Quantum state]], allowing us to represent [[mixed states]]. This is useful when we have classically uncertain quantum states, or are working in a [[📘 Reduced system]].
 
 # Properties
 The statistical operator $\hat \rho$ is

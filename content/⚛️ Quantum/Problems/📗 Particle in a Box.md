@@ -49,8 +49,8 @@ $$
 Joining the results for all dimensions, we get the solution $\ket{\psi} = A \prod_{i=1}^n \sin ( \frac{\pi n_i x}{L} )$. Normalising the result we get
 $$
 \begin{array}{rll}
-1 &= \|\psi(x) \| \\
-&= \int_{[0,L]^n}A \prod_{i=1}^n \sin(\frac{n_i\pi x_i}{L})dx \\
+1 &= \|\psi(x) \| & \text{By definition of the norm in $L_2$}\\
+&= \int_{[0,L]^n}A \prod_{i=1}^n \sin(\frac{n_i\pi x_i}{L})dx & \text{Pulling the constant $A$ out}\\
 &= A \prod_{i=1}^n \int_0^L\sin(\frac{n_i \pi x_i}{L})dx_i \\
 &= A \prod_{i=1}^n (2 \frac{L}{n_i \pi}\cos(\frac{n_i \pi L}{L})) \\
 &= A \prod_{i=1}^n \frac{2L}{n_i \pi} \\
@@ -59,4 +59,4 @@ $$
 A & = (\frac{\pi}{2L})^n \prod_{i=1}^n n_i
 \end{array}
 $$
-The value observed in this constant $A$ differs from the expected value by a factor of $\prod_{i=1}^nn_i$ according to [[📖 Principles of Quantum Mechanics]], Chapter 10, page 259. [[Help me ❓]]
+The above is wrong because I assumed the integral of the product to be the product of integrals 🤦‍♂️ The constant $A$ should match the value in [[📖 Principles of Quantum Mechanics]], Chapter 10, page 259. [[Help me ❓]]

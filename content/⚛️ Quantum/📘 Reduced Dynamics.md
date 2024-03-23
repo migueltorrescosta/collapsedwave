@@ -16,8 +16,8 @@ $$
 $$
 
 Where we use the notation:
-- $\rho_0$ for the initial [[📘 Statistical Operator|Density Matrix]] of the full system
-- $\rho_t := U_t\rho_0U_t^\dagger$ for the evolving [[📘 Statistical Operator|Density Matrix]] of the full system.
-- $\rho_{S,0}:= \mathrm{Tr}^E[\rho_0]$ for the initial [[📘 Statistical Operator|Density Matrix]] of the [[📘 Reduced system]].
-- $\rho_{S,t} := \mathrm{Tr}^E[\rho_t]$ for the evolving [[📘 Statistical Operator|Density Matrix]] of the [[📘 Reduced system]].
+- $\rho_0$ for the initial [[📘 Density Operator]] of the full system
+- $\rho_t := U_t\rho_0U_t^\dagger$ for the evolving [[📘 Density Operator]] of the full system.
+- $\rho_{S,0}:= \mathrm{Tr}^E[\rho_0]$ for the initial [[📘 Density Operator]] of the [[📘 Reduced system]].
+- $\rho_{S,t} := \mathrm{Tr}^E[\rho_t]$ for the evolving [[📘 Density Operator]] of the [[📘 Reduced system]].
 - $\mathrm{Tr}^E[ \cdot]$ represents the [[📘 Partial Trace]] over the environment.
