@@ -34,9 +34,9 @@ $$
 \psi(x) =
 \left \{
 \begin{array}{ll}
-A\exp \left ( \frac{\sqrt{2m(E-k)}}{\hbar} x\right ) + B\exp \left ( -\frac{\sqrt{2m(E-k)}}{\hbar} x \right ), & E \geq k \\
+A\exp \left ( \frac{\sqrt{2m(k-E)}}{\hbar} x\right ) + B\exp \left ( -\frac{\sqrt{2m(k-E)}}{\hbar} x \right ), & E \leq k \\
 Ax + B, & E=k \\
-A\cos \left ( \frac{\sqrt{2m(E-k)}}{\hbar} x \right ) + B\sin \left ( \frac{\sqrt{2m(E-k)}}{\hbar} x \right ), & E \leq k \\
+A\cos \left ( \frac{\sqrt{2m(E-k)}}{\hbar} x \right ) + B\sin \left ( \frac{\sqrt{2m(E-k)}}{\hbar} x \right ), & E \geq k \\
 \end{array}
 \right .
 $$
