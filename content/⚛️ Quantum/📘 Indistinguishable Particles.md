@@ -21,6 +21,3 @@ $$
 \end{matrix}
 \right .
 $$
-
-# What is a particle?
-If systems are described by a [[wave function]] and our [[📘 Measurement]]s only apply to the [[wave function]] with indistinguishable particles, what does it mean to be a particle? The best interpretation I can come up with is that a particle arises from separating our [[quantum system]] into [[📘 Separable Hamiltonian]]s, where a particle is a non-separable [[📘 Hamiltonian Operator]]. However this can cause problems since we would lose the meaning of [[virtual particle]], as the [[📙 CM coordinate]] methodology create [[virtual particle]]s via [[📘 Separable Hamiltonian]]s. [[Help me ❓]]

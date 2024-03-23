@@ -13,8 +13,18 @@ $$
 \psi(t) & = \left \{\begin{matrix} A e^{x_1t} + B e^{x_2t}, & x_1 \neq x_2 \\ A x e^{x_1t} + B e^{x_1t}, & x_1 = x_2 \end{matrix} \right .
 \end{array}
 $$
+If $b=0$ above, we can map $a \mapsto \frac{a}{c}$ to get the simpler solution of $0=a \ddot \psi (t) + \psi(t)$, for $A,B \in \mathbb{C}$:
 
-
+$$
+\psi(t) =
+\left \{
+\begin{matrix}
+A e^{\sqrt{a}t} + B e^{-\sqrt{a}t}, & a \geq 0 \\
+Ax + B & a = 0\\
+A \cos (\sqrt{a}t) + B \sin ( \sqrt{a}t ), & a \leq 0
+\end{matrix}
+\right .
+$$
 # Integrating factors
 $$
 \begin{array}{rll}
