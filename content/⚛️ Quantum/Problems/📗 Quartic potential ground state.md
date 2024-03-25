@@ -3,8 +3,9 @@ tags:
   - "#quantum-theory"
   - "#potential"
 ---
+![[quartic_potential_ground_state.png]]
 # Setup
-Consider a particle in a [[Potential]] $V(x) = \lambda x^4$. We want to find the [[Ground state]] of a [[particle]] in this [[Potential]].
+Consider a particle in a [[Potential]] $V(x) = \lambda x^4$. We want to find the [[energy]] of the [[Ground state]] of a [[particle]] in this [[Potential]].
 
 # Solution
 We will find an upper bound for the [[Ground state]] energy by calculating the [[energy]] for the $ansatz$ given by $e^\frac{-\alpha x^2}{2}$.

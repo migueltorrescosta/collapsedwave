@@ -5,4 +5,4 @@ While not a class, this section lists topics that I aim to study soon, in order,
 
 [[Fermion]], [[Boson]], [[Hardcore Boson]], [[📘 Indistinguishable Particles]], [[First quantization]], [[Second Quantization]], [[deSitter Space]], [[Ising Model]]
 
- [[📗 Constant Potential]], [[📗 Double well]]
+ [[📗 Constant Potential]], [[📗 Infinite double well]]

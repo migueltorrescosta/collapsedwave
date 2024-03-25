@@ -9,11 +9,20 @@ TABLE WITHOUT ID
 cday as "Created on",
 join(rows.file.link, ", ") as "Notes"
 SORT file.ctime DESC
-LIMIT 200
+LIMIT 40
 GROUP BY file.cday as cday
 SORT cday DESC
 ```
 
+```dataview
+TABLE WITHOUT ID
+mday as "Last modified on",
+join(rows.file.link, ", ") as "Notes"
+SORT file.mtime DESC
+LIMIT 40
+GROUP BY file.mday as mday
+SORT mday DESC
+```
 
 ```dataview
 TABLE WITHOUT ID
@@ -24,14 +33,6 @@ WHERE !(out.file) AND !contains(meta(out).path, "/")
 GROUP by out
 WHERE length(rows.file.links)>2
 SORT length(rows.file.link) DESC
-```
-
-```dataview
-TABLE WITHOUT ID
-file.link as "Recently edited files",
-join(file.tags, ", ") as Tags
-SORT file.mtime DESC
-LIMIT 10
 ```
 
 
