@@ -226,7 +226,7 @@ $$
 &= ...
 \end{array}
 $$
-
+Giving us the relations
 $$
 \left \{
 \begin{array}{rll}
@@ -234,7 +234,8 @@ PS &\Rightarrow e^{-i \theta \tau_Z} & \text{$Z$ Rotation}\\
 BS &\Rightarrow ??? & \text{Mixes the inputs}\\
 \end{array}
 \right .
-$$We describe our Beam Splitter as
+$$
+We describe our Beam Splitter as
 
 $$
 M_{BS} = 
