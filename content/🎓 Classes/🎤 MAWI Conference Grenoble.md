@@ -325,6 +325,6 @@ $\tau - \braket{\tau} = \frac{\partial}{\partial \theta} \braket{\tau_Z }\left (
 By the [[Central Limit Theorem]], the estimated error is approximately $\frac{\Delta \tau_Z}{zsqrt{m}}$.
 
 
-
+## Exercises: Introduction to Python
 
 # Day 2
