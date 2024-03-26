@@ -328,3 +328,110 @@ By the [[Central Limit Theorem]], the estimated error is approximately $\frac{\D
 ## Exercises: Introduction to Python
 
 # Day 2
+
+# Lecture 1: More Python
+No notes taken
+
+# Lecture 2: Monte Carlo Methods
+
+### Setup
+We build a well model with [[Hamiltonian]] $H$, and we want to build a high precision model of how it works
+$$
+H \mapsto \text{"High precision"}
+$$
+
+We want to use a $t$ to describe the [[transition rate matrix]] for our Monte Carlo process.
+
+We describe our system as a set of spherical particles in a box
+![[Pasted image 20240326111428.png]]
+
+We defined
+- Our partition function as $Z = \sum_C W(C)$, where $C$ represents a particle configuration, and $W(C) = \left \{ \begin{matrix}1, & \text{2 particles overlap}\\ 0,& \text{No particles overlap} \end{matrix} \right .$ 
+- The [[Potential]] $V$ is described as $\sum_{i<j}v(v_{ij})$ 
+- $Z = \int e^{-\beta V(R) dR}$ 
+- $\braket{A(R)} = \frac{1}{Z} \int e^{- \beta V(R)}A(R)dR$ 
+
+
+We can consider a few different cases:
+- Classical fluids/solids
+- Spin models, such as the [[Ising Model]]. ( $E = -y\sum _{ij} S_{Z,i}S_{Z,j}$ )
+- [[Lattice field]]s
+
+we can consider the system
+$$
+\left \{
+\begin{array}{rll}
+p &= m \dot x \\
+\dot p &= -\frac{\partial}{\partial x}V
+\end{array}
+\right . \Leftarrow \text{Molecular Dynamics}
+$$
+
+
+- [ ] Look into the [[Metropolis–Hastings algorithm]] ( [Wikipedia page](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm) )
+
+The [[Metropolis–Hastings algorithm]] consists of two sets:
+1. Generate a new sample based on our known but incomplete information on how the system evolves
+2. Reject/Approve the new sample based on it's properties. The probability of acceptance is usually based on some invariants of the configuration that we want to preserve. This could be
+	1. ensuring that the new energy is similar to the previous energy
+	2. The momentum is maintained through time
+	3. etc
+
+
+#### Setup
+- Data $(y, \sigma)$.
+- Parameters $\theta \rightarrow y_\theta$. 
+The goal is to find $\mathbb{P}[\theta | y]$ ( i.e. find the true underlying parameters based on our observations )
+
+By [[Bayes theorem]], $\mathbb{P}[\theta | y] = \mathbb{P}[y | \theta]\mathbb{P}[\theta]\mathbb{P}[y]^{-1}$. We assume that
+- $\mathbb{P}[y|\theta]$ is normally distributed
+- $\mathbb{P}[y] = \mathbb{E}_\theta[y] = \int \mathbb{P}[\theta] \mathbb{P}[y | \theta] d \theta$, where $\mathbb{E}_\theta[y]$ is the [[📘 Expectation]] of $y$ given a certain distribution of $\theta$. This can be as simple as $d\theta = \mathbb{1}_{\text{valid configuration}}$.
+
+- [ ] What is a [[partition function]] in [[statistical mechanics]]? [[Help me ❓]]
+
+
+In quantum systems, we can have $\hat H = \hat K + \hat V = \frac{\Delta^2}{2m} + V(x)$, using the [[position basis]]. We always have that
+$$
+\begin{array}{rll}
+E_0 &\leq \frac{\braket{\psi | H | \psi}}{\braket{\psi | \psi}} \\
+&= \frac{\int \psi^2(R)H\psi(R)dR}{\int | \psi(R)|^2dR}
+\end{array}
+$$
+
+( What is a [[mean field]] ?? [[Help me ❓]])
+
+$$
+\left \{
+\begin{array}{rll}
+\mathbb{P}[R] &= \frac{\psi(R)^2}{\int \psi(R)^2dR} \\
+E_u(R) &= \frac{H\psi(R)}{\psi(R)} \\
+\psi(R) & \approx \prod_{i < j} \phi(v_{ij}) = e^{-\sum_{i<j}u(v_{ij})}
+\end{array}
+\right .
+$$
+
+With this 
+$$
+\begin{array}{rll}
+E_0 &\leq \underset{\theta}{\min}E_\theta  \\
+&= \underset{\theta}{\min}\frac{\braket{\psi_\theta | H | \psi_\theta}}{\braket{\psi_\theta | \psi_\theta}} \\
+\end{array}
+$$
+
+with $\theta_{n+1} = \theta_n \\ - \epsilon_n \partial_\theta E_\theta$ as our "evolution" of the algorithm. We want $\epsilon_n \overset{n \rightarrow \infty}{\rightarrow} 0$, but $\sum_n \epsilon_n = \infty$ to ensure that we don't get locally stuck. In order to iterate, we need to calculate $\partial_\theta E_\theta$. This is calculated as
+$$
+\begin{array}{rll}
+\partial_\theta E_\theta &= \partial_\theta \frac{\braket{\psi_\theta | H | \psi_\theta}}{\braket{\psi_\theta | \psi_\theta}} & \text{By the chain rule}\\
+&= \frac{\braket{\psi_\theta | H | \partial_\theta\psi_\theta}}{\braket{\psi_\theta | \psi_\theta}} - \frac{\braket{\psi_\theta | H | \psi_\theta}}{\braket{\psi_\theta | \psi_\theta}}\frac{\braket{\psi_\theta | \partial \psi_\theta}}{\braket{\psi_\theta | \psi_\theta}} & \text{Applying the Hamiltonian $H$ to the left}\\
+&= \psi_\theta^2(R) \left ( E(R) - E_\theta \right ) \frac{\partial_\theta \psi_\theta}{\psi_\theta}
+\end{array}
+$$
+
+Improvement by considering $\ket{\psi_\beta} := e^{-\beta H}\ket{\psi}$. We get that $\frac{\braket{\psi_\beta | H | \psi_\beta}}{\braket{\psi_\beta | \psi_\beta}} = (...)$ ( I didn't get this )
+
+$$
+\begin{array}{rll}
+(e^{-\frac{\beta H}{M}})^M &= e^{-iH}e^{iH}(e^{-\frac{\beta H}{M}})^M & \text{Multiplying by an identity} \\
+&= \int e^{-iH}\ket{R}\bra{R}e^{iH}\ket{R}\bra{R}(e^{-\frac{\beta H}{M}})^M dR\
+\end{array}
+$$

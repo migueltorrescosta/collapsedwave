@@ -2,6 +2,7 @@
 tags:
   - "#coding"
   - "#image-processing"
+  - "#python"
 ---
 For the code below, inputs are a 3D array, with the last dimension having size 3, for the distinct [[RGB Channels]]. The results can be shown by running `plt.imshow(final_image)`.
 
