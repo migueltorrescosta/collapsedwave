@@ -299,7 +299,7 @@ For simplicity we write $\ket{\mu}$ instead of $\ket{m, N-m}$, with $\mu := \fra
 
 We define the [[polarised state]] as $\ket{N}_a\ket{0}_b$, i.e. all particles are in the [[Ground state]]. This is an [[📘 Eigenstate]] of $\tau_Z$ , with [[eigenvalue]] $\frac{N}{2}$.
 
-![[Pasted image 20240325121647.png]]
+![[axis_rotations.png]]
 - Our Phase Shift represents a rotation around $Z$ ( green above )
 - Our Beam Splitter represents a rotation around $X$ ( red above )
 
@@ -314,7 +314,7 @@ $$
 
 Hence by making the [[📘 Measurement]] $\braket{\tau_Z}_{out}$ we can recover information on $\theta$ through the relation $\braket{\tau_Z}_{out}=\frac{N}{2} \cos ( \theta )$.
 
-![[Pasted image 20240325122707.png]]
+![[cosine.png]]
 
 - [ ] Apply the [[Minimum Likelihood Framework]] with observations of $\tau_Z$ above, where we want the value of $\theta$.
 	- [ ] Find the parameterized distribution for the errors of $\tau_Z$.
@@ -329,10 +329,10 @@ By the [[Central Limit Theorem]], the estimated error is approximately $\frac{\D
 
 # Day 2
 
-# Lecture 1: More Python
+## Lecture 1: More Python
 No notes taken
 
-# Lecture 2: Monte Carlo Methods
+## Lecture 2: Monte Carlo Methods
 
 ### Setup
 We build a well model with [[Hamiltonian]] $H$, and we want to build a high precision model of how it works
@@ -343,7 +343,7 @@ $$
 We want to use a $t$ to describe the [[transition rate matrix]] for our Monte Carlo process.
 
 We describe our system as a set of spherical particles in a box
-![[Pasted image 20240326111428.png]]
+![[particles_in_a_box.png]]
 
 We defined
 - Our partition function as $Z = \sum_C W(C)$, where $C$ represents a particle configuration, and $W(C) = \left \{ \begin{matrix}1, & \text{2 particles overlap}\\ 0,& \text{No particles overlap} \end{matrix} \right .$ 
@@ -378,7 +378,7 @@ The [[Metropolis–Hastings algorithm]] consists of two sets:
 	3. etc
 
 
-#### Setup
+### Setup
 - Data $(y, \sigma)$.
 - Parameters $\theta \rightarrow y_\theta$. 
 The goal is to find $\mathbb{P}[\theta | y]$ ( i.e. find the true underlying parameters based on our observations )
@@ -433,5 +433,47 @@ $$
 \begin{array}{rll}
 (e^{-\frac{\beta H}{M}})^M &= e^{-iH}e^{iH}(e^{-\frac{\beta H}{M}})^M & \text{Multiplying by an identity} \\
 &= \int e^{-iH}\ket{R}\bra{R}e^{iH}\ket{R}\bra{R}(e^{-\frac{\beta H}{M}})^M dR\
+\end{array}
+$$
+
+## Lecture 3: Phase estimation numerics
+
+We use $\ket{\psi_\theta}$ as a, and [[📘 Pauli Matrix]]
+
+$$
+\begin{array}{rll}
+\ket{\psi_\theta} &= e^{-i\frac{\theta}{2}\sigma_Y} & \text{By a Taylor expansion}\\ 
+&= \sum_{n=0}^\infty  \frac{1}{n!} \left ( -i \frac{\theta}{2} \sigma_Y \right )^n & \text{Matching the coefficients with the taylor series of trignometric functions}\\
+&= i \sin ( \frac{\theta}{2} ) \sigma_Y - cos(\frac{\theta}{2}) \mathbb{1} \\
+\end{array}
+$$
+
+With this we get
+$$
+\left \{
+\begin{array}{rll}
+\mathbb{P}[\uparrow | \theta] &= \cos^2(\frac{\theta}{2}) \\
+\mathbb{P}[\downarrow | \theta] &= \sin^2(\frac{\theta}{2}) \\
+\end{array}
+\right .
+$$
+We make a single measurement to get $r$
+
+$$
+\left \{
+\begin{array}{rll}
+\mathbb{P}[\uparrow | \theta] &= \cos^2(\frac{\theta}{2}) \\
+\mathbb{P}[\downarrow | \theta] &= \sin^2(\frac{\theta}{2}) \\
+\end{array}
+\right .
+$$
+By measuring on $\sigma_Z$ we get the expectation
+$$
+\begin{array}{rll}
+\braket{\sigma_Z} &= 1 \mathbb{P}[\uparrow | \theta] + ( -1 )\mathbb{P}[\downarrow | \theta] \\
+&= \cos^2(\frac{\theta}{2}) + \sin^2( \frac{\theta}{2}) \\
+&= \cos(\theta) \\
+&\Downarrow \\
+\theta &= \arccos(\braket{\sigma_Z})
 \end{array}
 $$
