@@ -34,7 +34,7 @@ $$
 $$
 In order to maximise $L$ we need to have
 $$
-\begin{array}{rl}
+\begin{array}{rll}
 0 &= \frac{\partial}{\partial \theta}{\log ( L )} \\
 &= \frac{\partial}{\partial \theta} \left [ \sum_{i,a_i = \uparrow} \log \left ( \sin^2(\theta + \theta_i) \right ) + \sum_{i,a_i = \downarrow} \log \left ( \cos^2(\theta + \theta_i) \right ) \right ] & \text{Using the linearity of $\frac{\partial}{\partial \theta}$} \\ 
 &= \sum_{i,a_i = \uparrow} \frac{\partial}{\partial \theta} \left [ \log \left ( \sin^2(\theta + \theta_i) \right ) \right ] + \sum_{i,a_i = \downarrow} \frac{\partial}{\partial \theta} \left [ \log \left ( \cos^2(\theta + \theta_i) \right ) \right ] & \text{By the chain rule} \\
