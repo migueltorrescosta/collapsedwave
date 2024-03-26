@@ -26,5 +26,5 @@ TABLE WITHOUT ID
 count as Count,
 join(rows.file.link, ", ") as Files
 GROUP BY length(file.tags) as count
-WHERE count < 3
+WHERE (count < 2 OR count > 3)
 ```

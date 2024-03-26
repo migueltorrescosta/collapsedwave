@@ -9,7 +9,7 @@ TABLE WITHOUT ID
 cday as "Created on",
 join(rows.file.link, ", ") as "Notes"
 SORT file.ctime DESC
-LIMIT 40
+LIMIT 60
 GROUP BY file.cday as cday
 SORT cday DESC
 ```
@@ -40,13 +40,6 @@ SORT length(rows.file.link) DESC
 TABLE WITHOUT ID
 join(rows.file.link, ", ") as "Disconnected pages"
 WHERE !file.outlinks and !file.inlinks
-GROUP BY 1
-```
-
-```dataview
-TABLE WITHOUT ID
-join(rows.file.link, ", ") as "Files with no tags"
-WHERE !file.tags
 GROUP BY 1
 ```
 

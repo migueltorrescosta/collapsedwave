@@ -471,7 +471,7 @@ By measuring on $\sigma_Z$ we get the expectation
 $$
 \begin{array}{rll}
 \braket{\sigma_Z} &= 1 \mathbb{P}[\uparrow | \theta] + ( -1 )\mathbb{P}[\downarrow | \theta] \\
-&= \cos^2(\frac{\theta}{2}) + \sin^2( \frac{\theta}{2}) \\
+&= \cos^2(\frac{\theta}{2}) - \sin^2( \frac{\theta}{2}) \\
 &= \cos(\theta) \\
 &\Downarrow \\
 \theta &= \arccos(\braket{\sigma_Z})
