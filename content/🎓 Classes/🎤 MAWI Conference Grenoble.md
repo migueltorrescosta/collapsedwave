@@ -316,7 +316,7 @@ Hence by making the [[📘 Measurement]] $\braket{\tau_Z}_{out}$ we can recover 
 
 ![[cosine.png]]
 
-- [ ] Apply the [[Minimum Likelihood Framework]] with observations of $\tau_Z$ above, where we want the value of $\theta$.
+- [ ] Apply the [[📙 Maximum Likelihood Estimation]] with observations of $\tau_Z$ above, where we want the value of $\theta$.
 	- [ ] Find the parameterized distribution for the errors of $\tau_Z$.
 
 Letting $\bar \theta$ be our estimation of the true value of $\theta$, we have
@@ -477,3 +477,7 @@ $$
 \theta &= \arccos(\braket{\sigma_Z})
 \end{array}
 $$
+
+# Day 3
+
+## Lecture 1: Phase estimation numerics ( continued )

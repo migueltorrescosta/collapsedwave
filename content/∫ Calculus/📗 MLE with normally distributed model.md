@@ -7,7 +7,7 @@ tags:
 We have a set of observations $(x_i, y_i)$, and we want to find the parameters $a,b,\sigma, \mu$ such that $Y = aX + b + \epsilon$, where $\epsilon \approx \mathscr{N}(0, \sigma)$ is Normally distributed.
 
 # Solution
-We will apply [[Maximum Likelihood Estimation]]. Applied to this problem, we want to find the $argmax$ of the expression below:
+We will apply [[📙 Maximum Likelihood Estimation]]. Applied to this problem, we want to find the $argmax$ of the expression below:
 $$
 \begin{array}{rll}
 \prod \mathbb{P}[y_i | x_i] &= \log \left ( {\prod \mathbb{P}[y_i | x_i]} \right )  & \text{As $\log(\prod z_i) = \sum \log(z_i)$} \\

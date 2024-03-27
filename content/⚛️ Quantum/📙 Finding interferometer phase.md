@@ -25,10 +25,11 @@ $$
 Our goal is to find the most likely $\theta$ given our observations.
 
 # Solution
-We will apply the [[Maximum Likelihood Estimation]] framework. Up to a constant, the probability of our observations equals $L := \prod_{i, a_i=\uparrow} \sin^2(\theta + \theta_i)\prod_{i,a_i=\downarrow} \cos^2(\theta + \theta_i)$ . Since $\log$ is [[📘 Monotonic]], $\underset{\theta}{argmax}\{ L \} = \underset{\theta}{argmax}\{ \log ( L ) \}$, allowing us to simplify the latter expression:
+We will apply the [[📙 Maximum Likelihood Estimation]] framework. Up to a constant, the probability of our observations equals $L := \prod_{i, a_i=\uparrow} \sin^2(\theta + \theta_i)\prod_{i,a_i=\downarrow} \cos^2(\theta + \theta_i)$ . Since $\log$ is [[📘 Monotonic]], $\underset{\theta}{argmax}\{ L \} = \underset{\theta}{argmax}\{ \log ( L ) \}$, allowing us to simplify the latter expression:
 $$
 \begin{array}{rl}
-\log ( L ) &= \log \left ( \prod_{i, a_i=\uparrow} \sin^2(\theta + \theta_i)\prod_{i,a_i=\downarrow} \cos^2(\theta + \theta_i) \right ) & \text{Since $\log(\prod x_i) = \sum \log(x_i)$} \\
+\log ( L ) &= \log \left ( \prod_{i, a_i=\uparrow} \sin^2(\theta + \theta_i)\prod_{i,a_i=\downarrow} \cos^2(\theta + \theta_i) \right ) & \text{As $\log(xy) = \log(x) + \log(y)$} \\
+&= \log \left ( \prod_{i, a_i=\uparrow} \sin^2(\theta + \theta_i) \right ) +  \log \left ( \prod_{i,a_i=\downarrow} \cos^2(\theta + \theta_i) \right ) & \text{As $\log(\prod x_i) = \sum \log(x_i)$} \\
  &= \sum_{i,a_i = \uparrow} \log \left ( \sin^2(\theta + \theta_i) \right ) + \sum_{i,a_i = \downarrow} \log \left ( \cos^2(\theta + \theta_i) \right )
 \end{array}
 $$
@@ -45,5 +46,7 @@ $$
 
 While finding the closed formula solution for the equation above might not be possible, finding the roots can be done relatively quickly via the [[Newton-Raphson method]]. Some questions remain. [[Help me ❓]]
 1. Is the root unique, up to translations of $2 \pi$? 
-2. What is the [[📘 Fischer Information]] associated with this model?
+2. What is the [[📘 Fisher Information]] associated with this model?
 3. Can we find the [[variance]] of the estimated value $\bar \theta$?
+4. $\underset{\theta+\theta_i \rightarrow \pm \pi}{\lim} \tan(\theta + \theta_i) = \pm \infty = \underset{\theta+\theta_i \rightarrow 0}{\lim} \arctan(\theta + \theta_i)$. Could this cause problems in the equality above due to an absurd sensitivity to "edge" cases?
+5. 

@@ -2,7 +2,7 @@
 tags:
   - "#information-theory"
 ---
-$\mathcal{I}_X(\theta) := \mathbb{E} [ ( \frac{\partial}{\partial \theta} \log ( f_\theta(X) )^2 | \theta]$, where
+$\mathcal{I}_X(\theta) := \mathbb{E} [ ( \frac{\partial}{\partial \theta} \log ( f_\theta(X) )^2 | \theta]$ provides us a measure of how much information we can obtain about the model parameter $\theta$ given the observations $X$, where
 
 - $X$ is a [[random variable]]
 - $\theta$ is a vector of scalars
