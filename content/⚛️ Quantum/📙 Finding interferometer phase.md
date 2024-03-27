@@ -49,4 +49,3 @@ While finding the closed formula solution for the equation above might not be po
 2. What is the [[📘 Fisher Information]] associated with this model?
 3. Can we find the [[variance]] of the estimated value $\bar \theta$?
 4. $\underset{\theta+\theta_i \rightarrow \pm \pi}{\lim} \tan(\theta + \theta_i) = \pm \infty = \underset{\theta+\theta_i \rightarrow 0}{\lim} \arctan(\theta + \theta_i)$. Could this cause problems in the equality above due to an absurd sensitivity to "edge" cases?
-5. 
