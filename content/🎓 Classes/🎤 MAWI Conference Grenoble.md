@@ -4,6 +4,9 @@ tags:
 ---
 25-29th March 2024
 
+>[!warning]
+> These notes were taken as the lectures were happening. I need to revise them for errors in my notes
+
 # Day 1
 
 ## Lecture 1: Introduction to Python
@@ -481,3 +484,31 @@ $$
 # Day 3
 
 ## Lecture 1: Phase estimation numerics ( continued )
+- [ ] No notes taken. I need to add the blackboard photos taken during class
+
+## Lecture 2: Monte Carlo Methods ( continued )
+We want to calculate the integral
+$$
+\begin{array}{rll}
+I &= \int_{-\infty}^{\infty}\tilde f( R ) dR \\
+&= \sum \sum \sum_\Delta
+\end{array}
+$$
+Where
+$$
+\left \{
+\begin{array}{rll}
+\bar f &= \frac{1}{P}\sum_i f(R_i) \rightarrow ??? \approx \tau \sqrt{\frac{\sigma^2}{P}}, & \tau \geq 1\\
+\sigma^2 &= \int (\tilde f(R) - I)^2 dR \\
+p(\tilde f) &\approx \exp ( -\frac{?}{?} ) \\
+\end{array}
+\right .
+$$
+
+We can reduce the [[variance]] by rewriting
+$$
+\begin{array}{rll}
+\sigma^2 &= \int_{-\infty}^{\infty}\tilde f( R ) p(R) dR & \text{Where $p(r) \geq 0$ and $\int p(R)dR = 1$}\\
+
+\end{array}
+$$
