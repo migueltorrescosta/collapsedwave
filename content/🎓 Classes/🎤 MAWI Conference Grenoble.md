@@ -581,7 +581,7 @@ Overall idea:
 ## Lecture 2: 
 Added the information directly to the [[📙 Grover's Algorithm]] / 
 
-- [ ] Add a note on the [[quantum fault-tolerance theorem]]
+- [ ] Add a note on the [[quantum threshold theorem]]
 
 
 $\ket{\psi_3} = U_3 U_2 U_1 \ket{\psi}$
