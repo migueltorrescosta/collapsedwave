@@ -18,13 +18,12 @@ GROUP BY length(rows.rows) as count
 SORT count DESC
 ```
 
-# File tag counts
-There should be no files with no tags
 
 ```dataview
 TABLE WITHOUT ID
-count as Count,
+"(" + length(rows.file.link) + ") " + tag as Tag,
 join(rows.file.link, ", ") as Files
-GROUP BY length(file.tags) as count
-WHERE (count < 2 OR count > 3)
+FLATTEN tags as tag
+GROUP BY tag
+SORT length(rows.file.link) DESC
 ```

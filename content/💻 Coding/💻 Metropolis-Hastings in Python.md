@@ -16,8 +16,9 @@ from matplotlib import pyplot as plt
 T = TypeVar("T")  
 
 class AbstractMetropolisHastings(ABC, Generic[T]):  
-    def __init__(self, initial_configuration: T):  
-        self.configuration_history = [initial_configuration] # This array evolves over time :D  
+    def __init__(self, initial_configuration: T):
+	     # This array describes the time evolution of our configuration
+        self.configuration_history = [initial_configuration]
   
     @property  
     def current_configuration(self) -> T:  
@@ -78,7 +79,7 @@ class VMC(AbstractMetropolisHastings[float]):
 The code above defines
 - The state space to be of type `float`. More complex examples might have states in $\mathbb{R}^3$ by passing in the type `Tuple[float, float, float]`, etc
 - The generator function to add normally distributed noise to the current state
-- The approval function to return true iff $e^{-\alpha x_{old}^2} \leq U e^{-\alpha x_{old}^2}$, where $U$ is uniformly distributed on $[0,1]$.
+- The approval function to return true iff $e^{-\alpha x_{new}^2} \leq U e^{-\alpha x_{old}^2}$, where $U$ is uniformly distributed on $[0,1]$.
 
 With the methodology defined, we can run an example
 ```python

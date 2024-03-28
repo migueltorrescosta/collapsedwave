@@ -577,3 +577,11 @@ Overall idea:
 	- This is done in groups of 1000 times, to get an observed [[probability distribution function]].
 - We consider the probability distributions as our $x$, used to predict the machine $y$ they ran on.
 	- We use [[Support Vector Machines]] to make this prediction, which lies under the [[binary classification]] group under [[🤖 Machine Learning]].
+
+## Lecture 2: 
+Added the information directly to the [[📙 Grover's Algorithm]] / 
+
+- [ ] Add a note on the [[quantum fault-tolerance theorem]]
+
+
+$\ket{\psi_3} = U_3 U_2 U_1 \ket{\psi}$
